@@ -1,0 +1,10 @@
+{
+  "league_name": "Whealton Fantasy Collusion",
+  "platform": "ESPN",
+  "season_start_year": 2025,
+  "commissioner": "Josh Sager",
+  "divisions": [
+    { "id": "WHE", "name": "Whealtonian Division" },
+    { "id": "CGZ", "name": "Cool Guy Zone" }
+  ]
+}
