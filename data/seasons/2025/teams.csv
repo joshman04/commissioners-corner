@@ -1,7 +1,7 @@
 team_id,team_name,owner_name,division_id,primary_color,secondary_color,logo_file
 LIMP,Limp Brisket,Josh Sager,WHE,#8B0000,#FFD700,limp_brisket.png
-KORN,Korn on the Cobb,Gonz,CGZ,#006400,#FFFF00,korn_on_the_cobb.png
-PICK,Pickleback,Amanda "Mandy",CGZ,,,pickleback.png
+KORN,Korn on the Cobb,Gino,CGZ,#006400,#FFFF00,korn_on_the_cobb.png
+PICK,Pickleback,Mandy,CGZ,,,pickleback.png
 OJP,OJ Simpson,Kevin Price,WHE,,,oj_simpson.png
 YMOM,Your Momz Teetz,Tito,WHE,,,your_momz_teetz.png
 XENO,End Zone Xenomorph,Eric,CGZ,,,end_zone_xenomorph.png
