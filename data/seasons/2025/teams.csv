@@ -1,5 +1,13 @@
 team_id,team_name,owner_name,division_id,primary_color,secondary_color,logo_file
 LIMP,Limp Brisket,Josh Sager,WHE,#8B0000,#FFD700,limp_brisket.png
-KORN,Korn on the Cobb,Owner Name Here,CGZ,#006400,#FFFF00,korn_on_the_cobb.png
-HEID,Team Heidi,Heidi Whealton,WHE,#1E90FF,#FFFFFF,heidi.png
-DEBO,Team Deb,Deborah Whealton,CGZ,#800080,#FFC0CB,deb.png
+KORN,Korn on the Cobb,Gonz,CGZ,#006400,#FFFF00,korn_on_the_cobb.png
+PICK,Pickleback,Amanda "Mandy",CGZ,,,pickleback.png
+OJP,OJ Simpson,Kevin Price,WHE,,,oj_simpson.png
+YMOM,Your Momz Teetz,Tito,WHE,,,your_momz_teetz.png
+XENO,End Zone Xenomorph,Eric,CGZ,,,end_zone_xenomorph.png
+TEAMG,Team G,Graham,WHE,,,team_g.png
+NBFAH,Not Bad for a Human,Casey,CGZ,,,not_bad_for_a_human.png
+RCOL,Rushin' Collusion,Kevin Williams,CGZ,,,rushin_collusion.png
+NOEF,No Effort,Lou,WHE,,,no_effort.png
+XBG,X-Beach Girl,Deb,WHE,#800080,#FFC0CB,deb.png
+OGM,OleGrayMen,Rick,CGZ,,,olegraymen.png
