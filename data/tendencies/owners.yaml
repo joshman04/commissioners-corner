@@ -1,0 +1,133 @@
+owners:
+  - owner_name: "Josh Sager"
+    team_id: "LIMP"
+    role: "commissioner"
+    affiliation: "brewery"
+    risk_profile: "aggressive"
+    narrative_tags:
+      - "smoking opponents"
+      - "big scoring spikes"
+      - "center of league chaos"
+      - "2024 Champion"
+    notes:
+      - "Often on a multi-game win streak when things get spicy."
+      - "Hosts or anchors a lot of league events."
+
+  - owner_name: "Gino"
+    team_id: "KORN"
+    affiliation: "brewery"
+    risk_profile: "medium"
+    narrative_tags:
+      - "corn-themed identity"
+      - "swingy weeks"
+    notes:
+      - "Historically hovers around .500 with big variance games."
+
+  - owner_name: "Mandy"
+    team_id: "PICK"
+    affiliation: "brewery_orbit"
+    risk_profile: "aggressive"
+    narrative_tags:
+      - "pickle/shot energy"
+      - "explosive spike weeks"
+      - "chaotic comeback potential"
+    notes:
+      - "Lineup described as exploding like a dropped jar in aisle six."
+
+  - owner_name: "Kevin Price"
+    team_id: "OJP"
+    affiliation: "brewery"
+    risk_profile: "balanced"
+    narrative_tags:
+      - "steady winner"
+      - "name generates constant jokes"
+    notes:
+      - "Often sits near the top of the standings (7–3 type record)."
+
+  - owner_name: "Tito"
+    team_id: "YMOM"
+    affiliation: "brewery_orbit"
+    risk_profile: "high_variance"
+    narrative_tags:
+      - "trial by fire"
+      - "chaotic but dangerous"
+      - "mathematically alive late"
+    notes:
+      - "Capable of nuclear weeks that keep him in the hunt."
+      - "Heavy trash-talk presence."
+
+  - owner_name: "Eric"
+    team_id: "XENO"
+    affiliation: "brewery_orbit"
+    risk_profile: "aggressive"
+    narrative_tags:
+      - "alien/xenomorph theme"
+      - "gore and big-hit potential"
+    notes:
+      - "Matchups framed as horror-movie hunts."
+
+  - owner_name: "Graham"
+    team_id: "TEAMG"
+    affiliation: "brewery"
+    risk_profile: "chill_aggressive"
+    narrative_tags:
+      - "grunge"
+      - "vinyl and patchouli"
+      - "vibes-based squad"
+    notes:
+      - "Described as rolling in smelling like vinyl and optimism."
+      - "Built on vibes and violent comebacks."
+
+  - owner_name: "Casey"
+    team_id: "NBFAH"
+    affiliation: "brewery_orbit"
+    risk_profile: "calculated"
+    narrative_tags:
+      - "Ripley-core resilience"
+      - "cold, calibrated decisions"
+    notes:
+      - "Often near the top of the standings."
+      - "Framed as 'Man vs Machine' foil to other teams."
+
+  - owner_name: "Kevin Williams"
+    team_id: "RCOL"
+    affiliation: "non_brewery_inner_circle"
+    risk_profile: "medium"
+    narrative_tags:
+      - "treated like staff"
+      - "honorary brewery member"
+    notes:
+      - "Does not work at the brewery but moves like he does."
+
+  - owner_name: "Lou"
+    team_id: "NOEF"
+    affiliation: "non_brewery_inner_circle"
+    risk_profile: "spite_based"
+    narrative_tags:
+      - "low visible effort"
+      - "maximum spite"
+      - "Achane-fueled explosions"
+    notes:
+      - "Effort meter jokes, but team can suddenly come alive."
+
+  - owner_name: "Deb"
+    team_id: "XBG"
+    affiliation: "non_brewery_inner_circle"
+    risk_profile: "conservative"
+    narrative_tags:
+      - "calm as the tide"
+      - "tries to keep everyone civilized"
+    notes:
+      - "Frequently portrayed as the steady adult in the room."
+
+  - owner_name: "Rick"
+    team_id: "OGM"
+    affiliation: "non_brewery_inner_circle"
+    risk_profile: "fundamentalist"
+    narrative_tags:
+      - "model of consistency"
+      - "old-school football mind"
+      - "argues projections with his son"
+    notes:
+      - "Leans fundamentals and steady play."
+
