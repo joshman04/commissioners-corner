@@ -1,0 +1,155 @@
+{
+  "season": 2026,
+  "source": "ESPN / WFC Data Engine",
+  "source_updated": "2026-09-22T14:04:37.694Z",
+  "source_sha256": "25abf9f669cfe6ecc5a3a429f9b72bd3eaa8778f1e76d0834bae5a51ccebe6a0",
+  "ranking_basis": "All rostered players, including bench and IR",
+  "weeks": [
+    {
+      "week": 1,
+      "matchups": [
+        {
+          "team": "Papa Roast",
+          "opponent": "Limp Brizkit",
+          "points": 179.66,
+          "opponent_points": 134.34
+        },
+        {
+          "team": "DaTeet",
+          "opponent": "Team G",
+          "points": 129.56,
+          "opponent_points": 128.5
+        },
+        {
+          "team": "Not Bad For A Human",
+          "opponent": "End Zone Xenomorph",
+          "points": 118.72,
+          "opponent_points": 202.06
+        },
+        {
+          "team": "Korn on the cobb",
+          "opponent": "Alphonse Bundy",
+          "points": 141.98,
+          "opponent_points": 86.3
+        },
+        {
+          "team": "CleatsNMartinis",
+          "opponent": "Team OleGrayMen",
+          "points": 134.4,
+          "opponent_points": 99.78
+        },
+        {
+          "team": "No Effort",
+          "opponent": "Rushin' Collusion",
+          "points": 116.02,
+          "opponent_points": 133.16
+        }
+      ],
+      "top_players": [
+        {
+          "player": "Caleb Williams",
+          "position": "QB",
+          "team": "Rushin' Collusion",
+          "points": 37.26
+        },
+        {
+          "player": "Josh Allen",
+          "position": "QB",
+          "team": "Team OleGrayMen",
+          "points": 35.66
+        },
+        {
+          "player": "Derrick Henry",
+          "position": "RB",
+          "team": "End Zone Xenomorph",
+          "points": 35.3
+        },
+        {
+          "player": "Kenneth Walker III",
+          "position": "RB",
+          "team": "CleatsNMartinis",
+          "points": 34.1
+        },
+        {
+          "player": "Jalen Coker",
+          "position": "WR",
+          "team": "Team OleGrayMen",
+          "points": 33.8
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "matchups": [
+        {
+          "team": "Limp Brizkit",
+          "opponent": "Korn on the cobb",
+          "points": 151.9,
+          "opponent_points": 108.26
+        },
+        {
+          "team": "No Effort",
+          "opponent": "DaTeet",
+          "points": 123.92,
+          "opponent_points": 104.98
+        },
+        {
+          "team": "End Zone Xenomorph",
+          "opponent": "CleatsNMartinis",
+          "points": 142.44,
+          "opponent_points": 132.82
+        },
+        {
+          "team": "Team G",
+          "opponent": "Rushin' Collusion",
+          "points": 153.76,
+          "opponent_points": 97.5
+        },
+        {
+          "team": "Papa Roast",
+          "opponent": "Alphonse Bundy",
+          "points": 128.62,
+          "opponent_points": 111.88
+        },
+        {
+          "team": "Team OleGrayMen",
+          "opponent": "Not Bad For A Human",
+          "points": 144.84,
+          "opponent_points": 124.88
+        }
+      ],
+      "top_players": [
+        {
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "Korn on the cobb",
+          "points": 42.5
+        },
+        {
+          "player": "Josh Allen",
+          "position": "QB",
+          "team": "Team OleGrayMen",
+          "points": 40.82
+        },
+        {
+          "player": "Davante Adams",
+          "position": "WR",
+          "team": "Papa Roast",
+          "points": 39.5
+        },
+        {
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "team": "No Effort",
+          "points": 35.3
+        },
+        {
+          "player": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "Limp Brizkit",
+          "points": 35.2
+        }
+      ]
+    }
+  ]
+}

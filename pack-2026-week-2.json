@@ -1,0 +1,53 @@
+{
+  "season": 2026,
+  "week": 2,
+  "title": "WFC NOW \u2022 Week 2",
+  "artwork": "Finished Canva exports supplied by Josh; preserved unchanged",
+  "cards": [
+    {
+      "rank": 5,
+      "player": "Amon-Ra St. Brown",
+      "points": 35.2,
+      "image": "amon-ra.png",
+      "orientation": "portrait",
+      "owner_logo": "assets/owners/Limp_Brizkit_Bull.png",
+      "fantasy_team": "Limp Brizkit"
+    },
+    {
+      "rank": 4,
+      "player": "CeeDee Lamb",
+      "points": 35.3,
+      "image": "ceedee.png",
+      "orientation": "portrait",
+      "owner_logo": "assets/owners/WFC_ESPN_2.jpg",
+      "fantasy_team": "No Effort"
+    },
+    {
+      "rank": 3,
+      "player": "Davante Adams",
+      "points": 39.5,
+      "image": "davante.png",
+      "orientation": "landscape",
+      "owner_logo": "assets/owners/Papa_Roast.png",
+      "fantasy_team": "Papa Roast"
+    },
+    {
+      "rank": 2,
+      "player": "Josh Allen",
+      "points": 40.82,
+      "image": "allen.png",
+      "orientation": "landscape",
+      "owner_logo": "assets/owners/WFC_ESPN_20.jpg",
+      "fantasy_team": "Team OleGrayMen"
+    },
+    {
+      "rank": 1,
+      "player": "Jaxon Smith-Njigba",
+      "points": 42.5,
+      "image": "jsn.png",
+      "orientation": "landscape",
+      "owner_logo": "assets/owners/Korn.png",
+      "fantasy_team": "Korn on the Cobb"
+    }
+  ]
+}
