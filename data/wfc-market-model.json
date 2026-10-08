@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "model_id": "wfc-market-v1",
-  "as_of": "2026-10-08T03:35:09.364Z",
+  "as_of": "2026-10-08T04:10:06.819Z",
   "history_date": "2026-10-08",
   "league_rules": {
     "teams": 12,
@@ -11,6 +11,7 @@
     "quarterback_cap": 3
   },
   "model_summary": "Independent WFC market index. Values combine within-position season production (28%), recent two-game form (18%), approved ROS outlook signal (34%), starter participation (12%), schedule input (8%), then disclosed QB Superflex and news adjustments.",
+  "history_summary": "Preseason points are deterministic WFC model reconstructions to establish a labeled preseason baseline. Regular-season values are saved daily WFC snapshots.",
   "limitations": [
     "Only WFC rostered skill players are in the initial pool.",
     "Footballers positional rank is a forward-looking proxy where present; players without it fall back to production.",
@@ -58,8 +59,39 @@
       "market_rank": 1,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 100
+          "market_value": 100,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -97,8 +129,39 @@
       "market_rank": 2,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 99,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 99.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 97.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 96.6
+          "market_value": 96.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -136,8 +199,39 @@
       "market_rank": 3,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 98,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 99.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 98.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 96.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 95.6
+          "market_value": 95.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -175,8 +269,39 @@
       "market_rank": 4,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 96.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 97.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 98.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 97.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 96.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 95.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 95.5
+          "market_value": 95.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -214,8 +339,39 @@
       "market_rank": 5,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 94.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 94.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 94.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 94.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 94.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 94.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 95.1
+          "market_value": 95.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -253,8 +409,39 @@
       "market_rank": 6,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 98.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 100,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 98.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 96,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 94.3
+          "market_value": 94.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -292,8 +479,39 @@
       "market_rank": 7,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 93.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 94,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 94.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 94.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 93.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 93.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 93.7
+          "market_value": 93.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -331,8 +549,39 @@
       "market_rank": 8,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 95.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 96.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 98.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 97,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 95.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 94.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 93.5
+          "market_value": 93.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -370,8 +619,39 @@
       "market_rank": 9,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 92.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 94.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 95.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 94.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 93.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 92.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 91.5
+          "market_value": 91.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -409,8 +689,39 @@
       "market_rank": 10,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 92,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 92.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 93.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 92.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 92.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 91.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 91.3
+          "market_value": 91.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -448,8 +759,39 @@
       "market_rank": 11,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 91,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 91.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 91.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 91.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 91,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 91,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 91
+          "market_value": 91,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -487,8 +829,39 @@
       "market_rank": 12,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 90.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 90.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 90.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 90.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 90.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 90.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 90
+          "market_value": 90,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -526,8 +899,39 @@
       "market_rank": 13,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 90.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 91.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 93.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 92,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 90.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 89.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 89
+          "market_value": 89,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -565,8 +969,39 @@
       "market_rank": 14,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 87.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 87,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 86.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 86.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 87.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 88.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 88.4
+          "market_value": 88.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -604,8 +1039,39 @@
       "market_rank": 15,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 87.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 87.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 87,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 87.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 87.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 87.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 88
+          "market_value": 88,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -643,8 +1109,39 @@
       "market_rank": 16,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 87.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 86.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 86.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 86.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 87.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 87.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 87.4
+          "market_value": 87.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -682,8 +1179,39 @@
       "market_rank": 17,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 88.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 89.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 90.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 89.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 88.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 87.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 86.8
+          "market_value": 86.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -721,8 +1249,39 @@
       "market_rank": 18,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 87.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 87.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 88.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 88,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 87.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 87,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 86.7
+          "market_value": 86.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -760,8 +1319,39 @@
       "market_rank": 19,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 87.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 87.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 87.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 87.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 87.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 86.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 86.7
+          "market_value": 86.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -799,8 +1389,39 @@
       "market_rank": 20,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 88.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 89.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 91.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 90.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 88.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 86.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 85.9
+          "market_value": 85.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -838,8 +1459,39 @@
       "market_rank": 21,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 89.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 92.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 95.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 92.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 90,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 87.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 85.9
+          "market_value": 85.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -877,8 +1529,39 @@
       "market_rank": 22,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 85.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 85.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 85.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 85.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 85.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 85.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 85.7
+          "market_value": 85.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -916,8 +1599,39 @@
       "market_rank": 23,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 86,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 86.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 87.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 86.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 86.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 85.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 85.4
+          "market_value": 85.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -955,8 +1669,39 @@
       "market_rank": 24,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 85.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 86.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 86.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 86.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 85.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 85.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 85.1
+          "market_value": 85.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -994,8 +1739,39 @@
       "market_rank": 25,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 87.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 90,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 92.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 90.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 88.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 86.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 85.1
+          "market_value": 85.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1033,8 +1809,39 @@
       "market_rank": 26,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 86.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 88.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 89.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 88.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 86.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 85.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 84.8
+          "market_value": 84.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1072,8 +1879,39 @@
       "market_rank": 27,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 87.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 90.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 92.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 90.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 88.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 86.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 84.8
+          "market_value": 84.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1111,8 +1949,39 @@
       "market_rank": 28,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 85.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 87.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 88.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 87.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 86.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 84.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 84.2
+          "market_value": 84.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1150,8 +2019,39 @@
       "market_rank": 29,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 85.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 86.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 87.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 86.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 85.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 84.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 84
+          "market_value": 84,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1189,8 +2089,39 @@
       "market_rank": 30,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 86.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 88.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 90.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 88.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 86.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 84.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 83.8
+          "market_value": 83.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1228,8 +2159,39 @@
       "market_rank": 31,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 83.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 82.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 82.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 82.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 83.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 83.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 83.5
+          "market_value": 83.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1267,8 +2229,39 @@
       "market_rank": 32,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 82.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 81.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 81,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 81.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 82.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 82.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 83.3
+          "market_value": 83.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1306,8 +2299,39 @@
       "market_rank": 33,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 85.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 87.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 89,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 87.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 85.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 84.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 83.3
+          "market_value": 83.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1345,8 +2369,39 @@
       "market_rank": 34,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 84.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 86.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 87.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 86.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 84.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 83.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 82.8
+          "market_value": 82.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1384,8 +2439,39 @@
       "market_rank": 35,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 82.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 83.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 83.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 83.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 83,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 82.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 82.3
+          "market_value": 82.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1423,8 +2509,39 @@
       "market_rank": 36,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 81.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 81.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 82.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 81.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 81.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 80.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 80.4
+          "market_value": 80.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1462,8 +2579,39 @@
       "market_rank": 37,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 81,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 81.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 82.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 81.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 81.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 80.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 80
+          "market_value": 80,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1501,8 +2649,39 @@
       "market_rank": 38,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 78.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 78.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 78.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 78.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 78.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 79,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 79.1
+          "market_value": 79.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1540,8 +2719,39 @@
       "market_rank": 39,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 81.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 84.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 87.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 84.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 81.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 79.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 77.8
+          "market_value": 77.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1579,8 +2789,39 @@
       "market_rank": 40,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 77,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 76.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 76.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 76.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 77,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 77.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 77.1
+          "market_value": 77.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1618,8 +2859,39 @@
       "market_rank": 41,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 76.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 76.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 76.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 76.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 76.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 76.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 76.8
+          "market_value": 76.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1657,8 +2929,39 @@
       "market_rank": 42,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 78,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 79.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 81.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 79.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 78.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 76.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 76
+          "market_value": 76,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1696,8 +2999,39 @@
       "market_rank": 43,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 75.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 75.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 75.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 75.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 75.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 75.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 75.3
+          "market_value": 75.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1735,8 +3069,39 @@
       "market_rank": 44,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 74.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 75.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 76.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 75.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 75,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 74.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 73.7
+          "market_value": 73.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1774,8 +3139,39 @@
       "market_rank": 45,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 72.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 72.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 72.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 72.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 72.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 72.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 72.9
+          "market_value": 72.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1813,8 +3209,39 @@
       "market_rank": 46,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 70.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 69.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 69,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 69.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 70.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 70.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 71.3
+          "market_value": 71.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1852,8 +3279,39 @@
       "market_rank": 47,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 74.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 76.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 79.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 77.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 74.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 72.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 71.2
+          "market_value": 71.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1891,8 +3349,39 @@
       "market_rank": 48,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 71.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 72.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 72.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 72.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 71.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 71.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 70.9
+          "market_value": 70.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1930,8 +3419,39 @@
       "market_rank": 49,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 69.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 69.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 69,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 69.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 69.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 70,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 70.2
+          "market_value": 70.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -1969,8 +3489,39 @@
       "market_rank": 50,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 68.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 67.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 66.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 67.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 68.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 69,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 69.4
+          "market_value": 69.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2008,8 +3559,39 @@
       "market_rank": 51,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 70.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 72.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 74.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 72.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 71,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 69.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 68.7
+          "market_value": 68.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2047,8 +3629,39 @@
       "market_rank": 52,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 70.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 72.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 74,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 72.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 70.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 69.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 68.3
+          "market_value": 68.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2086,8 +3699,39 @@
       "market_rank": 53,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 68.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 68.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 68.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 68.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 68.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 68.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 68.2
+          "market_value": 68.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2125,8 +3769,39 @@
       "market_rank": 54,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 67,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 66.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 65.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 66,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 66.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 67.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 68.2
+          "market_value": 68.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2164,8 +3839,39 @@
       "market_rank": 55,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 66.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 66.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 65.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 66.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 66.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 67.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 67.7
+          "market_value": 67.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2203,8 +3909,39 @@
       "market_rank": 56,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 69.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 70.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 72.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 70.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 69.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 68,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 67.2
+          "market_value": 67.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2242,8 +3979,39 @@
       "market_rank": 57,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 66,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 65.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 64.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 65.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 65.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 66.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 66.9
+          "market_value": 66.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2281,8 +4049,39 @@
       "market_rank": 58,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 68.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 70.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 72.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 70.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 68.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 66.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 65.8
+          "market_value": 65.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2320,8 +4119,39 @@
       "market_rank": 59,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 65.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 65.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 65.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 65.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 65.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 65.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 65.7
+          "market_value": 65.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2359,8 +4189,39 @@
       "market_rank": 60,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 67.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 69.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 70.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 69.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 67.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 66.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 65.6
+          "market_value": 65.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2398,8 +4259,39 @@
       "market_rank": 61,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 65.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 65.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 65.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 65.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 65.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 65.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 65.2
+          "market_value": 65.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2437,8 +4329,39 @@
       "market_rank": 62,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 66.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 67.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 68.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 67.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 66.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 65.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 65.1
+          "market_value": 65.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2476,8 +4399,39 @@
       "market_rank": 63,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 65.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 66.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 66.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 66.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 65.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 65.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 65
+          "market_value": 65,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2515,8 +4469,39 @@
       "market_rank": 64,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 65,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 65.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 65.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 65.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 65,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 64.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 64.5
+          "market_value": 64.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2554,8 +4539,39 @@
       "market_rank": 65,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 64.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 65,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 65.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 65.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 64.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 64.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 64.3
+          "market_value": 64.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2593,8 +4609,39 @@
       "market_rank": 66,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 64.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 64.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 64.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 64.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 64.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 64.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 64.3
+          "market_value": 64.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2632,8 +4679,39 @@
       "market_rank": 67,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 63.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 63.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 63.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 63.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 63.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 62.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 62.7
+          "market_value": 62.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2671,8 +4749,39 @@
       "market_rank": 68,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 64.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 65.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 66.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 65.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 64.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 63.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 62.6
+          "market_value": 62.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2710,8 +4819,39 @@
       "market_rank": 69,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 62.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 62.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 63,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 62.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 62.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 62.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 62.4
+          "market_value": 62.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2749,8 +4889,39 @@
       "market_rank": 70,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 63.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 64.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 65.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 64.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 63.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 62.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 62.3
+          "market_value": 62.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2788,8 +4959,39 @@
       "market_rank": 71,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 62.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 62.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 62.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 62.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 62.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 62.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 62
+          "market_value": 62,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2827,8 +5029,39 @@
       "market_rank": 72,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 64.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 66.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 69.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 67.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 64.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 63.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 61.9
+          "market_value": 61.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2866,8 +5099,39 @@
       "market_rank": 73,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 62.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 63.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 64.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 63.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 62.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 61.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 61.1
+          "market_value": 61.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2905,8 +5169,39 @@
       "market_rank": 74,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 63.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 65.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 68.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 66.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 63.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 61.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 60.2
+          "market_value": 60.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2944,8 +5239,39 @@
       "market_rank": 75,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 59.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 59.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 59.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 59.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 59.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 59.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 59.4
+          "market_value": 59.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -2983,8 +5309,39 @@
       "market_rank": 76,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 61,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 62.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 64.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 62.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 61.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 59.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 58.8
+          "market_value": 58.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3022,8 +5379,39 @@
       "market_rank": 77,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 59.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 61.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 62.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 61.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 60.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 59,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 58.3
+          "market_value": 58.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3061,8 +5449,39 @@
       "market_rank": 78,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 59.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 60.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 61.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 60.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 59.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 58.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 57.7
+          "market_value": 57.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3100,8 +5519,39 @@
       "market_rank": 79,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 57.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 57.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 57.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 57.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 57.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 57.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 57.5
+          "market_value": 57.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3139,8 +5589,39 @@
       "market_rank": 80,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 57.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 56.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 56.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 56.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 57.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 57.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 57.4
+          "market_value": 57.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3178,8 +5659,39 @@
       "market_rank": 81,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 56.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 57,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 57.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 57.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 56.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 56.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 56.6
+          "market_value": 56.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3217,8 +5729,39 @@
       "market_rank": 82,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 55.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 55,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 54.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 54.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 55.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 56.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 56.4
+          "market_value": 56.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3256,8 +5799,39 @@
       "market_rank": 83,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 55.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 55.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 55.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 55.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 55.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 56,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 56.1
+          "market_value": 56.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3295,8 +5869,39 @@
       "market_rank": 84,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 57,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 57.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 58.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 57.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 57,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 56.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 56.1
+          "market_value": 56.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3334,8 +5939,39 @@
       "market_rank": 85,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 55.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 55.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 55.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 55.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 55.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 55.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 56
+          "market_value": 56,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3373,8 +6009,39 @@
       "market_rank": 86,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 58.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 61,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 63.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 61.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 59,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 57.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 55.9
+          "market_value": 55.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3412,8 +6079,39 @@
       "market_rank": 87,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 56.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 56.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 57.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 56.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 56.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 56.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 55.9
+          "market_value": 55.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3451,8 +6149,39 @@
       "market_rank": 88,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 55,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 54.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 53.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 54.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 54.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 55.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 55.8
+          "market_value": 55.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3490,8 +6219,39 @@
       "market_rank": 89,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 58.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 59.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 61.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 60.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 58.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 56.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 55.8
+          "market_value": 55.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3529,8 +6289,39 @@
       "market_rank": 90,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 56.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 57.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 58.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 57.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 56.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 55.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 54.8
+          "market_value": 54.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3568,8 +6359,39 @@
       "market_rank": 91,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 54.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 55.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 55.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 55.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 55,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 54.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 54.4
+          "market_value": 54.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3607,8 +6429,39 @@
       "market_rank": 92,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 53.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 54.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 54.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 54.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 54,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 53.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 53.5
+          "market_value": 53.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3646,8 +6499,39 @@
       "market_rank": 93,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 51.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 51.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 52.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 51.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 51.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 51.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 51.6
+          "market_value": 51.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3685,8 +6569,39 @@
       "market_rank": 94,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 52.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 53.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 54.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 53.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 52.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 51.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 51.1
+          "market_value": 51.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3724,8 +6639,39 @@
       "market_rank": 95,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 51.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 52.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 52.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 52.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 51.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 51.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 51
+          "market_value": 51,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3763,8 +6709,39 @@
       "market_rank": 96,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 48.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 47.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 46.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 47.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 48.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 49.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 50.1
+          "market_value": 50.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3802,8 +6779,39 @@
       "market_rank": 97,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 51.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 53.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 54.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 53.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 51.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 50.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 49.9
+          "market_value": 49.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3841,8 +6849,39 @@
       "market_rank": 98,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 49.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 49.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 49.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 49.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 49.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 49.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 49.5
+          "market_value": 49.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3880,8 +6919,39 @@
       "market_rank": 99,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 50.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 51.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 52.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 51.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 50.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 49.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 49.3
+          "market_value": 49.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3919,8 +6989,39 @@
       "market_rank": 100,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 52.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 55.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 59.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 56.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 53.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 50.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 49.1
+          "market_value": 49.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3958,8 +7059,39 @@
       "market_rank": 101,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 50.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 51.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 52.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 51.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 50.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 49.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 49.1
+          "market_value": 49.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -3997,8 +7129,39 @@
       "market_rank": 102,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 48.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 48.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 48.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 48.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 48.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 48.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 48.8
+          "market_value": 48.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4036,8 +7199,39 @@
       "market_rank": 103,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 48.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 50.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 51.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 50.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 49.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 48,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 47.4
+          "market_value": 47.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4075,8 +7269,39 @@
       "market_rank": 104,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 45.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 44.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 42.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 43.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 45.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 46.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 47.2
+          "market_value": 47.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4114,8 +7339,39 @@
       "market_rank": 105,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 48.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 49.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 50.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 49.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 48.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 47.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 46.8
+          "market_value": 46.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4153,8 +7409,39 @@
       "market_rank": 106,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 44.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 42.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 41.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 42.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 43.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 45,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 45.7
+          "market_value": 45.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4192,8 +7479,39 @@
       "market_rank": 107,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 43.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 42.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 41.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 42.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 43.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 44.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 44.6
+          "market_value": 44.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4231,8 +7549,39 @@
       "market_rank": 108,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 45.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 46,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 46.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 46.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 45.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 44.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 44.2
+          "market_value": 44.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4270,8 +7619,39 @@
       "market_rank": 109,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 45.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 47.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 48.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 47.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 45.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 44.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 44
+          "market_value": 44,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4309,8 +7689,39 @@
       "market_rank": 110,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 42.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 41.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 41,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 41.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 42.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 43.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 43.8
+          "market_value": 43.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4348,8 +7759,39 @@
       "market_rank": 111,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 46,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 48,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 50.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 48.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 46.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 44.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 43.5
+          "market_value": 43.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4387,8 +7829,39 @@
       "market_rank": 112,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 43.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 43.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 43.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 43.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 43.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 43.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 43.1
+          "market_value": 43.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4426,8 +7899,39 @@
       "market_rank": 113,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 42.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 41.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 40.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 41.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 42,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 42.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 43
+          "market_value": 43,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4465,8 +7969,39 @@
       "market_rank": 114,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 42.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 41.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 40.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 41.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 42,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 42.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 42.8
+          "market_value": 42.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4504,8 +8039,39 @@
       "market_rank": 115,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 44.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 45.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 46.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 45.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 44.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 43.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 42.8
+          "market_value": 42.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4543,8 +8109,39 @@
       "market_rank": 116,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 41.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 41.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 40.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 41.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 41.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 41.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 42.2
+          "market_value": 42.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4582,8 +8179,39 @@
       "market_rank": 117,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 42.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 43,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 43.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 43,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 42.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 42.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 41.8
+          "market_value": 41.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4621,8 +8249,39 @@
       "market_rank": 118,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 39.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 39,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 38.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 38.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 39.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 40.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 40.7
+          "market_value": 40.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4660,8 +8319,39 @@
       "market_rank": 119,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 38.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 37.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 36.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 37.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 38.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 39.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 40.6
+          "market_value": 40.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4699,8 +8389,39 @@
       "market_rank": 120,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 42,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 43.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 44.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 43.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 42.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 41.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 40.5
+          "market_value": 40.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4738,8 +8459,39 @@
       "market_rank": 121,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 40.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 41.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 41.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 41.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 40.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 40.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 40.3
+          "market_value": 40.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4777,8 +8529,39 @@
       "market_rank": 122,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 40.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 40.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 40.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 40.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 40.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 40,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 40
+          "market_value": 40,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4816,8 +8599,39 @@
       "market_rank": 123,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 40,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 40.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 41.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 40.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 40.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 39.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 39.1
+          "market_value": 39.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4855,8 +8669,39 @@
       "market_rank": 124,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 39,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 39.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 39.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 39.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 39,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 39,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 38.9
+          "market_value": 38.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4894,8 +8739,39 @@
       "market_rank": 125,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 39.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 39.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 40.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 39.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 39.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 38.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 38.4
+          "market_value": 38.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4933,8 +8809,39 @@
       "market_rank": 126,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 36.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 34.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 33.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 34.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 36.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 37.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 38.1
+          "market_value": 38.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -4972,8 +8879,39 @@
       "market_rank": 127,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 38.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 39.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 40,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 39.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 38.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 38.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 37.8
+          "market_value": 37.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5011,8 +8949,39 @@
       "market_rank": 128,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 37.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 37.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 38.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 37.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 37.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 37.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 37.2
+          "market_value": 37.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5050,8 +9019,39 @@
       "market_rank": 129,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 36.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 36.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 36.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 36.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 36.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 36,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 35.8
+          "market_value": 35.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5089,8 +9089,39 @@
       "market_rank": 130,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 35.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 35.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 35.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 35.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 35.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 35.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 35.7
+          "market_value": 35.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5128,8 +9159,39 @@
       "market_rank": 131,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 35.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 34.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 34.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 34.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 35.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 35.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 35.6
+          "market_value": 35.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5167,8 +9229,39 @@
       "market_rank": 132,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 34.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 34.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 33.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 34.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 34.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 35.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 35.6
+          "market_value": 35.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5206,8 +9299,39 @@
       "market_rank": 133,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 36.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 37.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 39,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 37.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 36.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 35.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 35.1
+          "market_value": 35.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5245,8 +9369,39 @@
       "market_rank": 134,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 34.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 35.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 36.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 35.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 34.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 34.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 33.8
+          "market_value": 33.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5284,8 +9439,39 @@
       "market_rank": 135,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 37.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 40.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 43.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 41,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 37.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 35.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 33.6
+          "market_value": 33.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5323,8 +9509,39 @@
       "market_rank": 136,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 35.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 37.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 39.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 37.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 35.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 33.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 32.9
+          "market_value": 32.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5362,8 +9579,39 @@
       "market_rank": 137,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 28.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 26.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 25.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 26.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 27.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 29.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 29.8
+          "market_value": 29.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5401,8 +9649,39 @@
       "market_rank": 138,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 30.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 31.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 33.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 32.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 31,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 30.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 29.6
+          "market_value": 29.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5440,8 +9719,39 @@
       "market_rank": 139,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 30,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 30.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 31,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 30.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 30,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 29.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 29.3
+          "market_value": 29.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5479,8 +9789,39 @@
       "market_rank": 140,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 28.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 30,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 31.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 30.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 29,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 28.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 27.5
+          "market_value": 27.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5518,8 +9859,39 @@
       "market_rank": 141,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 27,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 27.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 27.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 27.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 27,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 26.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 26.7
+          "market_value": 26.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5557,8 +9929,39 @@
       "market_rank": 142,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 23.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 21.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 19.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 21.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 23.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 24.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 25.9
+          "market_value": 25.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5596,8 +9999,39 @@
       "market_rank": 143,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 25.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 24.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 24.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 24.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 25,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 25.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 25.7
+          "market_value": 25.7,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5635,8 +10069,39 @@
       "market_rank": 144,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 23.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 21.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 19.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 21.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 22.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 24.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 25.2
+          "market_value": 25.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5674,8 +10139,39 @@
       "market_rank": 145,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 23.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 22.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 21.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 22.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 23.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 24.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 24.6
+          "market_value": 24.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5713,8 +10209,39 @@
       "market_rank": 146,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 24,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 23.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 23.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 23.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 24,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 24.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 24.1
+          "market_value": 24.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5752,8 +10279,39 @@
       "market_rank": 147,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 21.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 20.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 19.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 20.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 21.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 22.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 23.2
+          "market_value": 23.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5791,8 +10349,39 @@
       "market_rank": 148,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 21.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 20.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 19,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 20,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 21.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 22,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 22.6
+          "market_value": 22.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5830,8 +10419,39 @@
       "market_rank": 149,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 20.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 18.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 16.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 18.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 20.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 21.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 22.5
+          "market_value": 22.5,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5869,8 +10489,39 @@
       "market_rank": 150,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 19.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 18.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 17.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 18.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 19.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 20.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 20.9
+          "market_value": 20.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5908,8 +10559,39 @@
       "market_rank": 151,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 21,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 21.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 21.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 21.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 21.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 20.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 20.6
+          "market_value": 20.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5947,8 +10629,39 @@
       "market_rank": 152,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 20.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 20.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 20.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 20.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 20.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 20.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 20.1
+          "market_value": 20.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -5986,8 +10699,39 @@
       "market_rank": 153,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 20.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 20.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 21.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 20.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 20.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 20.2,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 20
+          "market_value": 20,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6025,8 +10769,39 @@
       "market_rank": 154,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 18.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 17.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 17.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 17.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 18.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 18.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 19.1
+          "market_value": 19.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6064,8 +10839,39 @@
       "market_rank": 155,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 17.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 15.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 14.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 15.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 16.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 18,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 18.6
+          "market_value": 18.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6103,8 +10909,39 @@
       "market_rank": 156,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 16.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 14.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 12.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 14.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 15.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 17.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 18.2
+          "market_value": 18.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6142,8 +10979,39 @@
       "market_rank": 157,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 16.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 15.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 14.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 15.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 16.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 17.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 17.8
+          "market_value": 17.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6181,8 +11049,39 @@
       "market_rank": 158,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 17.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 17.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 17.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 17.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 17.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 17.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 17.6
+          "market_value": 17.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6220,8 +11119,39 @@
       "market_rank": 159,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 16.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 15.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 15.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 15.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 16.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 16.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 16.9
+          "market_value": 16.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6259,8 +11189,39 @@
       "market_rank": 160,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 14.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 13.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 12,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 13.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 14.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 15.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 16.3
+          "market_value": 16.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6298,8 +11259,39 @@
       "market_rank": 161,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 16.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 16.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 17.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 16.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 16.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 16.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 16.3
+          "market_value": 16.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6337,8 +11329,39 @@
       "market_rank": 162,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 17.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 18.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 19,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 18.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 17.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 16.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 16.2
+          "market_value": 16.2,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6376,8 +11399,39 @@
       "market_rank": 163,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 14.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 13.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 12.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 13.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 14.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 15.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 15.6
+          "market_value": 15.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6415,8 +11469,39 @@
       "market_rank": 164,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 12.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 10.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 9.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 10.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 11.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 13,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 13.6
+          "market_value": 13.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6454,8 +11539,39 @@
       "market_rank": 165,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 10.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 8.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 6.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 8.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 10.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 11.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 12.9
+          "market_value": 12.9,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6493,8 +11609,39 @@
       "market_rank": 166,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 11.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 11.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 11.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 11.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 11.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 11.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 11.3
+          "market_value": 11.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6532,8 +11679,39 @@
       "market_rank": 167,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 8.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 6.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 4.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 6.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 8.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 9.8,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 10.8
+          "market_value": 10.8,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6571,8 +11749,39 @@
       "market_rank": 168,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 10.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 10.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 11,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 10.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 10.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 10.5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 10.4
+          "market_value": 10.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6610,8 +11819,39 @@
       "market_rank": 169,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 9.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 8.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 7.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 8.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 9.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 10,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 10.4
+          "market_value": 10.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6649,8 +11889,39 @@
       "market_rank": 170,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 8.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 7.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 5.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 6.9,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 8.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 9.4,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 10.1
+          "market_value": 10.1,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6688,8 +11959,39 @@
       "market_rank": 171,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 7.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 5.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 3.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 5.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 7.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 8.7,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 9.6
+          "market_value": 9.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6727,8 +12029,39 @@
       "market_rank": 172,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 6.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 4.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 2.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 4.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 6.6,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 8.3,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 9.4
+          "market_value": 9.4,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6766,8 +12099,39 @@
       "market_rank": 173,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 5.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 4.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 5.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 6.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 7.9,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 8.6
+          "market_value": 8.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6805,8 +12169,39 @@
       "market_rank": 174,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 6.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 5.4,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 4.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 5.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 6.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 7.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 7.6
+          "market_value": 7.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6844,8 +12239,39 @@
       "market_rank": 175,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 3.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 1.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 0,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 3.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 5.1,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 6.3
+          "market_value": 6.3,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6883,8 +12309,39 @@
       "market_rank": 176,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 3.3,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 1.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 0,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 1.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 3.1,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 4.6,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 5.6
+          "market_value": 5.6,
+          "kind": "saved_snapshot"
         }
       ]
     },
@@ -6922,8 +12379,39 @@
       "market_rank": 177,
       "history": [
         {
+          "date": "2026-07-15",
+          "market_value": 4.8,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-01",
+          "market_value": 4.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-08-15",
+          "market_value": 4.2,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-01",
+          "market_value": 4.5,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-09-15",
+          "market_value": 4.7,
+          "kind": "modeled_preseason"
+        },
+        {
+          "date": "2026-10-01",
+          "market_value": 5,
+          "kind": "modeled_preseason"
+        },
+        {
           "date": "2026-10-08",
-          "market_value": 5.1
+          "market_value": 5.1,
+          "kind": "saved_snapshot"
         }
       ]
     }
