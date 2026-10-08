@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": null,
+  "source": "Commissioner-reviewed news signals",
+  "notes": "Add only reviewed, dated player news. impact is a temporary -10 to +10 market-point adjustment; omit a player for no active adjustment. This file is intentionally not an automated news scraper.",
+  "signals": []
+}

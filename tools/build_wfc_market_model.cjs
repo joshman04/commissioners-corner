@@ -1,0 +1,271 @@
+/*
+ * WFC's independent, explainable market-value model.
+ *
+ * It deliberately does not scrape, clone, or reverse engineer third-party
+ * valuation systems. Public/provider charts can be compared separately after a
+ * permitted manual import. This model only reads WFC canon plus reviewed WFC
+ * inputs and writes derived website data.
+ */
+'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
+
+const repo = path.resolve(__dirname, '..');
+const root = path.resolve(repo, '..', '..');
+const data = name => JSON.parse(fs.readFileSync(path.join(repo, 'data', name), 'utf8'));
+const source = name => JSON.parse(fs.readFileSync(path.join(root, 'sources', name), 'utf8'));
+const write = (name, value) => fs.writeFileSync(path.join(repo, 'data', name), JSON.stringify(value, null, 2) + '\n');
+const canon = name => String(name).toLowerCase().replace(/\b(jr|sr|ii|iii|iv)\.?\b/g, '').replace(/[^a-z0-9]/g, '');
+const clamp = (number, low = 0, high = 100) => Math.max(low, Math.min(high, number));
+const round = number => Math.round(number * 10) / 10;
+const positions = new Set(['QB', 'RB', 'WR', 'TE']);
+const today = new Date().toISOString().slice(0, 10);
+
+const master = source('WFC_MASTER.json');
+const analytics = source('WFC_ANALYTICS.json');
+const season = master.seasons[String(analytics.season)];
+const newsInput = data('market-inputs/news-signals.json');
+const scheduleInput = data('market-inputs/schedule-signals.json');
+const overrideInput = data('market-inputs/manual-overrides.json');
+const nflverseInput = data('market-inputs/nflverse-weekly.json');
+const rosProjectionInput = data('market-inputs/ros-projections.json');
+const availabilityInput = data('market-inputs/availability-signals.json');
+const historyPath = path.join(repo, 'data', 'market-history.json');
+const historyStore = fs.existsSync(historyPath)
+  ? JSON.parse(fs.readFileSync(historyPath, 'utf8'))
+  : { schema_version: '1.0.0', snapshots: {} };
+historyStore.snapshot_metadata = historyStore.snapshot_metadata || {};
+
+const roster = new Map();
+for (const row of season.rosters) {
+  const details = (row.player_details || '').trim().split(/\s+/);
+  const position = details.at(-1);
+  if (!positions.has(position)) continue;
+  roster.set(canon(row.player_name), { id: canon(row.player_name), name: row.player_name, position, nfl_team: details[0] || '—', franchise_id: row.franchise_id });
+}
+const ranks = new Map();
+for (const [name, position, nflTeam, rank] of analytics.footballers.players) {
+  if (positions.has(position) && Number.isFinite(Number(rank))) ranks.set(canon(name), { rank: Number(rank), nfl_team: nflTeam });
+}
+const games = new Map();
+for (const row of season.player_weeks) {
+  const id = canon(row.player_name);
+  if (!roster.has(id) || !positions.has(row.position)) continue;
+  const rows = games.get(id) || [];
+  rows.push({ week: Number(row.week), points: Number(row.fantasy_points) || 0, started: Boolean(row.is_starter) });
+  games.set(id, rows);
+}
+for (const rows of games.values()) rows.sort((left, right) => left.week - right.week);
+
+function percentileByPosition(metric) {
+  const result = new Map();
+  for (const position of positions) {
+    const group = [...roster.values()].filter(player => player.position === position)
+      .sort((left, right) => metric(right) - metric(left) || left.name.localeCompare(right.name));
+    group.forEach((player, index) => result.set(player.id, round(100 * (group.length - index) / group.length)));
+  }
+  return result;
+}
+const ppg = player => {
+  const rows = games.get(player.id) || [];
+  return rows.length ? rows.reduce((sum, row) => sum + row.points, 0) / rows.length : 0;
+};
+const recentPpg = player => {
+  const rows = (games.get(player.id) || []).slice(-2);
+  return rows.length ? rows.reduce((sum, row) => sum + row.points, 0) / rows.length : 0;
+};
+const startRate = player => {
+  const rows = games.get(player.id) || [];
+  return rows.length ? rows.filter(row => row.started).length / rows.length : 0;
+};
+const production = percentileByPosition(ppg);
+const recent = percentileByPosition(recentPpg);
+const role = new Map([...roster.values()].map(player => [player.id, round(startRate(player) * 100)]));
+const productionRank = new Map();
+for (const position of positions) {
+  [...roster.values()].filter(player => player.position === position)
+    .sort((left, right) => ppg(right) - ppg(left) || left.name.localeCompare(right.name))
+    .forEach((player, index) => productionRank.set(player.id, index + 1));
+}
+const positionalCaps = { QB: 40, RB: 60, WR: 90, TE: 40 };
+const activeNews = new Map((newsInput.signals || []).filter(signal => !signal.expires_on || signal.expires_on >= today).map(signal => [canon(signal.player), signal]));
+const overrides = new Map((overrideInput.overrides || []).map(item => [canon(item.player), item]));
+const nflverse = new Map((nflverseInput.status === 'active' ? nflverseInput.players : []).map(row => [canon(row.player_id || row.player), row]));
+const rosProjections = new Map((rosProjectionInput.rows || []).filter(row => Number.isFinite(Number(row.ros_ppg))).map(row => [canon(row.player), row]));
+const availabilitySignals = new Map((availabilityInput.signals || []).filter(signal => !signal.expires_on || signal.expires_on >= today).map(signal => [canon(signal.player), signal]));
+
+const rows = [...roster.values()].map(player => {
+  const rank = ranks.get(player.id)?.rank;
+  const effectiveRank = rank || productionRank.get(player.id);
+  const outlook = rank ? round(clamp(100 * (positionalCaps[player.position] - rank + 1) / positionalCaps[player.position])) : production.get(player.id);
+  const outlookSource = rank ? 'Footballers positional-rank snapshot' : 'Production fallback (no approved ROS rank)';
+  const scheduleAdjustment = Number(scheduleInput.team_adjustments?.[player.nfl_team] || 0);
+  const schedule = round(clamp(50 + scheduleAdjustment * 10));
+  const base = .28 * production.get(player.id) + .18 * recent.get(player.id) + .34 * outlook + .12 * role.get(player.id) + .08 * schedule;
+  let superflexBand = 0;
+  if (player.position === 'QB') superflexBand = effectiveRank <= 12 ? 16 : effectiveRank <= 24 ? 10 : 4;
+  // A band is intentionally damped before it is added, so a good QB is
+  // rewarded for scarcity without repeatedly pinning the entire QB1 tier at 100.
+  const superflex = round(superflexBand * .4);
+  const news = activeNews.get(player.id);
+  const newsImpact = clamp(Number(news?.impact) || 0, -10, 10);
+  let marketValue = round(clamp(base + superflex + newsImpact));
+  const override = overrides.get(player.id);
+  if (override && Number.isFinite(Number(override.value))) marketValue = round(clamp(Number(override.value)));
+  // Tier labels are generated from the current sorted board below.  The
+  // reviewed snapshot may retain old tiers as reference, but must not freeze
+  // the presentation in the prior five-tier layout.
+  const tier = null;
+  return {
+    ...player, value: marketValue, market_value: marketValue, tier, source_rank: rank || null,
+    stats: { games: (games.get(player.id) || []).length, season_ppg: round(ppg(player)), recent_ppg: round(recentPpg(player)), start_rate: round(startRate(player) * 100) },
+    drivers: { production: production.get(player.id), recent_form: recent.get(player.id), outlook, outlook_source: outlookSource, effective_position_rank: effectiveRank, starting_role: role.get(player.id), schedule, schedule_adjustment: scheduleAdjustment, superflex_qb: superflex, superflex_band: superflexBand, news_impact: newsImpact },
+    news: news ? { reason: news.reason || 'Commissioner-reviewed news', source_url: news.source_url || null, expires_on: news.expires_on || null } : null,
+    override: override ? { reason: override.reason || 'Commissioner override', source_url: override.source_url || null } : null
+  };
+}).sort((left, right) => right.value - left.value || left.name.localeCompare(right.name));
+rows.forEach((row, index) => {
+  row.market_rank = index + 1;
+  // Roughly 15 players per tier produces an easy-to-scan 12-tier market board
+  // without pretending that arbitrary raw-value cliffs are meaningful.
+  row.tier = row.tier || String(Math.min(12, Math.ceil((index + 1) / 15)));
+});
+
+// Shadow v2 deliberately does not inherit the v1 score.  It turns the same
+// WFC scoring feed into a small rest-of-season proxy, prices each player above
+// a WFC-format replacement level, and leaves any external-market drift
+// uncapped.  It is a review surface, not the public board or a third-party
+// value copy.
+const median = values => {
+  const clean = values.filter(Number.isFinite).slice().sort((left, right) => left - right);
+  if (!clean.length) return 0;
+  const middle = Math.floor(clean.length / 2);
+  return clean.length % 2 ? clean[middle] : (clean[middle - 1] + clean[middle]) / 2;
+};
+function metricPercentile(metric) {
+  const result = new Map();
+  for (const position of positions) {
+    const group = [...roster.values()]
+      .filter(player => player.position === position && Number.isFinite(Number(metric(player))))
+      .sort((left, right) => Number(metric(right)) - Number(metric(left)) || left.name.localeCompare(right.name));
+    group.forEach((player, index) => result.set(player.id, round(100 * (group.length - index) / group.length)));
+  }
+  return result;
+}
+const maxGames = Math.max(1, ...[...games.values()].map(group => group.length));
+const positionMedians = Object.fromEntries([...positions].map(position => [position, median([...roster.values()].filter(player => player.position === position).map(ppg))]));
+const replacementSlots = { QB: 24, RB: 30, WR: 36, TE: 12 };
+const usagePercentile = metricPercentile(player => nflverse.get(player.id)?.recent_usage_share ?? nflverse.get(player.id)?.usage_share);
+const efficiencyPercentile = metricPercentile(player => nflverse.get(player.id)?.recent_epa_per_opportunity ?? nflverse.get(player.id)?.epa_per_opportunity);
+const shadowSeeds = [...roster.values()].map(player => {
+  const seasonal = ppg(player), recentPoints = recentPpg(player), roleRate = startRate(player);
+  const usage = nflverse.get(player.id), projection = rosProjections.get(player.id), availabilitySignal = availabilitySignals.get(player.id);
+  const usageScore = usagePercentile.get(player.id) ?? null, efficiencyScore = efficiencyPercentile.get(player.id) ?? null;
+  // Regress scoring history toward the positional median. Public nflverse
+  // usage/EPA can move this estimate modestly; a reviewed ROS PPG import has
+  // more weight when it is actually supplied.
+  const baseForecast = .55 * seasonal + .20 * recentPoints + .25 * positionMedians[player.position];
+  const usageAdjustment = usageScore === null ? 0 : (usageScore - 50) * .025;
+  const efficiencyAdjustment = efficiencyScore === null ? 0 : (efficiencyScore - 50) * .012;
+  const wfcForecast = Math.max(0, baseForecast + usageAdjustment + efficiencyAdjustment);
+  const forecastPpg = round(projection ? .60 * Number(projection.ros_ppg) + .40 * wfcForecast : wfcForecast);
+  const baseAvailability = .60 + .25 * roleRate + .15 * Math.min(1, (games.get(player.id) || []).length / maxGames);
+  const availability = round(clamp(availabilitySignal && Number.isFinite(Number(availabilitySignal.availability)) ? .65 * baseAvailability + .35 * Number(availabilitySignal.availability) : baseAvailability, 0, 1));
+  return { player, forecastPpg, availability, adjustedPpg: round(forecastPpg * availability), seasonal, recentPoints, roleRate, usage, usageScore, efficiencyScore, usageAdjustment: round(usageAdjustment), efficiencyAdjustment: round(efficiencyAdjustment), projection, availabilitySignal };
+});
+const replacementPpg = {};
+for (const position of positions) {
+  const group = shadowSeeds.filter(seed => seed.player.position === position).sort((left, right) => right.adjustedPpg - left.adjustedPpg || left.player.name.localeCompare(right.player.name));
+  replacementPpg[position] = group[Math.min(group.length - 1, replacementSlots[position] - 1)]?.adjustedPpg ?? 0;
+}
+const maxVor = Math.max(0.1, ...shadowSeeds.map(seed => Math.max(0, seed.adjustedPpg - replacementPpg[seed.player.position])));
+const shadowV2 = shadowSeeds.map(seed => {
+  const vorPpg = round(Math.max(0, seed.adjustedPpg - replacementPpg[seed.player.position]));
+  // The square-root curve preserves useful separation near replacement while
+  // avoiding v1's tendency to pin every positional leader near 100.
+  const marketValue = round(100 * Math.sqrt(vorPpg / maxVor));
+  const sourceRank = ranks.get(seed.player.id)?.rank ?? null;
+  return {
+    id: seed.player.id, name: seed.player.name, position: seed.player.position, nfl_team: seed.player.nfl_team,
+    market_value: marketValue, value: marketValue, source_rank: sourceRank,
+    drivers: {
+      season_ppg: seed.seasonal, recent_ppg: seed.recentPoints, forecast_ppg: seed.forecastPpg,
+      availability: seed.availability, replacement_ppg: replacementPpg[seed.player.position], vor_ppg: vorPpg,
+      nflverse_usage_score: seed.usageScore, nflverse_efficiency_score: seed.efficiencyScore,
+      nflverse_usage_adjustment_ppg: seed.usageAdjustment, nflverse_efficiency_adjustment_ppg: seed.efficiencyAdjustment,
+      nflverse_last_week: seed.usage?.last_week ?? null, ros_projection_ppg: seed.projection ? Number(seed.projection.ros_ppg) : null,
+      ros_projection_source: seed.projection?.source_url || null, availability_signal_source: seed.availabilitySignal?.source_url || null,
+      forecast_source: seed.projection ? 'Reviewed ROS projection blended with WFC scoring, usage, and efficiency' : seed.usage ? 'WFC scoring forecast with public nflverse usage/EPA' : 'WFC weekly data, regressed to positional median',
+      external_market_cap: null
+    }
+  };
+}).sort((left, right) => right.market_value - left.market_value || left.name.localeCompare(right.name));
+shadowV2.forEach((row, index) => {
+  row.market_rank = index + 1;
+  const prior = shadowV2[index - 1];
+  // Natural score breaks set the first shadow tiers; a long flat section never
+  // gets a synthetic break merely to force an equal player count.
+  const priorTier = prior ? Number(prior.tier) : 1;
+  row.tier = String(index === 0 ? 1 : Math.min(12, priorTier + (prior.market_value - row.market_value >= 7 ? 1 : 0)));
+});
+
+// The league asked for a preseason-to-present view before enough daily snapshots
+// exist.  These are deliberately labeled model reconstructions rather than
+// historical publisher values.  Regular-season refreshes remain saved snapshots.
+const hash = text => [...String(text)].reduce((total, char) => ((total * 31) + char.charCodeAt(0)) >>> 0, 7);
+const seasonYear = Number(analytics.season) || new Date().getUTCFullYear();
+const preseasonDates = [`${seasonYear}-07-15`, `${seasonYear}-08-01`, `${seasonYear}-08-15`, `${seasonYear}-09-01`, `${seasonYear}-09-15`, `${seasonYear}-10-01`];
+const existingHistoryDates = Object.keys(historyStore.snapshots || {});
+const needsPreseasonSeed = !existingHistoryDates.some(date => date < `${seasonYear}-10-01`);
+if (needsPreseasonSeed) {
+  const phases = [.38, .68, 1, .72, .42, .16];
+  for (const [index, date] of preseasonDates.entries()) {
+    const values = {};
+    for (const row of rows) {
+      const variance = (hash(row.id) % 1000) / 1000 - .5;
+      const qbPremium = row.position === 'QB' ? 3.5 : 0;
+      const outlookBias = (Number(row.drivers.outlook) - 50) * .15;
+      const productionCorrection = (Number(row.drivers.production) - 50) * -.09;
+      const preseasonHype = clamp(outlookBias + productionCorrection + qbPremium + variance * 10, -14, 14);
+      values[row.id] = round(clamp(row.market_value + preseasonHype * phases[index]));
+    }
+    historyStore.snapshots[date] = values;
+    historyStore.snapshot_metadata[date] = { kind: 'modeled_preseason', label: 'WFC modeled preseason seed' };
+  }
+}
+historyStore.snapshots[today] = Object.fromEntries(rows.map(row => [row.id, row.market_value]));
+historyStore.snapshot_metadata[today] = { kind: 'saved_snapshot', label: 'Saved WFC market snapshot' };
+historyStore.updated_at = new Date().toISOString();
+historyStore.model = 'wfc-market-v1';
+write('market-history.json', historyStore);
+for (const row of rows) row.history = Object.entries(historyStore.snapshots)
+  .sort(([left], [right]) => left.localeCompare(right))
+  .map(([date, values]) => ({ date, market_value: values[row.id], kind: historyStore.snapshot_metadata[date]?.kind || 'saved_snapshot' }))
+  .filter(point => Number.isFinite(point.market_value));
+
+write('wfc-market-model.json', {
+  schema_version: '1.1.0', model_id: 'wfc-market-v1', as_of: new Date().toISOString(), history_date: today,
+  league_rules: { teams: 12, scoring: 'full PPR', quarterback_starters: 2, passing_touchdown_points: 4, quarterback_cap: 3 },
+  model_summary: 'Independent WFC market index. Values combine within-position season production (28%), recent two-game form (18%), approved ROS outlook signal (34%), starter participation (12%), schedule input (8%), then disclosed QB Superflex and news adjustments.',
+  history_summary: 'Preseason points are deterministic WFC model reconstructions to establish a labeled preseason baseline. Regular-season values are saved daily WFC snapshots.',
+  limitations: [
+    'Only WFC rostered skill players are in the initial pool.',
+    'Footballers positional rank is a forward-looking proxy where present; players without it fall back to production.',
+    'No schedule adjustment is assumed unless a reviewed team signal is supplied.',
+    'No news adjustment is assumed unless a reviewed, dated player signal is supplied.',
+    'External publisher values are comparison/calibration references only and are not reverse engineered or copied into this score.'
+  ],
+  input_status: { footballers_snapshot: analytics.captured_at, schedule_signal_date: scheduleInput.as_of || null, active_news_signals: activeNews.size, commissioner_overrides: overrides.size, nflverse_weekly_status: nflverseInput.status, nflverse_weekly_captured_at: nflverseInput.captured_at || null, nflverse_players_matched: nflverse.size, ros_projection_date: rosProjectionInput.as_of || null, reviewed_ros_projections: rosProjections.size, availability_signal_date: availabilityInput.as_of || null, active_availability_signals: availabilitySignals.size },
+  players: rows,
+  shadow_v2: {
+    model_id: 'wfc-market-v2-shadow', status: 'review_only_uncapped_drift',
+    model_summary: 'Shadow v2 uses a regressed scoring forecast, availability proxy, and WFC-format value-over-replacement. It has no external-market drift cap.',
+    limitations: [
+      'Public nflverse player-stat signals are usage/efficiency inputs, not forward projections or external trade values.',
+      'A ROS projection only affects the forecast after a reviewed/permissioned import is supplied.',
+      'Injury and depth signals remain commissioner-reviewed until a permitted, reliable structured source is connected.'
+    ],
+    replacement_slots: replacementSlots, replacement_ppg: replacementPpg, players: shadowV2
+  }
+});
+console.log(`Wrote WFC market model for ${rows.length} rostered players; ${activeNews.size} active news signals and ${overrides.size} overrides.`);

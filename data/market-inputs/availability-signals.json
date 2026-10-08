@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": null,
+  "source": "Commissioner-reviewed availability and depth signals",
+  "notes": "Optional reviewed injury, role, and depth-chart adjustment. availability is 0–1, role_confidence is 0–1, and depth_rank is the current team depth order. Include a source URL and expiry when a signal is temporary. This is intentionally not an automated news scraper.",
+  "signals": []
+}

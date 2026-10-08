@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": null,
+  "source": "Commissioner-approved WFC market overrides",
+  "notes": "Use sparingly for a disclosed manual correction. value is 0-100, tier is optional, and reason is required. Overrides do not train or reverse engineer a third-party model.",
+  "overrides": []
+}

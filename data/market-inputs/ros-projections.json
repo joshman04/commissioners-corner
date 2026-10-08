@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": null,
+  "source": "Commissioner-reviewed ROS projection import",
+  "notes": "Optional, permitted or licensed ROS scoring projections. Add a dated source URL and one row per player. The model blends an approved ROS PPG with its transparent WFC forecast; it never derives a projection from a publisher trade-value chart.",
+  "rows": []
+}

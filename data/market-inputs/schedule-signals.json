@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": null,
+  "source": "Commissioner-reviewed rest-of-season schedule signals",
+  "notes": "Optional team-level rest-of-season adjustment from -5 to +5. With no reviewed schedule input, the model uses a neutral 50/100 schedule score.",
+  "team_adjustments": {}
+}

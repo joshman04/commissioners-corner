@@ -1,0 +1,17 @@
+{
+  "provider_id": "wfc-manual",
+  "captured_at": "2026-10-07T16:00:00Z",
+  "scoring_format": "WFC · full PPR · 1 QB + 1 Superflex · 4 pt pass TD",
+  "access": "Commissioner-maintained manual board; seed records transcribed from the user-supplied reference image.",
+  "rows": [
+    { "player": "Josh Allen", "position": "QB", "rank": 1, "raw_value": 100, "market_value": 100, "tier": "1" },
+    { "player": "Jahmyr Gibbs", "position": "RB", "rank": 2, "raw_value": 81, "market_value": 81, "tier": "1" },
+    { "player": "Bijan Robinson", "position": "RB", "rank": 3, "raw_value": 79, "market_value": 79, "tier": "1" },
+    { "player": "Jaxon Smith-Njigba", "position": "WR", "rank": 4, "raw_value": 75, "market_value": 75, "tier": "1" },
+    { "player": "Amon-Ra St. Brown", "position": "WR", "rank": 5, "raw_value": 70, "market_value": 79.3, "tier": "1", "history": [
+      { "date": "2026-08-11", "market_value": 79.0 }, { "date": "2026-08-25", "market_value": 78.3 }, { "date": "2026-09-01", "market_value": 80.0 }, { "date": "2026-09-08", "market_value": 80.0 }, { "date": "2026-09-15", "market_value": 84.0 }, { "date": "2026-09-22", "market_value": 75.0 }, { "date": "2026-09-29", "market_value": 74.0 }, { "date": "2026-10-07", "market_value": 79.3 }
+    ] },
+    { "player": "Christian McCaffrey", "position": "RB", "rank": 6, "raw_value": 70, "market_value": 70, "tier": "2" },
+    { "player": "Ja'Marr Chase", "position": "WR", "rank": 7, "raw_value": 66, "market_value": 66, "tier": "2" }
+  ]
+}
