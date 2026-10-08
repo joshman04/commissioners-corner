@@ -37,6 +37,15 @@ const footclanPath = path.join(root, 'private', 'footclan', 'current.json');
 const footclan = fs.existsSync(footclanPath)
   ? JSON.parse(fs.readFileSync(footclanPath, 'utf8'))
   : null;
+// The owner-controlled UDK export is a private preseason anchor, not a public
+// provider. This file holds only WFC-derived 0–100 anchors; raw UDK ranks,
+// projections, ADP, and editorial content never enter the website payload.
+const preseasonSeedPath = path.join(root, 'private', 'udk', 'limp-brizkit-espn-preseason-seed.json');
+const preseasonSeedInput = fs.existsSync(preseasonSeedPath)
+  ? JSON.parse(fs.readFileSync(preseasonSeedPath, 'utf8'))
+  : null;
+const preseasonSeeds = new Map((preseasonSeedInput?.players || [])
+  .map(row => [canon(row.name || row.id), Number(row.seed_value)]));
 const historyPath = path.join(repo, 'data', 'market-history.json');
 const historyStore = fs.existsSync(historyPath)
   ? JSON.parse(fs.readFileSync(historyPath, 'utf8'))
@@ -246,57 +255,90 @@ shadowV2.forEach((row, index) => {
   row.tier = String(index === 0 ? 1 : Math.min(12, priorTier + (prior.market_value - row.market_value >= 7 ? 1 : 0)));
 });
 
-// The league asked for a preseason-to-present view before enough daily snapshots
-// exist.  These are deliberately labeled model reconstructions rather than
-// historical publisher values.  Regular-season refreshes remain saved snapshots.
-const hash = text => [...String(text)].reduce((total, char) => ((total * 31) + char.charCodeAt(0)) >>> 0, 7);
+// v2 is now the live board. It begins from the private ESPN-specific UDK
+// market anchor and moves gradually using independent WFC VOR evidence, so a
+// noisy early sample cannot erase a credible preseason market in one refresh.
+const legacyById = new Map(rows.map(row => [row.id, row]));
+const qbV2Ranks = new Map(shadowV2.filter(row => row.position === 'QB').map((row, index) => [row.id, index + 1]));
+const liveRows = shadowV2.map(shadow => {
+  const legacy = legacyById.get(shadow.id);
+  const anchor = preseasonSeeds.get(shadow.id);
+  const anchorWeight = Number.isFinite(anchor) ? .75 : 0;
+  const updateWeight = Number.isFinite(anchor) ? .25 : 1;
+  const currentEvidence = Number.isFinite(shadow.market_value) ? shadow.market_value : 0;
+  const qbRank = qbV2Ranks.get(shadow.id);
+  // One extra Superflex starter raises the premium for the elite current QB,
+  // while the 3-QB cap prevents a broad QB inflation.
+  const superflexPremium = shadow.position === 'QB' && qbRank === 1 ? 10.5 : shadow.position === 'QB' && qbRank === 2 ? 3 : 0;
+  const newsImpact = Number(legacy?.drivers?.news_impact || 0);
+  let marketValue = round(clamp(anchorWeight * (Number.isFinite(anchor) ? anchor : 0) + updateWeight * currentEvidence + superflexPremium + newsImpact));
+  const override = overrides.get(shadow.id);
+  if (override && Number.isFinite(Number(override.value))) marketValue = round(clamp(Number(override.value)));
+  return {
+    id: shadow.id, name: shadow.name, position: shadow.position, nfl_team: shadow.nfl_team,
+    value: marketValue, market_value: marketValue, tier: null, source_rank: null,
+    stats: legacy?.stats || { games: (games.get(shadow.id) || []).length, season_ppg: round(ppg(shadow)), recent_ppg: round(recentPpg(shadow)), start_rate: round(startRate(shadow) * 100) },
+    drivers: {
+      model_version: 'v2-preseason-anchor', preseason_anchor_applied: Number.isFinite(anchor),
+      preseason_anchor_weight: anchorWeight, current_evidence_weight: updateWeight,
+      production: production.get(shadow.id), recent_form: recent.get(shadow.id),
+      outlook: shadow.drivers.forecast_ppg, outlook_source: shadow.drivers.forecast_source,
+      forecast_ppg: shadow.drivers.forecast_ppg, availability: shadow.drivers.availability,
+      vor_ppg: shadow.drivers.vor_ppg, replacement_ppg: shadow.drivers.replacement_ppg,
+      nflverse_usage_score: shadow.drivers.nflverse_usage_score,
+      nflverse_efficiency_score: shadow.drivers.nflverse_efficiency_score,
+      private_forward_input_applied: shadow.drivers.private_forward_input_applied,
+      superflex_qb: superflexPremium, superflex_qb_rank: qbRank || null, news_impact: newsImpact
+    },
+    news: legacy?.news || null,
+    override: override ? { reason: override.reason || 'Commissioner override', source_url: override.source_url || null } : null
+  };
+}).sort((left, right) => right.market_value - left.market_value || left.name.localeCompare(right.name));
+liveRows.forEach((row, index) => {
+  row.market_rank = index + 1;
+  row.tier = String(Math.min(12, Math.ceil((index + 1) / 15)));
+});
+
+// History begins with an actual private preseason anchor. Remove the older
+// simulated curve rather than presenting fabricated daily movement as history.
 const seasonYear = Number(analytics.season) || new Date().getUTCFullYear();
-const preseasonDates = [`${seasonYear}-07-15`, `${seasonYear}-08-01`, `${seasonYear}-08-15`, `${seasonYear}-09-01`, `${seasonYear}-09-15`, `${seasonYear}-10-01`];
-const existingHistoryDates = Object.keys(historyStore.snapshots || {});
-const needsPreseasonSeed = !existingHistoryDates.some(date => date < `${seasonYear}-10-01`);
-if (needsPreseasonSeed) {
-  const phases = [.38, .68, 1, .72, .42, .16];
-  for (const [index, date] of preseasonDates.entries()) {
-    const values = {};
-    for (const row of rows) {
-      const variance = (hash(row.id) % 1000) / 1000 - .5;
-      const qbPremium = row.position === 'QB' ? 3.5 : 0;
-      const outlookBias = (Number(row.drivers.outlook) - 50) * .15;
-      const productionCorrection = (Number(row.drivers.production) - 50) * -.09;
-      const preseasonHype = clamp(outlookBias + productionCorrection + qbPremium + variance * 10, -14, 14);
-      values[row.id] = round(clamp(row.market_value + preseasonHype * phases[index]));
-    }
-    historyStore.snapshots[date] = values;
-    historyStore.snapshot_metadata[date] = { kind: 'modeled_preseason', label: 'WFC modeled preseason seed' };
-  }
+historyStore.snapshots = {};
+historyStore.snapshot_metadata = {};
+const preseasonDate = `${seasonYear}-08-29`;
+if (preseasonSeeds.size) {
+  historyStore.snapshots[preseasonDate] = Object.fromEntries(liveRows
+    .filter(row => Number.isFinite(preseasonSeeds.get(row.id)))
+    .map(row => [row.id, preseasonSeeds.get(row.id)]));
+  historyStore.snapshot_metadata[preseasonDate] = { kind: 'private_preseason_anchor', label: 'Private ESPN UDK-derived preseason anchor' };
 }
-historyStore.snapshots[today] = Object.fromEntries(rows.map(row => [row.id, row.market_value]));
+historyStore.snapshots[today] = Object.fromEntries(liveRows.map(row => [row.id, row.market_value]));
 historyStore.snapshot_metadata[today] = { kind: 'saved_snapshot', label: 'Saved WFC market snapshot' };
 historyStore.updated_at = new Date().toISOString();
-historyStore.model = 'wfc-market-v1';
+historyStore.model = 'wfc-market-v2-preseason-anchor';
 write('market-history.json', historyStore);
-for (const row of rows) row.history = Object.entries(historyStore.snapshots)
+for (const row of liveRows) row.history = Object.entries(historyStore.snapshots)
   .sort(([left], [right]) => left.localeCompare(right))
   .map(([date, values]) => ({ date, market_value: values[row.id], kind: historyStore.snapshot_metadata[date]?.kind || 'saved_snapshot' }))
   .filter(point => Number.isFinite(point.market_value));
 
 write('wfc-market-model.json', {
-  schema_version: '1.1.0', model_id: 'wfc-market-v1', as_of: new Date().toISOString(), history_date: today,
+  schema_version: '1.2.0', model_id: 'wfc-market-v2-preseason-anchor', as_of: new Date().toISOString(), history_date: today,
   league_rules: { teams: 12, scoring: 'full PPR', quarterback_starters: 2, passing_touchdown_points: 4, quarterback_cap: 3 },
-  model_summary: 'Independent WFC market index. Values combine within-position season production (28%), recent two-game form (18%), approved forward outlook signal (34%), starter participation (12%), schedule input (8%), then disclosed QB Superflex and news adjustments. Private subscriber inputs are converted to WFC-derived signals; raw source rows are not published.',
-  history_summary: 'Preseason points are deterministic WFC model reconstructions to establish a labeled preseason baseline. Regular-season values are saved daily WFC snapshots.',
+  model_summary: 'Independent WFC market index. The private Limp Brizkit — ESPN UDK preseason anchor supplies 75% of the initial market level; independent v2 rest-of-season value-over-replacement evidence supplies 25%, plus a limited top-QB Superflex premium and reviewed news. Private subscriber inputs are converted to derived signals; raw source rows are not published.',
+  history_summary: 'The first point is a private ESPN UDK-derived preseason anchor. It is not a publisher chart. Current and future points are saved WFC market snapshots; prior simulated history was removed.',
   limitations: [
     'Only WFC rostered skill players are in the initial pool.',
     'A current private subscriber forward input is used only where captured; uncovered players fall back to the approved rank snapshot or production.',
     'No schedule adjustment is assumed unless a reviewed team signal is supplied.',
     'No news adjustment is assumed unless a reviewed, dated player signal is supplied.',
-    'External publisher values are comparison/calibration references only and are not reverse engineered or copied into this score.'
+    'External publisher values are comparison/calibration references only and are not reverse engineered or copied into this score.',
+    'The private preseason anchor is displayed only as an internal WFC-derived value; no UDK ranks, projections, ADP, or editorial text are published.'
   ],
-  input_status: { footballers_snapshot: analytics.captured_at, footclan_private_status: footclan?.coverage?.premium_rankings?.status || 'not_captured', footclan_private_captured_at: footclan?.captured_at || null, footclan_private_rankings_matched: [...roster.values()].filter(player => footclanByPlayer.has(player.id)).length, footclan_article_signal_count: activeArticleSignals.size, footclan_article_status: footclan?.coverage?.articles?.status || 'not_captured', schedule_signal_date: scheduleInput.as_of || null, active_news_signals: activeNews.size, commissioner_overrides: overrides.size, nflverse_weekly_status: nflverseInput.status, nflverse_weekly_captured_at: nflverseInput.captured_at || null, nflverse_players_matched: nflverse.size, ros_projection_date: rosProjectionInput.as_of || null, reviewed_ros_projections: rosProjections.size, availability_signal_date: availabilityInput.as_of || null, active_availability_signals: availabilitySignals.size },
-  players: rows,
+  input_status: { footballers_snapshot: analytics.captured_at, footclan_private_status: footclan?.coverage?.premium_rankings?.status || 'not_captured', footclan_private_captured_at: footclan?.captured_at || null, footclan_private_rankings_matched: [...roster.values()].filter(player => footclanByPlayer.has(player.id)).length, footclan_article_signal_count: activeArticleSignals.size, footclan_article_status: footclan?.coverage?.articles?.status || 'not_captured', schedule_signal_date: scheduleInput.as_of || null, active_news_signals: activeNews.size, commissioner_overrides: overrides.size, nflverse_weekly_status: nflverseInput.status, nflverse_weekly_captured_at: nflverseInput.captured_at || null, nflverse_players_matched: nflverse.size, ros_projection_date: rosProjectionInput.as_of || null, reviewed_ros_projections: rosProjections.size, availability_signal_date: availabilityInput.as_of || null, active_availability_signals: availabilitySignals.size, preseason_anchor_profile: preseasonSeedInput?.profile || 'not_captured', preseason_anchor_players_matched: [...roster.values()].filter(player => preseasonSeeds.has(player.id)).length },
+  players: liveRows,
   shadow_v2: {
-    model_id: 'wfc-market-v2-shadow', status: 'review_only_uncapped_drift',
-    model_summary: 'Shadow v2 uses a regressed scoring forecast, availability proxy, permitted private forward inputs where captured, and WFC-format value-over-replacement. It has no external-market drift cap.',
+    model_id: 'wfc-market-v2-core', status: 'live_component',
+    model_summary: 'The v2 core uses a regressed scoring forecast, availability proxy, permitted private forward inputs where captured, and WFC-format value-over-replacement. Its output is blended into the live private-anchor market board.',
     limitations: [
       'Public nflverse player-stat signals are usage/efficiency inputs, not forward projections or external trade values.',
       'A reviewed ROS projection or private permitted forward input only affects the forecast after it is captured locally; neither source row is published.',
@@ -305,4 +347,4 @@ write('wfc-market-model.json', {
     replacement_slots: replacementSlots, replacement_ppg: replacementPpg, players: shadowV2
   }
 });
-console.log(`Wrote WFC market model for ${rows.length} rostered players; ${activeNews.size} active news signals and ${overrides.size} overrides.`);
+console.log(`Wrote WFC market model for ${liveRows.length} rostered players; ${activeNews.size} active news signals and ${overrides.size} overrides.`);

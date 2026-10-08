@@ -47,14 +47,7 @@ const providers = [
     source_url: null, captured_at: marketModel?.as_of || null,
     access: 'WFC-owned explainable model', raw_scale: 'WFC market value (0–100)',
     normalization: 'Rank/value → percentile within the WFC model pool',
-    notes: 'Independent production, form, outlook, role, schedule, news, and Superflex model. It is not a copy or reverse-engineering of a publisher value chart.'
-  },
-  {
-    id: 'wfc-market-v2-shadow', name: 'WFC v2 shadow — uncapped drift', status: marketModel?.shadow_v2 ? 'shadow_review' : 'awaiting_refresh',
-    scoring_format: 'WFC · full PPR · 1 QB + 1 Superflex · 4 pt pass TD', source_url: null, captured_at: marketModel?.as_of || null,
-    access: 'WFC-owned review model', raw_scale: 'WFC v2 shadow value (0–100)', comparison_mode: 'direct',
-    normalization: 'Shown beside v1 on the same 0–100 scale; no external-market drift guardrail is active.',
-    notes: 'First calibration pass: regressed scoring forecast + availability proxy + WFC-format value over replacement. Review only; it does not replace the live board.'
+    notes: 'Private ESPN UDK preseason anchors are blended with WFC v2 rest-of-season value-over-replacement evidence, limited Superflex QB scarcity, and reviewed news. Raw subscriber or UDK rows are never published.'
   },
   {
     id: 'footclan-private-inputs', name: 'Fantasy Footballers FootClan — private inputs',
@@ -181,16 +174,10 @@ const marketRows = (marketModel?.players || []).map((row, index) => ({
   history: row.history || [], captured_at: marketModel.as_of, ordinal: index + 1,
   drivers: row.drivers, stats: row.stats, news: row.news, override: row.override
 }));
-const shadowRows = (marketModel?.shadow_v2?.players || []).map((row, index) => ({
-  provider_id: 'wfc-market-v2-shadow', player_id: row.id, player: row.name, position: row.position,
-  source_rank: row.market_rank, raw_value: row.value, tier: row.tier, market_value: row.market_value,
-  captured_at: marketModel.as_of, ordinal: index + 1, drivers: row.drivers
-}));
-
 // External rankings are normalized provider-by-provider. If rank is absent, a
 // higher raw value ranks first. Ties receive a shared midpoint percentile.
-for (const provider of providers.filter(item => item.id !== 'wfc-internal' && (item.status === 'active' || item.comparison_mode === 'direct'))) {
-  const rows = [...externalRows, ...marketRows, ...shadowRows].filter(row => row.provider_id === provider.id).sort((a, b) => {
+for (const provider of providers.filter(item => item.id !== 'wfc-internal' && item.status === 'active')) {
+  const rows = [...externalRows, ...marketRows].filter(row => row.provider_id === provider.id).sort((a, b) => {
     if (a.source_rank !== null && b.source_rank !== null) return a.source_rank - b.source_rank;
     if (a.raw_value !== null && b.raw_value !== null) return b.raw_value - a.raw_value;
     return a.ordinal - b.ordinal;
@@ -198,7 +185,7 @@ for (const provider of providers.filter(item => item.id !== 'wfc-internal' && (i
   rows.forEach((row, index) => { row.normalized_value = Math.round((100 * (rows.length - index) / rows.length) * 10) / 10; });
 }
 
-const allRows = [...internalRows, ...marketRows, ...shadowRows, ...externalRows];
+const allRows = [...internalRows, ...marketRows, ...externalRows];
 const playerMap = new Map([...roster.values()].map(player => [player.id, player]));
 for (const row of allRows) if (!playerMap.has(row.player_id)) playerMap.set(row.player_id, { id: row.player_id, name: row.player, position: row.position || '—', nfl_team: '—', franchise_id: null });
 
