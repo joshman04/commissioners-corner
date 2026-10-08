@@ -1,0 +1,15 @@
+{
+  "provider_id": "draftsharks",
+  "captured_at": "2026-10-08T17:30:00Z",
+  "scoring_format": "PPR Superflex",
+  "access": "Manual transcription of the six public Tier 1 entries for calibration research; no login, paywall, endpoint, or automated collection was used.",
+  "notes": "Narrow Tier 1 research snapshot only. This is not a full-chart mirror and must be refreshed manually from the linked public page before being used as a current comparison.",
+  "rows": [
+    { "player": "Josh Allen", "position": "QB", "rank": 1, "raw_value": 100, "tier": "1" },
+    { "player": "Jahmyr Gibbs", "position": "RB", "rank": 2, "raw_value": 81, "tier": "1" },
+    { "player": "Bijan Robinson", "position": "RB", "rank": 3, "raw_value": 79, "tier": "1" },
+    { "player": "Jaxon Smith-Njigba", "position": "WR", "rank": 4, "raw_value": 75, "tier": "1" },
+    { "player": "Kenneth Walker III", "position": "RB", "rank": 5, "raw_value": 75, "tier": "1" },
+    { "player": "Amon-Ra St. Brown", "position": "WR", "rank": 6, "raw_value": 70, "tier": "1" }
+  ]
+}
