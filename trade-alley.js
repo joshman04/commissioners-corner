@@ -30,7 +30,8 @@ function chart(points, expanded = false) {
   const x = index => pad.left + (width - pad.left - pad.right) * (clean.length === 1 ? .5 : index / (clean.length - 1));
   const y = number => pad.top + (high - number) / Math.max(1, high - low) * (height - pad.top - pad.bottom);
   const svg = svgNode('svg', { viewBox: `0 0 ${width} ${height}`, role: 'img', 'aria-label': `Market value history from ${clean[0].date} to ${clean.at(-1).date}` });
-  Array.from({ length: expanded ? 4 : 3 }, (_, index, all) => low + (high - low) * index / (all.length - 1)).forEach(number => {
+  const tickCount = expanded ? 4 : 3;
+  Array.from({ length: tickCount }, (_, index) => low + (high - low) * index / (tickCount - 1)).forEach(number => {
     const line = svgNode('line', { x1: pad.left, x2: width - pad.right, y1: y(number), y2: y(number), class: 'history-grid' }); const label = svgNode('text', { x: expanded ? 12 : 0, y: y(number) + 4 }); label.textContent = number.toFixed(0); svg.append(line, label);
   });
   svg.append(svgNode('polyline', { points: clean.map((point, index) => `${x(index)},${y(point.market_value)}`).join(' '), class: 'history-line' }));
