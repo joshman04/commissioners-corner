@@ -30,6 +30,13 @@ const overrideInput = data('market-inputs/manual-overrides.json');
 const nflverseInput = data('market-inputs/nflverse-weekly.json');
 const rosProjectionInput = data('market-inputs/ros-projections.json');
 const availabilityInput = data('market-inputs/availability-signals.json');
+// Subscriber inputs live outside the website repository. The public build may
+// consume their *derived* signal, but never writes source projections, ranks,
+// expert splits, or article text to a public data file.
+const footclanPath = path.join(root, 'private', 'footclan', 'current.json');
+const footclan = fs.existsSync(footclanPath)
+  ? JSON.parse(fs.readFileSync(footclanPath, 'utf8'))
+  : null;
 const historyPath = path.join(repo, 'data', 'market-history.json');
 const historyStore = fs.existsSync(historyPath)
   ? JSON.parse(fs.readFileSync(historyPath, 'utf8'))
@@ -93,12 +100,33 @@ const overrides = new Map((overrideInput.overrides || []).map(item => [canon(ite
 const nflverse = new Map((nflverseInput.status === 'active' ? nflverseInput.players : []).map(row => [canon(row.player_id || row.player), row]));
 const rosProjections = new Map((rosProjectionInput.rows || []).filter(row => Number.isFinite(Number(row.ros_ppg))).map(row => [canon(row.player), row]));
 const availabilitySignals = new Map((availabilityInput.signals || []).filter(signal => !signal.expires_on || signal.expires_on >= today).map(signal => [canon(signal.player), signal]));
+const footclanRankings = (footclan?.visibility === 'private_subscriber_input' ? footclan.premium_rankings : [])
+  .filter(row => positions.has(row.position) && Number.isFinite(Number(row.weekly_projection)) && Number.isFinite(Number(row.consensus_rank)));
+const footclanByPlayer = new Map(footclanRankings.map(row => [canon(row.player), row]));
+const footclanProjectionPercentile = new Map();
+const footclanRankPercentile = new Map();
+for (const position of positions) {
+  const group = footclanRankings.filter(row => row.position === position);
+  group.slice().sort((left, right) => Number(right.weekly_projection) - Number(left.weekly_projection) || Number(left.consensus_rank) - Number(right.consensus_rank))
+    .forEach((row, index) => footclanProjectionPercentile.set(canon(row.player), round(100 * (group.length - index) / group.length)));
+  group.slice().sort((left, right) => Number(left.consensus_rank) - Number(right.consensus_rank))
+    .forEach((row, index) => footclanRankPercentile.set(canon(row.player), round(100 * (group.length - index) / group.length)));
+}
+const activeArticleSignals = new Map((footclan?.article_signals || [])
+  .filter(signal => !signal.expires_on || signal.expires_on >= today)
+  .map(signal => [canon(signal.player), signal]));
 
 const rows = [...roster.values()].map(player => {
   const rank = ranks.get(player.id)?.rank;
+  const permittedForward = footclanByPlayer.get(player.id);
   const effectiveRank = rank || productionRank.get(player.id);
-  const outlook = rank ? round(clamp(100 * (positionalCaps[player.position] - rank + 1) / positionalCaps[player.position])) : production.get(player.id);
-  const outlookSource = rank ? 'Footballers positional-rank snapshot' : 'Production fallback (no approved ROS rank)';
+  const rankOutlook = rank ? round(clamp(100 * (positionalCaps[player.position] - rank + 1) / positionalCaps[player.position])) : production.get(player.id);
+  // The subscriber input is transformed locally into relative signals. Raw
+  // projections/ranks are neither exposed here nor copied to the site.
+  const outlook = permittedForward
+    ? round(.55 * (footclanProjectionPercentile.get(player.id) ?? rankOutlook) + .45 * (footclanRankPercentile.get(player.id) ?? rankOutlook))
+    : rankOutlook;
+  const outlookSource = permittedForward ? 'Private permitted forward input (derived signal)' : rank ? 'Approved rank snapshot' : 'Production fallback (no approved forward input)';
   const scheduleAdjustment = Number(scheduleInput.team_adjustments?.[player.nfl_team] || 0);
   const schedule = round(clamp(50 + scheduleAdjustment * 10));
   const base = .28 * production.get(player.id) + .18 * recent.get(player.id) + .34 * outlook + .12 * role.get(player.id) + .08 * schedule;
@@ -108,7 +136,9 @@ const rows = [...roster.values()].map(player => {
   // rewarded for scarcity without repeatedly pinning the entire QB1 tier at 100.
   const superflex = round(superflexBand * .4);
   const news = activeNews.get(player.id);
-  const newsImpact = clamp(Number(news?.impact) || 0, -10, 10);
+  const articleSignal = activeArticleSignals.get(player.id);
+  const articleImpact = articleSignal?.direction === 'up' ? Number(articleSignal.impact || 0) : articleSignal?.direction === 'down' ? -Math.abs(Number(articleSignal.impact || 0)) : 0;
+  const newsImpact = clamp((Number(news?.impact) || 0) + articleImpact, -10, 10);
   let marketValue = round(clamp(base + superflex + newsImpact));
   const override = overrides.get(player.id);
   if (override && Number.isFinite(Number(override.value))) marketValue = round(clamp(Number(override.value)));
@@ -119,9 +149,10 @@ const rows = [...roster.values()].map(player => {
   return {
     ...player, value: marketValue, market_value: marketValue, tier, source_rank: rank || null,
     stats: { games: (games.get(player.id) || []).length, season_ppg: round(ppg(player)), recent_ppg: round(recentPpg(player)), start_rate: round(startRate(player) * 100) },
-    drivers: { production: production.get(player.id), recent_form: recent.get(player.id), outlook, outlook_source: outlookSource, effective_position_rank: effectiveRank, starting_role: role.get(player.id), schedule, schedule_adjustment: scheduleAdjustment, superflex_qb: superflex, superflex_band: superflexBand, news_impact: newsImpact },
+    drivers: { production: production.get(player.id), recent_form: recent.get(player.id), outlook, outlook_source: outlookSource, effective_position_rank: effectiveRank, private_forward_input_applied: Boolean(permittedForward), starting_role: role.get(player.id), schedule, schedule_adjustment: scheduleAdjustment, superflex_qb: superflex, superflex_band: superflexBand, news_impact: newsImpact },
     news: news ? { reason: news.reason || 'Commissioner-reviewed news', source_url: news.source_url || null, expires_on: news.expires_on || null } : null,
-    override: override ? { reason: override.reason || 'Commissioner override', source_url: override.source_url || null } : null
+    override: override ? { reason: override.reason || 'Commissioner override', source_url: override.source_url || null } : null,
+    article_signal: articleSignal ? { direction: articleSignal.direction, expires_on: articleSignal.expires_on } : null
   };
 }).sort((left, right) => right.value - left.value || left.name.localeCompare(right.name));
 rows.forEach((row, index) => {
@@ -161,6 +192,7 @@ const shadowSeeds = [...roster.values()].map(player => {
   const seasonal = ppg(player), recentPoints = recentPpg(player), roleRate = startRate(player);
   const usage = nflverse.get(player.id), projection = rosProjections.get(player.id), availabilitySignal = availabilitySignals.get(player.id);
   const usageScore = usagePercentile.get(player.id) ?? null, efficiencyScore = efficiencyPercentile.get(player.id) ?? null;
+  const permittedForward = footclanByPlayer.get(player.id);
   // Regress scoring history toward the positional median. Public nflverse
   // usage/EPA can move this estimate modestly; a reviewed ROS PPG import has
   // more weight when it is actually supplied.
@@ -168,10 +200,14 @@ const shadowSeeds = [...roster.values()].map(player => {
   const usageAdjustment = usageScore === null ? 0 : (usageScore - 50) * .025;
   const efficiencyAdjustment = efficiencyScore === null ? 0 : (efficiencyScore - 50) * .012;
   const wfcForecast = Math.max(0, baseForecast + usageAdjustment + efficiencyAdjustment);
-  const forecastPpg = round(projection ? .60 * Number(projection.ros_ppg) + .40 * wfcForecast : wfcForecast);
+  const premiumForecast = permittedForward ? Number(permittedForward.weekly_projection) : null;
+  const forecastPpg = round(projection
+    ? .60 * Number(projection.ros_ppg) + .40 * wfcForecast
+    : premiumForecast !== null ? .35 * premiumForecast + .65 * wfcForecast
+    : wfcForecast);
   const baseAvailability = .60 + .25 * roleRate + .15 * Math.min(1, (games.get(player.id) || []).length / maxGames);
   const availability = round(clamp(availabilitySignal && Number.isFinite(Number(availabilitySignal.availability)) ? .65 * baseAvailability + .35 * Number(availabilitySignal.availability) : baseAvailability, 0, 1));
-  return { player, forecastPpg, availability, adjustedPpg: round(forecastPpg * availability), seasonal, recentPoints, roleRate, usage, usageScore, efficiencyScore, usageAdjustment: round(usageAdjustment), efficiencyAdjustment: round(efficiencyAdjustment), projection, availabilitySignal };
+  return { player, forecastPpg, availability, adjustedPpg: round(forecastPpg * availability), seasonal, recentPoints, roleRate, usage, usageScore, efficiencyScore, usageAdjustment: round(usageAdjustment), efficiencyAdjustment: round(efficiencyAdjustment), projection, availabilitySignal, hasPermittedForward: Boolean(permittedForward) };
 });
 const replacementPpg = {};
 for (const position of positions) {
@@ -195,7 +231,8 @@ const shadowV2 = shadowSeeds.map(seed => {
       nflverse_usage_adjustment_ppg: seed.usageAdjustment, nflverse_efficiency_adjustment_ppg: seed.efficiencyAdjustment,
       nflverse_last_week: seed.usage?.last_week ?? null, ros_projection_ppg: seed.projection ? Number(seed.projection.ros_ppg) : null,
       ros_projection_source: seed.projection?.source_url || null, availability_signal_source: seed.availabilitySignal?.source_url || null,
-      forecast_source: seed.projection ? 'Reviewed ROS projection blended with WFC scoring, usage, and efficiency' : seed.usage ? 'WFC scoring forecast with public nflverse usage/EPA' : 'WFC weekly data, regressed to positional median',
+      private_forward_input_applied: seed.hasPermittedForward,
+      forecast_source: seed.projection ? 'Reviewed ROS projection blended with WFC scoring, usage, and efficiency' : seed.hasPermittedForward ? 'Private permitted forward input blended with WFC scoring, usage, and efficiency' : seed.usage ? 'WFC scoring forecast with public nflverse usage/EPA' : 'WFC weekly data, regressed to positional median',
       external_market_cap: null
     }
   };
@@ -246,23 +283,23 @@ for (const row of rows) row.history = Object.entries(historyStore.snapshots)
 write('wfc-market-model.json', {
   schema_version: '1.1.0', model_id: 'wfc-market-v1', as_of: new Date().toISOString(), history_date: today,
   league_rules: { teams: 12, scoring: 'full PPR', quarterback_starters: 2, passing_touchdown_points: 4, quarterback_cap: 3 },
-  model_summary: 'Independent WFC market index. Values combine within-position season production (28%), recent two-game form (18%), approved ROS outlook signal (34%), starter participation (12%), schedule input (8%), then disclosed QB Superflex and news adjustments.',
+  model_summary: 'Independent WFC market index. Values combine within-position season production (28%), recent two-game form (18%), approved forward outlook signal (34%), starter participation (12%), schedule input (8%), then disclosed QB Superflex and news adjustments. Private subscriber inputs are converted to WFC-derived signals; raw source rows are not published.',
   history_summary: 'Preseason points are deterministic WFC model reconstructions to establish a labeled preseason baseline. Regular-season values are saved daily WFC snapshots.',
   limitations: [
     'Only WFC rostered skill players are in the initial pool.',
-    'Footballers positional rank is a forward-looking proxy where present; players without it fall back to production.',
+    'A current private subscriber forward input is used only where captured; uncovered players fall back to the approved rank snapshot or production.',
     'No schedule adjustment is assumed unless a reviewed team signal is supplied.',
     'No news adjustment is assumed unless a reviewed, dated player signal is supplied.',
     'External publisher values are comparison/calibration references only and are not reverse engineered or copied into this score.'
   ],
-  input_status: { footballers_snapshot: analytics.captured_at, schedule_signal_date: scheduleInput.as_of || null, active_news_signals: activeNews.size, commissioner_overrides: overrides.size, nflverse_weekly_status: nflverseInput.status, nflverse_weekly_captured_at: nflverseInput.captured_at || null, nflverse_players_matched: nflverse.size, ros_projection_date: rosProjectionInput.as_of || null, reviewed_ros_projections: rosProjections.size, availability_signal_date: availabilityInput.as_of || null, active_availability_signals: availabilitySignals.size },
+  input_status: { footballers_snapshot: analytics.captured_at, footclan_private_status: footclan?.coverage?.premium_rankings?.status || 'not_captured', footclan_private_captured_at: footclan?.captured_at || null, footclan_private_rankings_matched: [...roster.values()].filter(player => footclanByPlayer.has(player.id)).length, footclan_article_signal_count: activeArticleSignals.size, footclan_article_status: footclan?.coverage?.articles?.status || 'not_captured', schedule_signal_date: scheduleInput.as_of || null, active_news_signals: activeNews.size, commissioner_overrides: overrides.size, nflverse_weekly_status: nflverseInput.status, nflverse_weekly_captured_at: nflverseInput.captured_at || null, nflverse_players_matched: nflverse.size, ros_projection_date: rosProjectionInput.as_of || null, reviewed_ros_projections: rosProjections.size, availability_signal_date: availabilityInput.as_of || null, active_availability_signals: availabilitySignals.size },
   players: rows,
   shadow_v2: {
     model_id: 'wfc-market-v2-shadow', status: 'review_only_uncapped_drift',
-    model_summary: 'Shadow v2 uses a regressed scoring forecast, availability proxy, and WFC-format value-over-replacement. It has no external-market drift cap.',
+    model_summary: 'Shadow v2 uses a regressed scoring forecast, availability proxy, permitted private forward inputs where captured, and WFC-format value-over-replacement. It has no external-market drift cap.',
     limitations: [
       'Public nflverse player-stat signals are usage/efficiency inputs, not forward projections or external trade values.',
-      'A ROS projection only affects the forecast after a reviewed/permissioned import is supplied.',
+      'A reviewed ROS projection or private permitted forward input only affects the forecast after it is captured locally; neither source row is published.',
       'Injury and depth signals remain commissioner-reviewed until a permitted, reliable structured source is connected.'
     ],
     replacement_slots: replacementSlots, replacement_ppg: replacementPpg, players: shadowV2

@@ -16,6 +16,7 @@ assert.equal(data.rows.filter(row => row.provider_id === 'draftsharks').length, 
 assert(data.providers.some(provider => provider.id === 'wfc-internal' && provider.status === 'active'));
 assert(data.providers.some(provider => provider.id === 'wfc-market-model' && provider.status === 'active'));
 assert(data.providers.some(provider => provider.id === 'wfc-market-v2-shadow' && provider.status === 'shadow_review' && provider.comparison_mode === 'direct'));
+assert(data.providers.some(provider => provider.id === 'footclan-private-inputs' && provider.status === 'partial_current_capture' && provider.comparison_mode === 'input_only'));
 assert(data.providers.some(provider => provider.id === 'nflverse-weekly' && provider.status === 'active' && provider.comparison_mode === 'input_only'));
 assert(data.providers.some(provider => provider.id === 'espn'));
 assert.equal(model.model_id, 'wfc-market-v1');
@@ -27,6 +28,11 @@ assert(model.shadow_v2.players.every(player => Number.isFinite(player.value) && 
 assert(data.rows.filter(row => row.provider_id === 'wfc-market-v2-shadow').every(row => Number.isFinite(row.raw_value) && Number.isFinite(row.normalized_value)));
 assert(model.players.every(player => Number.isFinite(player.value) && player.value >= 0 && player.value <= 100));
 assert(model.players.every(player => Number.isFinite(player.drivers.production) && Number.isFinite(player.drivers.outlook)));
+assert.equal(model.input_status.footclan_private_status, 'partial_current_capture');
+assert(model.input_status.footclan_private_rankings_matched > 0);
+assert(model.shadow_v2.players.some(player => player.drivers.private_forward_input_applied));
+assert(!JSON.stringify(data).includes('weekly_projection'));
+assert(!JSON.stringify(data).includes('expert_ranks'));
 assert.equal(model.input_status.active_news_signals, 0);
 assert(model.input_status.nflverse_players_matched >= 160);
 assert(history.snapshots[model.history_date]);

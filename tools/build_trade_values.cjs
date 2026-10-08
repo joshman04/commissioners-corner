@@ -39,7 +39,7 @@ const providers = [
     source_url: null, captured_at: iso(analytics.generated_at),
     access: 'Internal derived rank model', raw_scale: 'WFC rank signal',
     normalization: 'Rank → percentile within the provider pool',
-    notes: 'Derived from WFC roster context, the approved Footballers rank snapshot, and rostered-player results. Not a public-source value chart.'
+    notes: 'Derived from WFC roster context, permitted private forward signals where available, approved legacy rank inputs, and rostered-player results. Not a public-source value chart.'
   },
   {
     id: 'wfc-market-model', name: 'WFC daily market model', status: marketModel ? 'active' : 'awaiting_refresh',
@@ -55,6 +55,16 @@ const providers = [
     access: 'WFC-owned review model', raw_scale: 'WFC v2 shadow value (0–100)', comparison_mode: 'direct',
     normalization: 'Shown beside v1 on the same 0–100 scale; no external-market drift guardrail is active.',
     notes: 'First calibration pass: regressed scoring forecast + availability proxy + WFC-format value over replacement. Review only; it does not replace the live board.'
+  },
+  {
+    id: 'footclan-private-inputs', name: 'Fantasy Footballers FootClan — private inputs',
+    status: marketModel?.input_status?.footclan_private_status || 'not_captured',
+    scoring_format: 'Subscriber profile aligned to WFC full PPR / 4-point pass TD / Superflex context',
+    source_url: 'https://www.thefantasyfootballers.com/footclan/',
+    captured_at: marketModel?.input_status?.footclan_private_captured_at || null,
+    access: 'Private subscriber decision input; not re-published', raw_scale: 'Provider rank/projection (private)', comparison_mode: 'input_only',
+    normalization: 'Private source rows are converted locally to WFC forward signals. They are never treated as a public trade-value provider or exposed as raw values.',
+    notes: `Current coverage: ${marketModel?.input_status?.footclan_private_status || 'not captured'}; ${marketModel?.input_status?.footclan_private_rankings_matched || 0} rostered-player inputs matched. Article signals are WFC-authored summaries, not copied articles.`
   },
   {
     id: 'nflverse-weekly', name: 'nflverse weekly usage inputs', status: marketModel?.input_status?.nflverse_weekly_status || 'awaiting_refresh',
