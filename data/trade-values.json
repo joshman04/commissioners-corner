@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "product": "WFC Trade Alley",
-  "generated_at": "2026-10-08T03:13:24.140Z",
+  "generated_at": "2026-10-08T03:35:09.454Z",
   "data_scope": "league decision support; external trade values are separate from WFC canon",
   "league_rules": {
     "teams": 12,
@@ -54,7 +54,7 @@
       "status": "active",
       "scoring_format": "WFC · full PPR · 1 QB + 1 Superflex · 4 pt pass TD",
       "source_url": null,
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "access": "WFC-owned explainable model",
       "raw_scale": "WFC market value (0–100)",
       "normalization": "Rank/value → percentile within the WFC model pool",
@@ -4918,7 +4918,7 @@
           "market_value": 100
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 1,
       "drivers": {
         "production": 97.1,
@@ -4958,7 +4958,7 @@
           "market_value": 96.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 2,
       "drivers": {
         "production": 100,
@@ -4998,7 +4998,7 @@
           "market_value": 95.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 3,
       "drivers": {
         "production": 100,
@@ -5038,7 +5038,7 @@
           "market_value": 95.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 4,
       "drivers": {
         "production": 100,
@@ -5078,7 +5078,7 @@
           "market_value": 95.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 5,
       "drivers": {
         "production": 98.6,
@@ -5118,7 +5118,7 @@
           "market_value": 94.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 6,
       "drivers": {
         "production": 91.2,
@@ -5158,7 +5158,7 @@
           "market_value": 93.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 7,
       "drivers": {
         "production": 98,
@@ -5198,7 +5198,7 @@
           "market_value": 93.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 8,
       "drivers": {
         "production": 95.9,
@@ -5238,7 +5238,7 @@
           "market_value": 91.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 9,
       "drivers": {
         "production": 95.7,
@@ -5278,7 +5278,7 @@
           "market_value": 91.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 10,
       "drivers": {
         "production": 92.8,
@@ -5318,7 +5318,7 @@
           "market_value": 91
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 11,
       "drivers": {
         "production": 100,
@@ -5358,7 +5358,7 @@
           "market_value": 90
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 12,
       "drivers": {
         "production": 93.9,
@@ -5398,7 +5398,7 @@
           "market_value": 89
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 13,
       "drivers": {
         "production": 89.9,
@@ -5438,7 +5438,7 @@
           "market_value": 88.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 14,
       "drivers": {
         "production": 97.1,
@@ -5478,7 +5478,7 @@
           "market_value": 88
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 15,
       "drivers": {
         "production": 94.2,
@@ -5510,7 +5510,7 @@
       "position": "RB",
       "source_rank": 16,
       "raw_value": 87.4,
-      "tier": "1",
+      "tier": "2",
       "market_value": 87.4,
       "history": [
         {
@@ -5518,7 +5518,7 @@
           "market_value": 87.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 16,
       "drivers": {
         "production": 89.8,
@@ -5550,7 +5550,7 @@
       "position": "TE",
       "source_rank": 17,
       "raw_value": 86.8,
-      "tier": "1",
+      "tier": "2",
       "market_value": 86.8,
       "history": [
         {
@@ -5558,7 +5558,7 @@
           "market_value": 86.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 17,
       "drivers": {
         "production": 96,
@@ -5590,7 +5590,7 @@
       "position": "QB",
       "source_rank": 18,
       "raw_value": 86.7,
-      "tier": "1",
+      "tier": "2",
       "market_value": 86.7,
       "history": [
         {
@@ -5598,7 +5598,7 @@
           "market_value": 86.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 18,
       "drivers": {
         "production": 82.4,
@@ -5630,7 +5630,7 @@
       "position": "RB",
       "source_rank": 19,
       "raw_value": 86.7,
-      "tier": "1",
+      "tier": "2",
       "market_value": 86.7,
       "history": [
         {
@@ -5638,7 +5638,7 @@
           "market_value": 86.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 19,
       "drivers": {
         "production": 91.8,
@@ -5670,7 +5670,7 @@
       "position": "QB",
       "source_rank": 20,
       "raw_value": 85.9,
-      "tier": "1",
+      "tier": "2",
       "market_value": 85.9,
       "history": [
         {
@@ -5678,7 +5678,7 @@
           "market_value": 85.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 20,
       "drivers": {
         "production": 79.4,
@@ -5710,7 +5710,7 @@
       "position": "QB",
       "source_rank": 21,
       "raw_value": 85.9,
-      "tier": "1",
+      "tier": "2",
       "market_value": 85.9,
       "history": [
         {
@@ -5718,7 +5718,7 @@
           "market_value": 85.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 21,
       "drivers": {
         "production": 88.2,
@@ -5750,7 +5750,7 @@
       "position": "TE",
       "source_rank": 22,
       "raw_value": 85.7,
-      "tier": "1",
+      "tier": "2",
       "market_value": 85.7,
       "history": [
         {
@@ -5758,7 +5758,7 @@
           "market_value": 85.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 22,
       "drivers": {
         "production": 88,
@@ -5790,7 +5790,7 @@
       "position": "QB",
       "source_rank": 23,
       "raw_value": 85.4,
-      "tier": "1",
+      "tier": "2",
       "market_value": 85.4,
       "history": [
         {
@@ -5798,7 +5798,7 @@
           "market_value": 85.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 23,
       "drivers": {
         "production": 73.5,
@@ -5830,7 +5830,7 @@
       "position": "WR",
       "source_rank": 24,
       "raw_value": 85.1,
-      "tier": "1",
+      "tier": "2",
       "market_value": 85.1,
       "history": [
         {
@@ -5838,7 +5838,7 @@
           "market_value": 85.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 24,
       "drivers": {
         "production": 91.3,
@@ -5870,7 +5870,7 @@
       "position": "WR",
       "source_rank": 25,
       "raw_value": 85.1,
-      "tier": "1",
+      "tier": "2",
       "market_value": 85.1,
       "history": [
         {
@@ -5878,7 +5878,7 @@
           "market_value": 85.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 25,
       "drivers": {
         "production": 87,
@@ -5918,7 +5918,7 @@
           "market_value": 84.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 26,
       "drivers": {
         "production": 92,
@@ -5958,7 +5958,7 @@
           "market_value": 84.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 27,
       "drivers": {
         "production": 85.3,
@@ -5998,7 +5998,7 @@
           "market_value": 84.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 28,
       "drivers": {
         "production": 88.4,
@@ -6038,7 +6038,7 @@
           "market_value": 84
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 29,
       "drivers": {
         "production": 87.8,
@@ -6078,7 +6078,7 @@
           "market_value": 83.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 30,
       "drivers": {
         "production": 77.6,
@@ -6110,7 +6110,7 @@
       "position": "WR",
       "source_rank": 31,
       "raw_value": 83.5,
-      "tier": "2",
+      "tier": "3",
       "market_value": 83.5,
       "history": [
         {
@@ -6118,7 +6118,7 @@
           "market_value": 83.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 31,
       "drivers": {
         "production": 84.1,
@@ -6150,7 +6150,7 @@
       "position": "RB",
       "source_rank": 32,
       "raw_value": 83.3,
-      "tier": "2",
+      "tier": "3",
       "market_value": 83.3,
       "history": [
         {
@@ -6158,7 +6158,7 @@
           "market_value": 83.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 32,
       "drivers": {
         "production": 83.7,
@@ -6190,7 +6190,7 @@
       "position": "WR",
       "source_rank": 33,
       "raw_value": 83.3,
-      "tier": "2",
+      "tier": "3",
       "market_value": 83.3,
       "history": [
         {
@@ -6198,7 +6198,7 @@
           "market_value": 83.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 33,
       "drivers": {
         "production": 81.2,
@@ -6230,7 +6230,7 @@
       "position": "WR",
       "source_rank": 34,
       "raw_value": 82.8,
-      "tier": "2",
+      "tier": "3",
       "market_value": 82.8,
       "history": [
         {
@@ -6238,7 +6238,7 @@
           "market_value": 82.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 34,
       "drivers": {
         "production": 85.5,
@@ -6270,7 +6270,7 @@
       "position": "RB",
       "source_rank": 35,
       "raw_value": 82.3,
-      "tier": "2",
+      "tier": "3",
       "market_value": 82.3,
       "history": [
         {
@@ -6278,7 +6278,7 @@
           "market_value": 82.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 35,
       "drivers": {
         "production": 85.7,
@@ -6310,7 +6310,7 @@
       "position": "QB",
       "source_rank": 36,
       "raw_value": 80.4,
-      "tier": "2",
+      "tier": "3",
       "market_value": 80.4,
       "history": [
         {
@@ -6318,7 +6318,7 @@
           "market_value": 80.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 36,
       "drivers": {
         "production": 94.1,
@@ -6350,7 +6350,7 @@
       "position": "RB",
       "source_rank": 37,
       "raw_value": 80,
-      "tier": "2",
+      "tier": "3",
       "market_value": 80,
       "history": [
         {
@@ -6358,7 +6358,7 @@
           "market_value": 80
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 37,
       "drivers": {
         "production": 79.6,
@@ -6390,7 +6390,7 @@
       "position": "RB",
       "source_rank": 38,
       "raw_value": 79.1,
-      "tier": "2",
+      "tier": "3",
       "market_value": 79.1,
       "history": [
         {
@@ -6398,7 +6398,7 @@
           "market_value": 79.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 38,
       "drivers": {
         "production": 81.6,
@@ -6430,7 +6430,7 @@
       "position": "QB",
       "source_rank": 39,
       "raw_value": 77.8,
-      "tier": "2",
+      "tier": "3",
       "market_value": 77.8,
       "history": [
         {
@@ -6438,7 +6438,7 @@
           "market_value": 77.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 39,
       "drivers": {
         "production": 76.5,
@@ -6470,7 +6470,7 @@
       "position": "WR",
       "source_rank": 40,
       "raw_value": 77.1,
-      "tier": "2",
+      "tier": "3",
       "market_value": 77.1,
       "history": [
         {
@@ -6478,7 +6478,7 @@
           "market_value": 77.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 40,
       "drivers": {
         "production": 82.6,
@@ -6510,7 +6510,7 @@
       "position": "QB",
       "source_rank": 41,
       "raw_value": 76.8,
-      "tier": "2",
+      "tier": "3",
       "market_value": 76.8,
       "history": [
         {
@@ -6518,7 +6518,7 @@
           "market_value": 76.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 41,
       "drivers": {
         "production": 70.6,
@@ -6550,7 +6550,7 @@
       "position": "TE",
       "source_rank": 42,
       "raw_value": 76,
-      "tier": "2",
+      "tier": "3",
       "market_value": 76,
       "history": [
         {
@@ -6558,7 +6558,7 @@
           "market_value": 76
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 42,
       "drivers": {
         "production": 84,
@@ -6590,7 +6590,7 @@
       "position": "WR",
       "source_rank": 43,
       "raw_value": 75.3,
-      "tier": "2",
+      "tier": "3",
       "market_value": 75.3,
       "history": [
         {
@@ -6598,7 +6598,7 @@
           "market_value": 75.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 43,
       "drivers": {
         "production": 73.9,
@@ -6630,7 +6630,7 @@
       "position": "TE",
       "source_rank": 44,
       "raw_value": 73.7,
-      "tier": "2",
+      "tier": "3",
       "market_value": 73.7,
       "history": [
         {
@@ -6638,7 +6638,7 @@
           "market_value": 73.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 44,
       "drivers": {
         "production": 76,
@@ -6670,7 +6670,7 @@
       "position": "TE",
       "source_rank": 45,
       "raw_value": 72.9,
-      "tier": "2",
+      "tier": "3",
       "market_value": 72.9,
       "history": [
         {
@@ -6678,7 +6678,7 @@
           "market_value": 72.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 45,
       "drivers": {
         "production": 72,
@@ -6710,7 +6710,7 @@
       "position": "RB",
       "source_rank": 46,
       "raw_value": 71.3,
-      "tier": "2",
+      "tier": "4",
       "market_value": 71.3,
       "history": [
         {
@@ -6718,7 +6718,7 @@
           "market_value": 71.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 46,
       "drivers": {
         "production": 75.5,
@@ -6750,7 +6750,7 @@
       "position": "QB",
       "source_rank": 47,
       "raw_value": 71.2,
-      "tier": "2",
+      "tier": "4",
       "market_value": 71.2,
       "history": [
         {
@@ -6758,7 +6758,7 @@
           "market_value": 71.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 47,
       "drivers": {
         "production": 67.6,
@@ -6790,7 +6790,7 @@
       "position": "RB",
       "source_rank": 48,
       "raw_value": 70.9,
-      "tier": "2",
+      "tier": "4",
       "market_value": 70.9,
       "history": [
         {
@@ -6798,7 +6798,7 @@
           "market_value": 70.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 48,
       "drivers": {
         "production": 71.4,
@@ -6830,7 +6830,7 @@
       "position": "TE",
       "source_rank": 49,
       "raw_value": 70.2,
-      "tier": "2",
+      "tier": "4",
       "market_value": 70.2,
       "history": [
         {
@@ -6838,7 +6838,7 @@
           "market_value": 70.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 49,
       "drivers": {
         "production": 68,
@@ -6870,7 +6870,7 @@
       "position": "WR",
       "source_rank": 50,
       "raw_value": 69.4,
-      "tier": "3",
+      "tier": "4",
       "market_value": 69.4,
       "history": [
         {
@@ -6878,7 +6878,7 @@
           "market_value": 69.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 50,
       "drivers": {
         "production": 79.7,
@@ -6910,7 +6910,7 @@
       "position": "WR",
       "source_rank": 51,
       "raw_value": 68.7,
-      "tier": "3",
+      "tier": "4",
       "market_value": 68.7,
       "history": [
         {
@@ -6918,7 +6918,7 @@
           "market_value": 68.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 51,
       "drivers": {
         "production": 68.1,
@@ -6950,7 +6950,7 @@
       "position": "WR",
       "source_rank": 52,
       "raw_value": 68.3,
-      "tier": "3",
+      "tier": "4",
       "market_value": 68.3,
       "history": [
         {
@@ -6958,7 +6958,7 @@
           "market_value": 68.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 52,
       "drivers": {
         "production": 69.6,
@@ -6990,7 +6990,7 @@
       "position": "WR",
       "source_rank": 53,
       "raw_value": 68.2,
-      "tier": "3",
+      "tier": "4",
       "market_value": 68.2,
       "history": [
         {
@@ -6998,7 +6998,7 @@
           "market_value": 68.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 53,
       "drivers": {
         "production": 71,
@@ -7030,7 +7030,7 @@
       "position": "TE",
       "source_rank": 54,
       "raw_value": 68.2,
-      "tier": "3",
+      "tier": "4",
       "market_value": 68.2,
       "history": [
         {
@@ -7038,7 +7038,7 @@
           "market_value": 68.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 54,
       "drivers": {
         "production": 80,
@@ -7070,7 +7070,7 @@
       "position": "WR",
       "source_rank": 55,
       "raw_value": 67.7,
-      "tier": "3",
+      "tier": "4",
       "market_value": 67.7,
       "history": [
         {
@@ -7078,7 +7078,7 @@
           "market_value": 67.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 55,
       "drivers": {
         "production": 72.5,
@@ -7110,7 +7110,7 @@
       "position": "QB",
       "source_rank": 56,
       "raw_value": 67.2,
-      "tier": "3",
+      "tier": "4",
       "market_value": 67.2,
       "history": [
         {
@@ -7118,7 +7118,7 @@
           "market_value": 67.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 56,
       "drivers": {
         "production": 64.7,
@@ -7150,7 +7150,7 @@
       "position": "WR",
       "source_rank": 57,
       "raw_value": 66.9,
-      "tier": "3",
+      "tier": "4",
       "market_value": 66.9,
       "history": [
         {
@@ -7158,7 +7158,7 @@
           "market_value": 66.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 57,
       "drivers": {
         "production": 59.4,
@@ -7190,7 +7190,7 @@
       "position": "RB",
       "source_rank": 58,
       "raw_value": 65.8,
-      "tier": "3",
+      "tier": "4",
       "market_value": 65.8,
       "history": [
         {
@@ -7198,7 +7198,7 @@
           "market_value": 65.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 58,
       "drivers": {
         "production": 55.1,
@@ -7230,7 +7230,7 @@
       "position": "QB",
       "source_rank": 59,
       "raw_value": 65.7,
-      "tier": "3",
+      "tier": "4",
       "market_value": 65.7,
       "history": [
         {
@@ -7238,7 +7238,7 @@
           "market_value": 65.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 59,
       "drivers": {
         "production": 44.1,
@@ -7270,7 +7270,7 @@
       "position": "WR",
       "source_rank": 60,
       "raw_value": 65.6,
-      "tier": "3",
+      "tier": "4",
       "market_value": 65.6,
       "history": [
         {
@@ -7278,7 +7278,7 @@
           "market_value": 65.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 60,
       "drivers": {
         "production": 65.2,
@@ -7310,7 +7310,7 @@
       "position": "WR",
       "source_rank": 61,
       "raw_value": 65.2,
-      "tier": "3",
+      "tier": "5",
       "market_value": 65.2,
       "history": [
         {
@@ -7318,7 +7318,7 @@
           "market_value": 65.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 61,
       "drivers": {
         "production": 78.3,
@@ -7350,7 +7350,7 @@
       "position": "RB",
       "source_rank": 62,
       "raw_value": 65.1,
-      "tier": "3",
+      "tier": "5",
       "market_value": 65.1,
       "history": [
         {
@@ -7358,7 +7358,7 @@
           "market_value": 65.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 62,
       "drivers": {
         "production": 63.3,
@@ -7390,7 +7390,7 @@
       "position": "RB",
       "source_rank": 63,
       "raw_value": 65,
-      "tier": "3",
+      "tier": "5",
       "market_value": 65,
       "history": [
         {
@@ -7398,7 +7398,7 @@
           "market_value": 65
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 63,
       "drivers": {
         "production": 57.1,
@@ -7430,7 +7430,7 @@
       "position": "RB",
       "source_rank": 64,
       "raw_value": 64.5,
-      "tier": "3",
+      "tier": "5",
       "market_value": 64.5,
       "history": [
         {
@@ -7438,7 +7438,7 @@
           "market_value": 64.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 64,
       "drivers": {
         "production": 65.3,
@@ -7470,7 +7470,7 @@
       "position": "WR",
       "source_rank": 65,
       "raw_value": 64.3,
-      "tier": "3",
+      "tier": "5",
       "market_value": 64.3,
       "history": [
         {
@@ -7478,7 +7478,7 @@
           "market_value": 64.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 65,
       "drivers": {
         "production": 60.9,
@@ -7510,7 +7510,7 @@
       "position": "QB",
       "source_rank": 66,
       "raw_value": 64.3,
-      "tier": "3",
+      "tier": "5",
       "market_value": 64.3,
       "history": [
         {
@@ -7518,7 +7518,7 @@
           "market_value": 64.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 66,
       "drivers": {
         "production": 61.8,
@@ -7550,7 +7550,7 @@
       "position": "RB",
       "source_rank": 67,
       "raw_value": 62.7,
-      "tier": "3",
+      "tier": "5",
       "market_value": 62.7,
       "history": [
         {
@@ -7558,7 +7558,7 @@
           "market_value": 62.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 67,
       "drivers": {
         "production": 49,
@@ -7590,7 +7590,7 @@
       "position": "QB",
       "source_rank": 68,
       "raw_value": 62.6,
-      "tier": "3",
+      "tier": "5",
       "market_value": 62.6,
       "history": [
         {
@@ -7598,7 +7598,7 @@
           "market_value": 62.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 68,
       "drivers": {
         "production": 55.9,
@@ -7630,7 +7630,7 @@
       "position": "WR",
       "source_rank": 69,
       "raw_value": 62.4,
-      "tier": "3",
+      "tier": "5",
       "market_value": 62.4,
       "history": [
         {
@@ -7638,7 +7638,7 @@
           "market_value": 62.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 69,
       "drivers": {
         "production": 76.8,
@@ -7670,7 +7670,7 @@
       "position": "RB",
       "source_rank": 70,
       "raw_value": 62.3,
-      "tier": "3",
+      "tier": "5",
       "market_value": 62.3,
       "history": [
         {
@@ -7678,7 +7678,7 @@
           "market_value": 62.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 70,
       "drivers": {
         "production": 61.2,
@@ -7710,7 +7710,7 @@
       "position": "RB",
       "source_rank": 71,
       "raw_value": 62,
-      "tier": "3",
+      "tier": "5",
       "market_value": 62,
       "history": [
         {
@@ -7718,7 +7718,7 @@
           "market_value": 62
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 71,
       "drivers": {
         "production": 67.3,
@@ -7750,7 +7750,7 @@
       "position": "QB",
       "source_rank": 72,
       "raw_value": 61.9,
-      "tier": "3",
+      "tier": "5",
       "market_value": 61.9,
       "history": [
         {
@@ -7758,7 +7758,7 @@
           "market_value": 61.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 72,
       "drivers": {
         "production": 58.8,
@@ -7790,7 +7790,7 @@
       "position": "WR",
       "source_rank": 73,
       "raw_value": 61.1,
-      "tier": "3",
+      "tier": "5",
       "market_value": 61.1,
       "history": [
         {
@@ -7798,7 +7798,7 @@
           "market_value": 61.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 73,
       "drivers": {
         "production": 52.2,
@@ -7830,7 +7830,7 @@
       "position": "QB",
       "source_rank": 74,
       "raw_value": 60.2,
-      "tier": "3",
+      "tier": "5",
       "market_value": 60.2,
       "history": [
         {
@@ -7838,7 +7838,7 @@
           "market_value": 60.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 74,
       "drivers": {
         "production": 52.9,
@@ -7870,7 +7870,7 @@
       "position": "WR",
       "source_rank": 75,
       "raw_value": 59.4,
-      "tier": "3",
+      "tier": "5",
       "market_value": 59.4,
       "history": [
         {
@@ -7878,7 +7878,7 @@
           "market_value": 59.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 75,
       "drivers": {
         "production": 75.4,
@@ -7910,7 +7910,7 @@
       "position": "RB",
       "source_rank": 76,
       "raw_value": 58.8,
-      "tier": "3",
+      "tier": "6",
       "market_value": 58.8,
       "history": [
         {
@@ -7918,7 +7918,7 @@
           "market_value": 58.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 76,
       "drivers": {
         "production": 69.4,
@@ -7950,7 +7950,7 @@
       "position": "WR",
       "source_rank": 77,
       "raw_value": 58.3,
-      "tier": "3",
+      "tier": "6",
       "market_value": 58.3,
       "history": [
         {
@@ -7958,7 +7958,7 @@
           "market_value": 58.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 77,
       "drivers": {
         "production": 63.8,
@@ -7990,7 +7990,7 @@
       "position": "RB",
       "source_rank": 78,
       "raw_value": 57.7,
-      "tier": "3",
+      "tier": "6",
       "market_value": 57.7,
       "history": [
         {
@@ -7998,7 +7998,7 @@
           "market_value": 57.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 78,
       "drivers": {
         "production": 53.1,
@@ -8030,7 +8030,7 @@
       "position": "WR",
       "source_rank": 79,
       "raw_value": 57.5,
-      "tier": "3",
+      "tier": "6",
       "market_value": 57.5,
       "history": [
         {
@@ -8038,7 +8038,7 @@
           "market_value": 57.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 79,
       "drivers": {
         "production": 49.3,
@@ -8070,7 +8070,7 @@
       "position": "TE",
       "source_rank": 80,
       "raw_value": 57.4,
-      "tier": "3",
+      "tier": "6",
       "market_value": 57.4,
       "history": [
         {
@@ -8078,7 +8078,7 @@
           "market_value": 57.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 80,
       "drivers": {
         "production": 64,
@@ -8110,7 +8110,7 @@
       "position": "WR",
       "source_rank": 81,
       "raw_value": 56.6,
-      "tier": "3",
+      "tier": "6",
       "market_value": 56.6,
       "history": [
         {
@@ -8118,7 +8118,7 @@
           "market_value": 56.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 81,
       "drivers": {
         "production": 55.1,
@@ -8150,7 +8150,7 @@
       "position": "WR",
       "source_rank": 82,
       "raw_value": 56.4,
-      "tier": "3",
+      "tier": "6",
       "market_value": 56.4,
       "history": [
         {
@@ -8158,7 +8158,7 @@
           "market_value": 56.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 82,
       "drivers": {
         "production": 56.5,
@@ -8190,7 +8190,7 @@
       "position": "QB",
       "source_rank": 83,
       "raw_value": 56.1,
-      "tier": "3",
+      "tier": "6",
       "market_value": 56.1,
       "history": [
         {
@@ -8198,7 +8198,7 @@
           "market_value": 56.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 83,
       "drivers": {
         "production": 50,
@@ -8230,7 +8230,7 @@
       "position": "TE",
       "source_rank": 84,
       "raw_value": 56.1,
-      "tier": "3",
+      "tier": "6",
       "market_value": 56.1,
       "history": [
         {
@@ -8238,7 +8238,7 @@
           "market_value": 56.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 84,
       "drivers": {
         "production": 56,
@@ -8270,7 +8270,7 @@
       "position": "WR",
       "source_rank": 85,
       "raw_value": 56,
-      "tier": "3",
+      "tier": "6",
       "market_value": 56,
       "history": [
         {
@@ -8278,7 +8278,7 @@
           "market_value": 56
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 85,
       "drivers": {
         "production": 66.7,
@@ -8310,7 +8310,7 @@
       "position": "QB",
       "source_rank": 86,
       "raw_value": 55.9,
-      "tier": "3",
+      "tier": "6",
       "market_value": 55.9,
       "history": [
         {
@@ -8318,7 +8318,7 @@
           "market_value": 55.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 86,
       "drivers": {
         "production": 47.1,
@@ -8350,7 +8350,7 @@
       "position": "RB",
       "source_rank": 87,
       "raw_value": 55.9,
-      "tier": "3",
+      "tier": "6",
       "market_value": 55.9,
       "history": [
         {
@@ -8358,7 +8358,7 @@
           "market_value": 55.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 87,
       "drivers": {
         "production": 73.5,
@@ -8390,7 +8390,7 @@
       "position": "RB",
       "source_rank": 88,
       "raw_value": 55.8,
-      "tier": "3",
+      "tier": "6",
       "market_value": 55.8,
       "history": [
         {
@@ -8398,7 +8398,7 @@
           "market_value": 55.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 88,
       "drivers": {
         "production": 59.2,
@@ -8430,7 +8430,7 @@
       "position": "TE",
       "source_rank": 89,
       "raw_value": 55.8,
-      "tier": "3",
+      "tier": "6",
       "market_value": 55.8,
       "history": [
         {
@@ -8438,7 +8438,7 @@
           "market_value": 55.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 89,
       "drivers": {
         "production": 40,
@@ -8470,7 +8470,7 @@
       "position": "WR",
       "source_rank": 90,
       "raw_value": 54.8,
-      "tier": "4",
+      "tier": "6",
       "market_value": 54.8,
       "history": [
         {
@@ -8478,7 +8478,7 @@
           "market_value": 54.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 90,
       "drivers": {
         "production": 58,
@@ -8510,7 +8510,7 @@
       "position": "RB",
       "source_rank": 91,
       "raw_value": 54.4,
-      "tier": "4",
+      "tier": "7",
       "market_value": 54.4,
       "history": [
         {
@@ -8518,7 +8518,7 @@
           "market_value": 54.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 91,
       "drivers": {
         "production": 44.9,
@@ -8550,7 +8550,7 @@
       "position": "RB",
       "source_rank": 92,
       "raw_value": 53.5,
-      "tier": "4",
+      "tier": "7",
       "market_value": 53.5,
       "history": [
         {
@@ -8558,7 +8558,7 @@
           "market_value": 53.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 92,
       "drivers": {
         "production": 51,
@@ -8590,7 +8590,7 @@
       "position": "WR",
       "source_rank": 93,
       "raw_value": 51.6,
-      "tier": "4",
+      "tier": "7",
       "market_value": 51.6,
       "history": [
         {
@@ -8598,7 +8598,7 @@
           "market_value": 51.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 93,
       "drivers": {
         "production": 62.3,
@@ -8630,7 +8630,7 @@
       "position": "WR",
       "source_rank": 94,
       "raw_value": 51.1,
-      "tier": "4",
+      "tier": "7",
       "market_value": 51.1,
       "history": [
         {
@@ -8638,7 +8638,7 @@
           "market_value": 51.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 94,
       "drivers": {
         "production": 43.5,
@@ -8670,7 +8670,7 @@
       "position": "WR",
       "source_rank": 95,
       "raw_value": 51,
-      "tier": "4",
+      "tier": "7",
       "market_value": 51,
       "history": [
         {
@@ -8678,7 +8678,7 @@
           "market_value": 51
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 95,
       "drivers": {
         "production": 46.4,
@@ -8710,7 +8710,7 @@
       "position": "TE",
       "source_rank": 96,
       "raw_value": 50.1,
-      "tier": "4",
+      "tier": "7",
       "market_value": 50.1,
       "history": [
         {
@@ -8718,7 +8718,7 @@
           "market_value": 50.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 96,
       "drivers": {
         "production": 60,
@@ -8750,7 +8750,7 @@
       "position": "WR",
       "source_rank": 97,
       "raw_value": 49.9,
-      "tier": "4",
+      "tier": "7",
       "market_value": 49.9,
       "history": [
         {
@@ -8758,7 +8758,7 @@
           "market_value": 49.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 97,
       "drivers": {
         "production": 47.8,
@@ -8790,7 +8790,7 @@
       "position": "RB",
       "source_rank": 98,
       "raw_value": 49.5,
-      "tier": "4",
+      "tier": "7",
       "market_value": 49.5,
       "history": [
         {
@@ -8798,7 +8798,7 @@
           "market_value": 49.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 98,
       "drivers": {
         "production": 42.9,
@@ -8830,7 +8830,7 @@
       "position": "WR",
       "source_rank": 99,
       "raw_value": 49.3,
-      "tier": "4",
+      "tier": "7",
       "market_value": 49.3,
       "history": [
         {
@@ -8838,7 +8838,7 @@
           "market_value": 49.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 99,
       "drivers": {
         "production": 44.9,
@@ -8870,7 +8870,7 @@
       "position": "QB",
       "source_rank": 100,
       "raw_value": 49.1,
-      "tier": "4",
+      "tier": "7",
       "market_value": 49.1,
       "history": [
         {
@@ -8878,7 +8878,7 @@
           "market_value": 49.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 100,
       "drivers": {
         "production": 23.5,
@@ -8910,7 +8910,7 @@
       "position": "TE",
       "source_rank": 101,
       "raw_value": 49.1,
-      "tier": "4",
+      "tier": "7",
       "market_value": 49.1,
       "history": [
         {
@@ -8918,7 +8918,7 @@
           "market_value": 49.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 101,
       "drivers": {
         "production": 36,
@@ -8950,7 +8950,7 @@
       "position": "RB",
       "source_rank": 102,
       "raw_value": 48.8,
-      "tier": "4",
+      "tier": "7",
       "market_value": 48.8,
       "history": [
         {
@@ -8958,7 +8958,7 @@
           "market_value": 48.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 102,
       "drivers": {
         "production": 46.9,
@@ -8990,7 +8990,7 @@
       "position": "RB",
       "source_rank": 103,
       "raw_value": 47.4,
-      "tier": "4",
+      "tier": "7",
       "market_value": 47.4,
       "history": [
         {
@@ -8998,7 +8998,7 @@
           "market_value": 47.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 103,
       "drivers": {
         "production": 40.8,
@@ -9030,7 +9030,7 @@
       "position": "WR",
       "source_rank": 104,
       "raw_value": 47.2,
-      "tier": "4",
+      "tier": "7",
       "market_value": 47.2,
       "history": [
         {
@@ -9038,7 +9038,7 @@
           "market_value": 47.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 104,
       "drivers": {
         "production": 50.7,
@@ -9070,7 +9070,7 @@
       "position": "TE",
       "source_rank": 105,
       "raw_value": 46.8,
-      "tier": "4",
+      "tier": "7",
       "market_value": 46.8,
       "history": [
         {
@@ -9078,7 +9078,7 @@
           "market_value": 46.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 105,
       "drivers": {
         "production": 48,
@@ -9110,7 +9110,7 @@
       "position": "WR",
       "source_rank": 106,
       "raw_value": 45.7,
-      "tier": "4",
+      "tier": "8",
       "market_value": 45.7,
       "history": [
         {
@@ -9118,7 +9118,7 @@
           "market_value": 45.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 106,
       "drivers": {
         "production": 53.6,
@@ -9150,7 +9150,7 @@
       "position": "WR",
       "source_rank": 107,
       "raw_value": 44.6,
-      "tier": "4",
+      "tier": "8",
       "market_value": 44.6,
       "history": [
         {
@@ -9158,7 +9158,7 @@
           "market_value": 44.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 107,
       "drivers": {
         "production": 39.1,
@@ -9190,7 +9190,7 @@
       "position": "WR",
       "source_rank": 108,
       "raw_value": 44.2,
-      "tier": "4",
+      "tier": "8",
       "market_value": 44.2,
       "history": [
         {
@@ -9198,7 +9198,7 @@
           "market_value": 44.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 108,
       "drivers": {
         "production": 36.2,
@@ -9230,7 +9230,7 @@
       "position": "QB",
       "source_rank": 109,
       "raw_value": 44,
-      "tier": "4",
+      "tier": "8",
       "market_value": 44,
       "history": [
         {
@@ -9238,7 +9238,7 @@
           "market_value": 44
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 109,
       "drivers": {
         "production": 38.2,
@@ -9270,7 +9270,7 @@
       "position": "WR",
       "source_rank": 110,
       "raw_value": 43.8,
-      "tier": "4",
+      "tier": "8",
       "market_value": 43.8,
       "history": [
         {
@@ -9278,7 +9278,7 @@
           "market_value": 43.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 110,
       "drivers": {
         "production": 40.6,
@@ -9310,7 +9310,7 @@
       "position": "QB",
       "source_rank": 111,
       "raw_value": 43.5,
-      "tier": "4",
+      "tier": "8",
       "market_value": 43.5,
       "history": [
         {
@@ -9318,7 +9318,7 @@
           "market_value": 43.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 111,
       "drivers": {
         "production": 35.3,
@@ -9350,7 +9350,7 @@
       "position": "WR",
       "source_rank": 112,
       "raw_value": 43.1,
-      "tier": "4",
+      "tier": "8",
       "market_value": 43.1,
       "history": [
         {
@@ -9358,7 +9358,7 @@
           "market_value": 43.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 112,
       "drivers": {
         "production": 20.3,
@@ -9390,7 +9390,7 @@
       "position": "TE",
       "source_rank": 113,
       "raw_value": 43,
-      "tier": "4",
+      "tier": "8",
       "market_value": 43,
       "history": [
         {
@@ -9398,7 +9398,7 @@
           "market_value": 43
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 113,
       "drivers": {
         "production": 32,
@@ -9430,7 +9430,7 @@
       "position": "TE",
       "source_rank": 114,
       "raw_value": 42.8,
-      "tier": "4",
+      "tier": "8",
       "market_value": 42.8,
       "history": [
         {
@@ -9438,7 +9438,7 @@
           "market_value": 42.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 114,
       "drivers": {
         "production": 44,
@@ -9470,7 +9470,7 @@
       "position": "QB",
       "source_rank": 115,
       "raw_value": 42.8,
-      "tier": "4",
+      "tier": "8",
       "market_value": 42.8,
       "history": [
         {
@@ -9478,7 +9478,7 @@
           "market_value": 42.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 115,
       "drivers": {
         "production": 20.6,
@@ -9510,7 +9510,7 @@
       "position": "WR",
       "source_rank": 116,
       "raw_value": 42.2,
-      "tier": "4",
+      "tier": "8",
       "market_value": 42.2,
       "history": [
         {
@@ -9518,7 +9518,7 @@
           "market_value": 42.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 116,
       "drivers": {
         "production": 27.5,
@@ -9550,7 +9550,7 @@
       "position": "QB",
       "source_rank": 117,
       "raw_value": 41.8,
-      "tier": "4",
+      "tier": "8",
       "market_value": 41.8,
       "history": [
         {
@@ -9558,7 +9558,7 @@
           "market_value": 41.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 117,
       "drivers": {
         "production": 41.2,
@@ -9590,7 +9590,7 @@
       "position": "WR",
       "source_rank": 118,
       "raw_value": 40.7,
-      "tier": "4",
+      "tier": "8",
       "market_value": 40.7,
       "history": [
         {
@@ -9598,7 +9598,7 @@
           "market_value": 40.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 118,
       "drivers": {
         "production": 33.3,
@@ -9630,7 +9630,7 @@
       "position": "TE",
       "source_rank": 119,
       "raw_value": 40.6,
-      "tier": "4",
+      "tier": "8",
       "market_value": 40.6,
       "history": [
         {
@@ -9638,7 +9638,7 @@
           "market_value": 40.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 119,
       "drivers": {
         "production": 52,
@@ -9670,7 +9670,7 @@
       "position": "RB",
       "source_rank": 120,
       "raw_value": 40.5,
-      "tier": "4",
+      "tier": "8",
       "market_value": 40.5,
       "history": [
         {
@@ -9678,7 +9678,7 @@
           "market_value": 40.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 120,
       "drivers": {
         "production": 34.7,
@@ -9710,7 +9710,7 @@
       "position": "WR",
       "source_rank": 121,
       "raw_value": 40.3,
-      "tier": "4",
+      "tier": "9",
       "market_value": 40.3,
       "history": [
         {
@@ -9718,7 +9718,7 @@
           "market_value": 40.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 121,
       "drivers": {
         "production": 37.7,
@@ -9750,7 +9750,7 @@
       "position": "WR",
       "source_rank": 122,
       "raw_value": 40,
-      "tier": "4",
+      "tier": "9",
       "market_value": 40,
       "history": [
         {
@@ -9758,7 +9758,7 @@
           "market_value": 40
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 122,
       "drivers": {
         "production": 42,
@@ -9790,7 +9790,7 @@
       "position": "TE",
       "source_rank": 123,
       "raw_value": 39.1,
-      "tier": "5",
+      "tier": "9",
       "market_value": 39.1,
       "history": [
         {
@@ -9798,7 +9798,7 @@
           "market_value": 39.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 123,
       "drivers": {
         "production": 28,
@@ -9830,7 +9830,7 @@
       "position": "RB",
       "source_rank": 124,
       "raw_value": 38.9,
-      "tier": "5",
+      "tier": "9",
       "market_value": 38.9,
       "history": [
         {
@@ -9838,7 +9838,7 @@
           "market_value": 38.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 124,
       "drivers": {
         "production": 28.6,
@@ -9870,7 +9870,7 @@
       "position": "QB",
       "source_rank": 125,
       "raw_value": 38.4,
-      "tier": "5",
+      "tier": "9",
       "market_value": 38.4,
       "history": [
         {
@@ -9878,7 +9878,7 @@
           "market_value": 38.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 125,
       "drivers": {
         "production": 17.6,
@@ -9910,7 +9910,7 @@
       "position": "WR",
       "source_rank": 126,
       "raw_value": 38.1,
-      "tier": "5",
+      "tier": "9",
       "market_value": 38.1,
       "history": [
         {
@@ -9918,7 +9918,7 @@
           "market_value": 38.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 126,
       "drivers": {
         "production": 30.4,
@@ -9950,7 +9950,7 @@
       "position": "RB",
       "source_rank": 127,
       "raw_value": 37.8,
-      "tier": "5",
+      "tier": "9",
       "market_value": 37.8,
       "history": [
         {
@@ -9958,7 +9958,7 @@
           "market_value": 37.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 127,
       "drivers": {
         "production": 36.7,
@@ -9990,7 +9990,7 @@
       "position": "QB",
       "source_rank": 128,
       "raw_value": 37.2,
-      "tier": "5",
+      "tier": "9",
       "market_value": 37.2,
       "history": [
         {
@@ -9998,7 +9998,7 @@
           "market_value": 37.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 128,
       "drivers": {
         "production": 29.4,
@@ -10030,7 +10030,7 @@
       "position": "RB",
       "source_rank": 129,
       "raw_value": 35.8,
-      "tier": "5",
+      "tier": "9",
       "market_value": 35.8,
       "history": [
         {
@@ -10038,7 +10038,7 @@
           "market_value": 35.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 129,
       "drivers": {
         "production": 38.8,
@@ -10070,7 +10070,7 @@
       "position": "WR",
       "source_rank": 130,
       "raw_value": 35.7,
-      "tier": "5",
+      "tier": "9",
       "market_value": 35.7,
       "history": [
         {
@@ -10078,7 +10078,7 @@
           "market_value": 35.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 130,
       "drivers": {
         "production": 26.1,
@@ -10110,7 +10110,7 @@
       "position": "RB",
       "source_rank": 131,
       "raw_value": 35.6,
-      "tier": "5",
+      "tier": "9",
       "market_value": 35.6,
       "history": [
         {
@@ -10118,7 +10118,7 @@
           "market_value": 35.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 131,
       "drivers": {
         "production": 30.6,
@@ -10150,7 +10150,7 @@
       "position": "RB",
       "source_rank": 132,
       "raw_value": 35.6,
-      "tier": "5",
+      "tier": "9",
       "market_value": 35.6,
       "history": [
         {
@@ -10158,7 +10158,7 @@
           "market_value": 35.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 132,
       "drivers": {
         "production": 20.4,
@@ -10190,7 +10190,7 @@
       "position": "WR",
       "source_rank": 133,
       "raw_value": 35.1,
-      "tier": "5",
+      "tier": "9",
       "market_value": 35.1,
       "history": [
         {
@@ -10198,7 +10198,7 @@
           "market_value": 35.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 133,
       "drivers": {
         "production": 34.8,
@@ -10230,7 +10230,7 @@
       "position": "WR",
       "source_rank": 134,
       "raw_value": 33.8,
-      "tier": "5",
+      "tier": "9",
       "market_value": 33.8,
       "history": [
         {
@@ -10238,7 +10238,7 @@
           "market_value": 33.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 134,
       "drivers": {
         "production": 31.9,
@@ -10270,7 +10270,7 @@
       "position": "QB",
       "source_rank": 135,
       "raw_value": 33.6,
-      "tier": "5",
+      "tier": "9",
       "market_value": 33.6,
       "history": [
         {
@@ -10278,7 +10278,7 @@
           "market_value": 33.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 135,
       "drivers": {
         "production": 11.8,
@@ -10310,7 +10310,7 @@
       "position": "QB",
       "source_rank": 136,
       "raw_value": 32.9,
-      "tier": "5",
+      "tier": "10",
       "market_value": 32.9,
       "history": [
         {
@@ -10318,7 +10318,7 @@
           "market_value": 32.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 136,
       "drivers": {
         "production": 32.4,
@@ -10350,7 +10350,7 @@
       "position": "RB",
       "source_rank": 137,
       "raw_value": 29.8,
-      "tier": "5",
+      "tier": "10",
       "market_value": 29.8,
       "history": [
         {
@@ -10358,7 +10358,7 @@
           "market_value": 29.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 137,
       "drivers": {
         "production": 32.7,
@@ -10390,7 +10390,7 @@
       "position": "QB",
       "source_rank": 138,
       "raw_value": 29.6,
-      "tier": "5",
+      "tier": "10",
       "market_value": 29.6,
       "history": [
         {
@@ -10398,7 +10398,7 @@
           "market_value": 29.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 138,
       "drivers": {
         "production": 26.5,
@@ -10430,7 +10430,7 @@
       "position": "TE",
       "source_rank": 139,
       "raw_value": 29.3,
-      "tier": "5",
+      "tier": "10",
       "market_value": 29.3,
       "history": [
         {
@@ -10438,7 +10438,7 @@
           "market_value": 29.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 139,
       "drivers": {
         "production": 16,
@@ -10470,7 +10470,7 @@
       "position": "WR",
       "source_rank": 140,
       "raw_value": 27.5,
-      "tier": "5",
+      "tier": "10",
       "market_value": 27.5,
       "history": [
         {
@@ -10478,7 +10478,7 @@
           "market_value": 27.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 140,
       "drivers": {
         "production": 29,
@@ -10510,7 +10510,7 @@
       "position": "WR",
       "source_rank": 141,
       "raw_value": 26.7,
-      "tier": "5",
+      "tier": "10",
       "market_value": 26.7,
       "history": [
         {
@@ -10518,7 +10518,7 @@
           "market_value": 26.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 141,
       "drivers": {
         "production": 24.6,
@@ -10550,7 +10550,7 @@
       "position": "WR",
       "source_rank": 142,
       "raw_value": 25.9,
-      "tier": "5",
+      "tier": "10",
       "market_value": 25.9,
       "history": [
         {
@@ -10558,7 +10558,7 @@
           "market_value": 25.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 142,
       "drivers": {
         "production": 23.2,
@@ -10590,7 +10590,7 @@
       "position": "WR",
       "source_rank": 143,
       "raw_value": 25.7,
-      "tier": "5",
+      "tier": "10",
       "market_value": 25.7,
       "history": [
         {
@@ -10598,7 +10598,7 @@
           "market_value": 25.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 143,
       "drivers": {
         "production": 18.8,
@@ -10630,7 +10630,7 @@
       "position": "RB",
       "source_rank": 144,
       "raw_value": 25.2,
-      "tier": "5",
+      "tier": "10",
       "market_value": 25.2,
       "history": [
         {
@@ -10638,7 +10638,7 @@
           "market_value": 25.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 144,
       "drivers": {
         "production": 22.4,
@@ -10670,7 +10670,7 @@
       "position": "WR",
       "source_rank": 145,
       "raw_value": 24.6,
-      "tier": "5",
+      "tier": "10",
       "market_value": 24.6,
       "history": [
         {
@@ -10678,7 +10678,7 @@
           "market_value": 24.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 145,
       "drivers": {
         "production": 21.7,
@@ -10710,7 +10710,7 @@
       "position": "RB",
       "source_rank": 146,
       "raw_value": 24.1,
-      "tier": "5",
+      "tier": "10",
       "market_value": 24.1,
       "history": [
         {
@@ -10718,7 +10718,7 @@
           "market_value": 24.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 146,
       "drivers": {
         "production": 26.5,
@@ -10750,7 +10750,7 @@
       "position": "RB",
       "source_rank": 147,
       "raw_value": 23.2,
-      "tier": "5",
+      "tier": "10",
       "market_value": 23.2,
       "history": [
         {
@@ -10758,7 +10758,7 @@
           "market_value": 23.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 147,
       "drivers": {
         "production": 24.5,
@@ -10790,7 +10790,7 @@
       "position": "TE",
       "source_rank": 148,
       "raw_value": 22.6,
-      "tier": "5",
+      "tier": "10",
       "market_value": 22.6,
       "history": [
         {
@@ -10798,7 +10798,7 @@
           "market_value": 22.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 148,
       "drivers": {
         "production": 24,
@@ -10830,7 +10830,7 @@
       "position": "TE",
       "source_rank": 149,
       "raw_value": 22.5,
-      "tier": "5",
+      "tier": "10",
       "market_value": 22.5,
       "history": [
         {
@@ -10838,7 +10838,7 @@
           "market_value": 22.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 149,
       "drivers": {
         "production": 12,
@@ -10870,7 +10870,7 @@
       "position": "QB",
       "source_rank": 150,
       "raw_value": 20.9,
-      "tier": "5",
+      "tier": "10",
       "market_value": 20.9,
       "history": [
         {
@@ -10878,7 +10878,7 @@
           "market_value": 20.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 150,
       "drivers": {
         "production": 14.7,
@@ -10910,7 +10910,7 @@
       "position": "RB",
       "source_rank": 151,
       "raw_value": 20.6,
-      "tier": "5",
+      "tier": "11",
       "market_value": 20.6,
       "history": [
         {
@@ -10918,7 +10918,7 @@
           "market_value": 20.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 151,
       "drivers": {
         "production": 12.2,
@@ -10950,7 +10950,7 @@
       "position": "QB",
       "source_rank": 152,
       "raw_value": 20.1,
-      "tier": "5",
+      "tier": "11",
       "market_value": 20.1,
       "history": [
         {
@@ -10958,7 +10958,7 @@
           "market_value": 20.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 152,
       "drivers": {
         "production": 2.9,
@@ -10990,7 +10990,7 @@
       "position": "TE",
       "source_rank": 153,
       "raw_value": 20,
-      "tier": "5",
+      "tier": "11",
       "market_value": 20,
       "history": [
         {
@@ -10998,7 +10998,7 @@
           "market_value": 20
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 153,
       "drivers": {
         "production": 20,
@@ -11030,7 +11030,7 @@
       "position": "WR",
       "source_rank": 154,
       "raw_value": 19.1,
-      "tier": "5",
+      "tier": "11",
       "market_value": 19.1,
       "history": [
         {
@@ -11038,7 +11038,7 @@
           "market_value": 19.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 154,
       "drivers": {
         "production": 14.5,
@@ -11070,7 +11070,7 @@
       "position": "WR",
       "source_rank": 155,
       "raw_value": 18.6,
-      "tier": "5",
+      "tier": "11",
       "market_value": 18.6,
       "history": [
         {
@@ -11078,7 +11078,7 @@
           "market_value": 18.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 155,
       "drivers": {
         "production": 15.9,
@@ -11110,7 +11110,7 @@
       "position": "WR",
       "source_rank": 156,
       "raw_value": 18.2,
-      "tier": "5",
+      "tier": "11",
       "market_value": 18.2,
       "history": [
         {
@@ -11118,7 +11118,7 @@
           "market_value": 18.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 156,
       "drivers": {
         "production": 17.4,
@@ -11150,7 +11150,7 @@
       "position": "RB",
       "source_rank": 157,
       "raw_value": 17.8,
-      "tier": "5",
+      "tier": "11",
       "market_value": 17.8,
       "history": [
         {
@@ -11158,7 +11158,7 @@
           "market_value": 17.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 157,
       "drivers": {
         "production": 16.3,
@@ -11190,7 +11190,7 @@
       "position": "QB",
       "source_rank": 158,
       "raw_value": 17.6,
-      "tier": "5",
+      "tier": "11",
       "market_value": 17.6,
       "history": [
         {
@@ -11198,7 +11198,7 @@
           "market_value": 17.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 158,
       "drivers": {
         "production": 8.8,
@@ -11230,7 +11230,7 @@
       "position": "RB",
       "source_rank": 159,
       "raw_value": 16.9,
-      "tier": "5",
+      "tier": "11",
       "market_value": 16.9,
       "history": [
         {
@@ -11238,7 +11238,7 @@
           "market_value": 16.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 159,
       "drivers": {
         "production": 18.4,
@@ -11270,7 +11270,7 @@
       "position": "WR",
       "source_rank": 160,
       "raw_value": 16.3,
-      "tier": "5",
+      "tier": "11",
       "market_value": 16.3,
       "history": [
         {
@@ -11278,7 +11278,7 @@
           "market_value": 16.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 160,
       "drivers": {
         "production": 11.6,
@@ -11310,7 +11310,7 @@
       "position": "QB",
       "source_rank": 161,
       "raw_value": 16.3,
-      "tier": "5",
+      "tier": "11",
       "market_value": 16.3,
       "history": [
         {
@@ -11318,7 +11318,7 @@
           "market_value": 16.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 161,
       "drivers": {
         "production": 5.9,
@@ -11350,7 +11350,7 @@
       "position": "RB",
       "source_rank": 162,
       "raw_value": 16.2,
-      "tier": "5",
+      "tier": "11",
       "market_value": 16.2,
       "history": [
         {
@@ -11358,7 +11358,7 @@
           "market_value": 16.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 162,
       "drivers": {
         "production": 14.3,
@@ -11390,7 +11390,7 @@
       "position": "WR",
       "source_rank": 163,
       "raw_value": 15.6,
-      "tier": "5",
+      "tier": "11",
       "market_value": 15.6,
       "history": [
         {
@@ -11398,7 +11398,7 @@
           "market_value": 15.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 163,
       "drivers": {
         "production": 10.1,
@@ -11430,7 +11430,7 @@
       "position": "WR",
       "source_rank": 164,
       "raw_value": 13.6,
-      "tier": "5",
+      "tier": "11",
       "market_value": 13.6,
       "history": [
         {
@@ -11438,7 +11438,7 @@
           "market_value": 13.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 164,
       "drivers": {
         "production": 13,
@@ -11470,7 +11470,7 @@
       "position": "RB",
       "source_rank": 165,
       "raw_value": 12.9,
-      "tier": "5",
+      "tier": "11",
       "market_value": 12.9,
       "history": [
         {
@@ -11478,7 +11478,7 @@
           "market_value": 12.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 165,
       "drivers": {
         "production": 10.2,
@@ -11510,7 +11510,7 @@
       "position": "RB",
       "source_rank": 166,
       "raw_value": 11.3,
-      "tier": "5",
+      "tier": "12",
       "market_value": 11.3,
       "history": [
         {
@@ -11518,7 +11518,7 @@
           "market_value": 11.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 166,
       "drivers": {
         "production": 8.2,
@@ -11550,7 +11550,7 @@
       "position": "WR",
       "source_rank": 167,
       "raw_value": 10.8,
-      "tier": "5",
+      "tier": "12",
       "market_value": 10.8,
       "history": [
         {
@@ -11558,7 +11558,7 @@
           "market_value": 10.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 167,
       "drivers": {
         "production": 7.2,
@@ -11590,7 +11590,7 @@
       "position": "WR",
       "source_rank": 168,
       "raw_value": 10.4,
-      "tier": "5",
+      "tier": "12",
       "market_value": 10.4,
       "history": [
         {
@@ -11598,7 +11598,7 @@
           "market_value": 10.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 168,
       "drivers": {
         "production": 8.7,
@@ -11630,7 +11630,7 @@
       "position": "TE",
       "source_rank": 169,
       "raw_value": 10.4,
-      "tier": "5",
+      "tier": "12",
       "market_value": 10.4,
       "history": [
         {
@@ -11638,7 +11638,7 @@
           "market_value": 10.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 169,
       "drivers": {
         "production": 8,
@@ -11670,7 +11670,7 @@
       "position": "WR",
       "source_rank": 170,
       "raw_value": 10.1,
-      "tier": "5",
+      "tier": "12",
       "market_value": 10.1,
       "history": [
         {
@@ -11678,7 +11678,7 @@
           "market_value": 10.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 170,
       "drivers": {
         "production": 4.3,
@@ -11710,7 +11710,7 @@
       "position": "RB",
       "source_rank": 171,
       "raw_value": 9.6,
-      "tier": "5",
+      "tier": "12",
       "market_value": 9.6,
       "history": [
         {
@@ -11718,7 +11718,7 @@
           "market_value": 9.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 171,
       "drivers": {
         "production": 6.1,
@@ -11750,7 +11750,7 @@
       "position": "WR",
       "source_rank": 172,
       "raw_value": 9.4,
-      "tier": "5",
+      "tier": "12",
       "market_value": 9.4,
       "history": [
         {
@@ -11758,7 +11758,7 @@
           "market_value": 9.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 172,
       "drivers": {
         "production": 5.8,
@@ -11790,7 +11790,7 @@
       "position": "TE",
       "source_rank": 173,
       "raw_value": 8.6,
-      "tier": "5",
+      "tier": "12",
       "market_value": 8.6,
       "history": [
         {
@@ -11798,7 +11798,7 @@
           "market_value": 8.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 173,
       "drivers": {
         "production": 4,
@@ -11830,7 +11830,7 @@
       "position": "RB",
       "source_rank": 174,
       "raw_value": 7.6,
-      "tier": "5",
+      "tier": "12",
       "market_value": 7.6,
       "history": [
         {
@@ -11838,7 +11838,7 @@
           "market_value": 7.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 174,
       "drivers": {
         "production": 4.1,
@@ -11870,7 +11870,7 @@
       "position": "WR",
       "source_rank": 175,
       "raw_value": 6.3,
-      "tier": "5",
+      "tier": "12",
       "market_value": 6.3,
       "history": [
         {
@@ -11878,7 +11878,7 @@
           "market_value": 6.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 175,
       "drivers": {
         "production": 2.9,
@@ -11910,7 +11910,7 @@
       "position": "RB",
       "source_rank": 176,
       "raw_value": 5.6,
-      "tier": "5",
+      "tier": "12",
       "market_value": 5.6,
       "history": [
         {
@@ -11918,7 +11918,7 @@
           "market_value": 5.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 176,
       "drivers": {
         "production": 2,
@@ -11950,7 +11950,7 @@
       "position": "WR",
       "source_rank": 177,
       "raw_value": 5.1,
-      "tier": "5",
+      "tier": "12",
       "market_value": 5.1,
       "history": [
         {
@@ -11958,7 +11958,7 @@
           "market_value": 5.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "ordinal": 177,
       "drivers": {
         "production": 1.4,
@@ -12378,7 +12378,7 @@
           "market_value": 100
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 97.1,
         "recent_form": 100,
@@ -12417,7 +12417,7 @@
           "market_value": 96.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 100,
         "recent_form": 67.6,
@@ -12456,7 +12456,7 @@
           "market_value": 95.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 100,
         "recent_form": 98,
@@ -12495,7 +12495,7 @@
           "market_value": 95.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 100,
         "recent_form": 97.1,
@@ -12534,7 +12534,7 @@
           "market_value": 95.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 98.6,
         "recent_form": 100,
@@ -12573,7 +12573,7 @@
           "market_value": 94.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 91.2,
         "recent_form": 85.3,
@@ -12612,7 +12612,7 @@
           "market_value": 93.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 98,
         "recent_form": 93.9,
@@ -12651,7 +12651,7 @@
           "market_value": 93.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 95.9,
         "recent_form": 100,
@@ -12690,7 +12690,7 @@
           "market_value": 91.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 95.7,
         "recent_form": 89.9,
@@ -12729,7 +12729,7 @@
           "market_value": 91.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 92.8,
         "recent_form": 98.6,
@@ -12768,7 +12768,7 @@
           "market_value": 91
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 100,
         "recent_form": 72,
@@ -12807,7 +12807,7 @@
           "market_value": 90
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 93.9,
         "recent_form": 87.8,
@@ -12846,7 +12846,7 @@
           "market_value": 89
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 89.9,
         "recent_form": 95.7,
@@ -12885,7 +12885,7 @@
           "market_value": 88.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 97.1,
         "recent_form": 66.7,
@@ -12924,7 +12924,7 @@
           "market_value": 88
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 94.2,
         "recent_form": 75.4,
@@ -12953,7 +12953,7 @@
       "position": "RB",
       "nfl_team": "IND",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "1",
+      "tier": "2",
       "value": 87.4,
       "market_value": 87.4,
       "source_rank": 16,
@@ -12963,7 +12963,7 @@
           "market_value": 87.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 89.8,
         "recent_form": 77.6,
@@ -12992,7 +12992,7 @@
       "position": "TE",
       "nfl_team": "SF",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "1",
+      "tier": "2",
       "value": 86.8,
       "market_value": 86.8,
       "source_rank": 17,
@@ -13002,7 +13002,7 @@
           "market_value": 86.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 96,
         "recent_form": 96,
@@ -13031,7 +13031,7 @@
       "position": "QB",
       "nfl_team": "DAL",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "1",
+      "tier": "2",
       "value": 86.7,
       "market_value": 86.7,
       "source_rank": 18,
@@ -13041,7 +13041,7 @@
           "market_value": 86.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 82.4,
         "recent_form": 73.5,
@@ -13070,7 +13070,7 @@
       "position": "RB",
       "nfl_team": "LAR",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "1",
+      "tier": "2",
       "value": 86.7,
       "market_value": 86.7,
       "source_rank": 19,
@@ -13080,7 +13080,7 @@
           "market_value": 86.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 91.8,
         "recent_form": 95.9,
@@ -13109,7 +13109,7 @@
       "position": "QB",
       "nfl_team": "BAL",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "1",
+      "tier": "2",
       "value": 85.9,
       "market_value": 85.9,
       "source_rank": 20,
@@ -13119,7 +13119,7 @@
           "market_value": 85.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 79.4,
         "recent_form": 79.4,
@@ -13148,7 +13148,7 @@
       "position": "QB",
       "nfl_team": "NO",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "1",
+      "tier": "2",
       "value": 85.9,
       "market_value": 85.9,
       "source_rank": 21,
@@ -13158,7 +13158,7 @@
           "market_value": 85.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 88.2,
         "recent_form": 82.4,
@@ -13187,7 +13187,7 @@
       "position": "TE",
       "nfl_team": "DET",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "1",
+      "tier": "2",
       "value": 85.7,
       "market_value": 85.7,
       "source_rank": 22,
@@ -13197,7 +13197,7 @@
           "market_value": 85.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 88,
         "recent_form": 84,
@@ -13226,7 +13226,7 @@
       "position": "QB",
       "nfl_team": "CIN",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "1",
+      "tier": "2",
       "value": 85.4,
       "market_value": 85.4,
       "source_rank": 23,
@@ -13236,7 +13236,7 @@
           "market_value": 85.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 73.5,
         "recent_form": 97.1,
@@ -13265,7 +13265,7 @@
       "position": "WR",
       "nfl_team": "LAR",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "1",
+      "tier": "2",
       "value": 85.1,
       "market_value": 85.1,
       "source_rank": 24,
@@ -13275,7 +13275,7 @@
           "market_value": 85.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 91.3,
         "recent_form": 69.6,
@@ -13304,7 +13304,7 @@
       "position": "WR",
       "nfl_team": "NYJ",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "1",
+      "tier": "2",
       "value": 85.1,
       "market_value": 85.1,
       "source_rank": 25,
@@ -13314,7 +13314,7 @@
           "market_value": 85.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 87,
         "recent_form": 84.1,
@@ -13353,7 +13353,7 @@
           "market_value": 84.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 92,
         "recent_form": 88,
@@ -13392,7 +13392,7 @@
           "market_value": 84.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 85.3,
         "recent_form": 52.9,
@@ -13431,7 +13431,7 @@
           "market_value": 84.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 88.4,
         "recent_form": 91.3,
@@ -13470,7 +13470,7 @@
           "market_value": 84
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 87.8,
         "recent_form": 91.8,
@@ -13509,7 +13509,7 @@
           "market_value": 83.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 77.6,
         "recent_form": 79.6,
@@ -13538,7 +13538,7 @@
       "position": "WR",
       "nfl_team": "GB",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "2",
+      "tier": "3",
       "value": 83.5,
       "market_value": 83.5,
       "source_rank": 31,
@@ -13548,7 +13548,7 @@
           "market_value": 83.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 84.1,
         "recent_form": 85.5,
@@ -13577,7 +13577,7 @@
       "position": "RB",
       "nfl_team": "SF",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "2",
+      "tier": "3",
       "value": 83.3,
       "market_value": 83.3,
       "source_rank": 32,
@@ -13587,7 +13587,7 @@
           "market_value": 83.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 83.7,
         "recent_form": 85.7,
@@ -13616,7 +13616,7 @@
       "position": "WR",
       "nfl_team": "ATL",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "2",
+      "tier": "3",
       "value": 83.3,
       "market_value": 83.3,
       "source_rank": 33,
@@ -13626,7 +13626,7 @@
           "market_value": 83.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 81.2,
         "recent_form": 94.2,
@@ -13655,7 +13655,7 @@
       "position": "WR",
       "nfl_team": "CIN",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "2",
+      "tier": "3",
       "value": 82.8,
       "market_value": 82.8,
       "source_rank": 34,
@@ -13665,7 +13665,7 @@
           "market_value": 82.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 85.5,
         "recent_form": 76.8,
@@ -13694,7 +13694,7 @@
       "position": "RB",
       "nfl_team": "CAR",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "2",
+      "tier": "3",
       "value": 82.3,
       "market_value": 82.3,
       "source_rank": 35,
@@ -13704,7 +13704,7 @@
           "market_value": 82.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 85.7,
         "recent_form": 89.8,
@@ -13733,7 +13733,7 @@
       "position": "QB",
       "nfl_team": "CAR",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "2",
+      "tier": "3",
       "value": 80.4,
       "market_value": 80.4,
       "source_rank": 36,
@@ -13743,7 +13743,7 @@
           "market_value": 80.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 94.1,
         "recent_form": 64.7,
@@ -13772,7 +13772,7 @@
       "position": "RB",
       "nfl_team": "MIA",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "2",
+      "tier": "3",
       "value": 80,
       "market_value": 80,
       "source_rank": 37,
@@ -13782,7 +13782,7 @@
           "market_value": 80
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 79.6,
         "recent_form": 81.6,
@@ -13811,7 +13811,7 @@
       "position": "RB",
       "nfl_team": "LV",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "2",
+      "tier": "3",
       "value": 79.1,
       "market_value": 79.1,
       "source_rank": 38,
@@ -13821,7 +13821,7 @@
           "market_value": 79.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 81.6,
         "recent_form": 69.4,
@@ -13850,7 +13850,7 @@
       "position": "QB",
       "nfl_team": "LV",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "2",
+      "tier": "3",
       "value": 77.8,
       "market_value": 77.8,
       "source_rank": 39,
@@ -13860,7 +13860,7 @@
           "market_value": 77.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 76.5,
         "recent_form": 94.1,
@@ -13889,7 +13889,7 @@
       "position": "WR",
       "nfl_team": "SF",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "2",
+      "tier": "3",
       "value": 77.1,
       "market_value": 77.1,
       "source_rank": 40,
@@ -13899,7 +13899,7 @@
           "market_value": 77.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 82.6,
         "recent_form": 88.4,
@@ -13928,7 +13928,7 @@
       "position": "QB",
       "nfl_team": "HOU",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "2",
+      "tier": "3",
       "value": 76.8,
       "market_value": 76.8,
       "source_rank": 41,
@@ -13938,7 +13938,7 @@
           "market_value": 76.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 70.6,
         "recent_form": 58.8,
@@ -13967,7 +13967,7 @@
       "position": "TE",
       "nfl_team": "NYG",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "2",
+      "tier": "3",
       "value": 76,
       "market_value": 76,
       "source_rank": 42,
@@ -13977,7 +13977,7 @@
           "market_value": 76
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 84,
         "recent_form": 44,
@@ -14006,7 +14006,7 @@
       "position": "WR",
       "nfl_team": "HOU",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "2",
+      "tier": "3",
       "value": 75.3,
       "market_value": 75.3,
       "source_rank": 43,
@@ -14016,7 +14016,7 @@
           "market_value": 75.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 73.9,
         "recent_form": 79.7,
@@ -14045,7 +14045,7 @@
       "position": "TE",
       "nfl_team": "CLE",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "2",
+      "tier": "3",
       "value": 73.7,
       "market_value": 73.7,
       "source_rank": 44,
@@ -14055,7 +14055,7 @@
           "market_value": 73.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 76,
         "recent_form": 92,
@@ -14084,7 +14084,7 @@
       "position": "TE",
       "nfl_team": "IND",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "2",
+      "tier": "3",
       "value": 72.9,
       "market_value": 72.9,
       "source_rank": 45,
@@ -14094,7 +14094,7 @@
           "market_value": 72.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 72,
         "recent_form": 68,
@@ -14123,7 +14123,7 @@
       "position": "RB",
       "nfl_team": "CHI",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "2",
+      "tier": "4",
       "value": 71.3,
       "market_value": 71.3,
       "source_rank": 46,
@@ -14133,7 +14133,7 @@
           "market_value": 71.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 75.5,
         "recent_form": 46.9,
@@ -14162,7 +14162,7 @@
       "position": "QB",
       "nfl_team": "PHI",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "2",
+      "tier": "4",
       "value": 71.2,
       "market_value": 71.2,
       "source_rank": 47,
@@ -14172,7 +14172,7 @@
           "market_value": 71.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 67.6,
         "recent_form": 38.2,
@@ -14201,7 +14201,7 @@
       "position": "RB",
       "nfl_team": "CIN",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "2",
+      "tier": "4",
       "value": 70.9,
       "market_value": 70.9,
       "source_rank": 48,
@@ -14211,7 +14211,7 @@
           "market_value": 70.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 71.4,
         "recent_form": 59.2,
@@ -14240,7 +14240,7 @@
       "position": "TE",
       "nfl_team": "LV",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "2",
+      "tier": "4",
       "value": 70.2,
       "market_value": 70.2,
       "source_rank": 49,
@@ -14250,7 +14250,7 @@
           "market_value": 70.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 68,
         "recent_form": 100,
@@ -14279,7 +14279,7 @@
       "position": "WR",
       "nfl_team": "ARI",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "3",
+      "tier": "4",
       "value": 69.4,
       "market_value": 69.4,
       "source_rank": 50,
@@ -14289,7 +14289,7 @@
           "market_value": 69.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 79.7,
         "recent_form": 92.8,
@@ -14318,7 +14318,7 @@
       "position": "WR",
       "nfl_team": "MIA",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "3",
+      "tier": "4",
       "value": 68.7,
       "market_value": 68.7,
       "source_rank": 51,
@@ -14328,7 +14328,7 @@
           "market_value": 68.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 68.1,
         "recent_form": 58,
@@ -14357,7 +14357,7 @@
       "position": "WR",
       "nfl_team": "PHI",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "3",
+      "tier": "4",
       "value": 68.3,
       "market_value": 68.3,
       "source_rank": 52,
@@ -14367,7 +14367,7 @@
           "market_value": 68.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 69.6,
         "recent_form": 29,
@@ -14396,7 +14396,7 @@
       "position": "WR",
       "nfl_team": "SF",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "3",
+      "tier": "4",
       "value": 68.2,
       "market_value": 68.2,
       "source_rank": 53,
@@ -14406,7 +14406,7 @@
           "market_value": 68.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 71,
         "recent_form": 62.3,
@@ -14435,7 +14435,7 @@
       "position": "TE",
       "nfl_team": "KC",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "3",
+      "tier": "4",
       "value": 68.2,
       "market_value": 68.2,
       "source_rank": 54,
@@ -14445,7 +14445,7 @@
           "market_value": 68.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 80,
         "recent_form": 48,
@@ -14474,7 +14474,7 @@
       "position": "WR",
       "nfl_team": "JAX",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "3",
+      "tier": "4",
       "value": 67.7,
       "market_value": 67.7,
       "source_rank": 55,
@@ -14484,7 +14484,7 @@
           "market_value": 67.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 72.5,
         "recent_form": 37.7,
@@ -14513,7 +14513,7 @@
       "position": "QB",
       "nfl_team": "CLE",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "3",
+      "tier": "4",
       "value": 67.2,
       "market_value": 67.2,
       "source_rank": 56,
@@ -14523,7 +14523,7 @@
           "market_value": 67.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 64.7,
         "recent_form": 55.9,
@@ -14552,7 +14552,7 @@
       "position": "WR",
       "nfl_team": "NYG",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "3",
+      "tier": "4",
       "value": 66.9,
       "market_value": 66.9,
       "source_rank": 57,
@@ -14562,7 +14562,7 @@
           "market_value": 66.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 59.4,
         "recent_form": 78.3,
@@ -14591,7 +14591,7 @@
       "position": "RB",
       "nfl_team": "TB",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "3",
+      "tier": "4",
       "value": 65.8,
       "market_value": 65.8,
       "source_rank": 58,
@@ -14601,7 +14601,7 @@
           "market_value": 65.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 55.1,
         "recent_form": 42.9,
@@ -14630,7 +14630,7 @@
       "position": "QB",
       "nfl_team": "DEN",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "3",
+      "tier": "4",
       "value": 65.7,
       "market_value": 65.7,
       "source_rank": 59,
@@ -14640,7 +14640,7 @@
           "market_value": 65.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 44.1,
         "recent_form": 76.5,
@@ -14669,7 +14669,7 @@
       "position": "WR",
       "nfl_team": "CHI",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "3",
+      "tier": "4",
       "value": 65.6,
       "market_value": 65.6,
       "source_rank": 60,
@@ -14679,7 +14679,7 @@
           "market_value": 65.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 65.2,
         "recent_form": 81.2,
@@ -14708,7 +14708,7 @@
       "position": "WR",
       "nfl_team": "CLE",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "3",
+      "tier": "5",
       "value": 65.2,
       "market_value": 65.2,
       "source_rank": 61,
@@ -14718,7 +14718,7 @@
           "market_value": 65.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 78.3,
         "recent_form": 53.6,
@@ -14747,7 +14747,7 @@
       "position": "RB",
       "nfl_team": "MIN",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "3",
+      "tier": "5",
       "value": 65.1,
       "market_value": 65.1,
       "source_rank": 62,
@@ -14757,7 +14757,7 @@
           "market_value": 65.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 63.3,
         "recent_form": 71.4,
@@ -14786,7 +14786,7 @@
       "position": "RB",
       "nfl_team": "CLE",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "3",
+      "tier": "5",
       "value": 65,
       "market_value": 65,
       "source_rank": 63,
@@ -14796,7 +14796,7 @@
           "market_value": 65
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 57.1,
         "recent_form": 75.5,
@@ -14825,7 +14825,7 @@
       "position": "RB",
       "nfl_team": "JAX",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "3",
+      "tier": "5",
       "value": 64.5,
       "market_value": 64.5,
       "source_rank": 64,
@@ -14835,7 +14835,7 @@
           "market_value": 64.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 65.3,
         "recent_form": 61.2,
@@ -14864,7 +14864,7 @@
       "position": "WR",
       "nfl_team": "MIN",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "3",
+      "tier": "5",
       "value": 64.3,
       "market_value": 64.3,
       "source_rank": 65,
@@ -14874,7 +14874,7 @@
           "market_value": 64.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 60.9,
         "recent_form": 15.9,
@@ -14903,7 +14903,7 @@
       "position": "QB",
       "nfl_team": "JAX",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "3",
+      "tier": "5",
       "value": 64.3,
       "market_value": 64.3,
       "source_rank": 66,
@@ -14913,7 +14913,7 @@
           "market_value": 64.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 61.8,
         "recent_form": 50,
@@ -14942,7 +14942,7 @@
       "position": "RB",
       "nfl_team": "NYG",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "3",
+      "tier": "5",
       "value": 62.7,
       "market_value": 62.7,
       "source_rank": 67,
@@ -14952,7 +14952,7 @@
           "market_value": 62.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 49,
         "recent_form": 51,
@@ -14981,7 +14981,7 @@
       "position": "QB",
       "nfl_team": "LAR",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "3",
+      "tier": "5",
       "value": 62.6,
       "market_value": 62.6,
       "source_rank": 68,
@@ -14991,7 +14991,7 @@
           "market_value": 62.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 55.9,
         "recent_form": 44.1,
@@ -15020,7 +15020,7 @@
       "position": "WR",
       "nfl_team": "WSH",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "3",
+      "tier": "5",
       "value": 62.4,
       "market_value": 62.4,
       "source_rank": 69,
@@ -15030,7 +15030,7 @@
           "market_value": 62.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 76.8,
         "recent_form": 43.5,
@@ -15059,7 +15059,7 @@
       "position": "RB",
       "nfl_team": "ARI",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "3",
+      "tier": "5",
       "value": 62.3,
       "market_value": 62.3,
       "source_rank": 70,
@@ -15069,7 +15069,7 @@
           "market_value": 62.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 61.2,
         "recent_form": 63.3,
@@ -15098,7 +15098,7 @@
       "position": "RB",
       "nfl_team": "NO",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "3",
+      "tier": "5",
       "value": 62,
       "market_value": 62,
       "source_rank": 71,
@@ -15108,7 +15108,7 @@
           "market_value": 62
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 67.3,
         "recent_form": 57.1,
@@ -15137,7 +15137,7 @@
       "position": "QB",
       "nfl_team": "GB",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "3",
+      "tier": "5",
       "value": 61.9,
       "market_value": 61.9,
       "source_rank": 72,
@@ -15147,7 +15147,7 @@
           "market_value": 61.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 58.8,
         "recent_form": 47.1,
@@ -15176,7 +15176,7 @@
       "position": "WR",
       "nfl_team": "PIT",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "3",
+      "tier": "5",
       "value": 61.1,
       "market_value": 61.1,
       "source_rank": 73,
@@ -15186,7 +15186,7 @@
           "market_value": 61.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 52.2,
         "recent_form": 71,
@@ -15215,7 +15215,7 @@
       "position": "QB",
       "nfl_team": "PIT",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "3",
+      "tier": "5",
       "value": 60.2,
       "market_value": 60.2,
       "source_rank": 74,
@@ -15225,7 +15225,7 @@
           "market_value": 60.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 52.9,
         "recent_form": 91.2,
@@ -15254,7 +15254,7 @@
       "position": "WR",
       "nfl_team": "CAR",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "3",
+      "tier": "5",
       "value": 59.4,
       "market_value": 59.4,
       "source_rank": 75,
@@ -15264,7 +15264,7 @@
           "market_value": 59.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 75.4,
         "recent_form": 14.5,
@@ -15293,7 +15293,7 @@
       "position": "RB",
       "nfl_team": "SEA",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "3",
+      "tier": "6",
       "value": 58.8,
       "market_value": 58.8,
       "source_rank": 76,
@@ -15303,7 +15303,7 @@
           "market_value": 58.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 69.4,
         "recent_form": 65.3,
@@ -15332,7 +15332,7 @@
       "position": "WR",
       "nfl_team": "TEN",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "3",
+      "tier": "6",
       "value": 58.3,
       "market_value": 58.3,
       "source_rank": 77,
@@ -15342,7 +15342,7 @@
           "market_value": 58.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 63.8,
         "recent_form": 87,
@@ -15371,7 +15371,7 @@
       "position": "RB",
       "nfl_team": "LAC",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "3",
+      "tier": "6",
       "value": 57.7,
       "market_value": 57.7,
       "source_rank": 78,
@@ -15381,7 +15381,7 @@
           "market_value": 57.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 53.1,
         "recent_form": 49,
@@ -15410,7 +15410,7 @@
       "position": "WR",
       "nfl_team": "DAL",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "3",
+      "tier": "6",
       "value": 57.5,
       "market_value": 57.5,
       "source_rank": 79,
@@ -15420,7 +15420,7 @@
           "market_value": 57.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 49.3,
         "recent_form": 60.9,
@@ -15449,7 +15449,7 @@
       "position": "TE",
       "nfl_team": "MIN",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "3",
+      "tier": "6",
       "value": 57.4,
       "market_value": 57.4,
       "source_rank": 80,
@@ -15459,7 +15459,7 @@
           "market_value": 57.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 64,
         "recent_form": 76,
@@ -15488,7 +15488,7 @@
       "position": "WR",
       "nfl_team": "DEN",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "3",
+      "tier": "6",
       "value": 56.6,
       "market_value": 56.6,
       "source_rank": 81,
@@ -15498,7 +15498,7 @@
           "market_value": 56.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 55.1,
         "recent_form": 52.2,
@@ -15527,7 +15527,7 @@
       "position": "WR",
       "nfl_team": "LV",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "3",
+      "tier": "6",
       "value": 56.4,
       "market_value": 56.4,
       "source_rank": 82,
@@ -15537,7 +15537,7 @@
           "market_value": 56.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 56.5,
         "recent_form": 46.4,
@@ -15566,7 +15566,7 @@
       "position": "QB",
       "nfl_team": "NYJ",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "3",
+      "tier": "6",
       "value": 56.1,
       "market_value": 56.1,
       "source_rank": 83,
@@ -15576,7 +15576,7 @@
           "market_value": 56.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 50,
         "recent_form": 61.8,
@@ -15605,7 +15605,7 @@
       "position": "TE",
       "nfl_team": "LV",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "3",
+      "tier": "6",
       "value": 56.1,
       "market_value": 56.1,
       "source_rank": 84,
@@ -15615,7 +15615,7 @@
           "market_value": 56.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 56,
         "recent_form": 80,
@@ -15644,7 +15644,7 @@
       "position": "WR",
       "nfl_team": "NO",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "3",
+      "tier": "6",
       "value": 56,
       "market_value": 56,
       "source_rank": 85,
@@ -15654,7 +15654,7 @@
           "market_value": 56
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 66.7,
         "recent_form": 59.4,
@@ -15683,7 +15683,7 @@
       "position": "QB",
       "nfl_team": "ARI",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "3",
+      "tier": "6",
       "value": 55.9,
       "market_value": 55.9,
       "source_rank": 86,
@@ -15693,7 +15693,7 @@
           "market_value": 55.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 47.1,
         "recent_form": 70.6,
@@ -15722,7 +15722,7 @@
       "position": "RB",
       "nfl_team": "CHI",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "3",
+      "tier": "6",
       "value": 55.9,
       "market_value": 55.9,
       "source_rank": 87,
@@ -15732,7 +15732,7 @@
           "market_value": 55.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 73.5,
         "recent_form": 73.5,
@@ -15761,7 +15761,7 @@
       "position": "RB",
       "nfl_team": "ATL",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "3",
+      "tier": "6",
       "value": 55.8,
       "market_value": 55.8,
       "source_rank": 88,
@@ -15771,7 +15771,7 @@
           "market_value": 55.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 59.2,
         "recent_form": 83.7,
@@ -15800,7 +15800,7 @@
       "position": "TE",
       "nfl_team": "DAL",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "3",
+      "tier": "6",
       "value": 55.8,
       "market_value": 55.8,
       "source_rank": 89,
@@ -15810,7 +15810,7 @@
           "market_value": 55.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 40,
         "recent_form": 36,
@@ -15839,7 +15839,7 @@
       "position": "WR",
       "nfl_team": "NE",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "4",
+      "tier": "6",
       "value": 54.8,
       "market_value": 54.8,
       "source_rank": 90,
@@ -15849,7 +15849,7 @@
           "market_value": 54.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 58,
         "recent_form": 82.6,
@@ -15878,7 +15878,7 @@
       "position": "RB",
       "nfl_team": "NYJ",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "4",
+      "tier": "7",
       "value": 54.4,
       "market_value": 54.4,
       "source_rank": 91,
@@ -15888,7 +15888,7 @@
           "market_value": 54.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 44.9,
         "recent_form": 24.5,
@@ -15917,7 +15917,7 @@
       "position": "RB",
       "nfl_team": "HOU",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "4",
+      "tier": "7",
       "value": 53.5,
       "market_value": 53.5,
       "source_rank": 92,
@@ -15927,7 +15927,7 @@
           "market_value": 53.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 51,
         "recent_form": 32.7,
@@ -15956,7 +15956,7 @@
       "position": "WR",
       "nfl_team": "BAL",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "4",
+      "tier": "7",
       "value": 51.6,
       "market_value": 51.6,
       "source_rank": 93,
@@ -15966,7 +15966,7 @@
           "market_value": 51.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 62.3,
         "recent_form": 27.5,
@@ -15995,7 +15995,7 @@
       "position": "WR",
       "nfl_team": "KC",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "4",
+      "tier": "7",
       "value": 51.1,
       "market_value": 51.1,
       "source_rank": 94,
@@ -16005,7 +16005,7 @@
           "market_value": 51.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 43.5,
         "recent_form": 44.9,
@@ -16034,7 +16034,7 @@
       "position": "WR",
       "nfl_team": "LAR",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "4",
+      "tier": "7",
       "value": 51,
       "market_value": 51,
       "source_rank": 95,
@@ -16044,7 +16044,7 @@
           "market_value": 51
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 46.4,
         "recent_form": 68.1,
@@ -16073,7 +16073,7 @@
       "position": "TE",
       "nfl_team": "BUF",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "4",
+      "tier": "7",
       "value": 50.1,
       "market_value": 50.1,
       "source_rank": 96,
@@ -16083,7 +16083,7 @@
           "market_value": 50.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 60,
         "recent_form": 16,
@@ -16112,7 +16112,7 @@
       "position": "WR",
       "nfl_team": "TEN",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "4",
+      "tier": "7",
       "value": 49.9,
       "market_value": 49.9,
       "source_rank": 97,
@@ -16122,7 +16122,7 @@
           "market_value": 49.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 47.8,
         "recent_form": 73.9,
@@ -16151,7 +16151,7 @@
       "position": "RB",
       "nfl_team": "TEN",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "4",
+      "tier": "7",
       "value": 49.5,
       "market_value": 49.5,
       "source_rank": 98,
@@ -16161,7 +16161,7 @@
           "market_value": 49.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 42.9,
         "recent_form": 55.1,
@@ -16190,7 +16190,7 @@
       "position": "WR",
       "nfl_team": "DET",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "4",
+      "tier": "7",
       "value": 49.3,
       "market_value": 49.3,
       "source_rank": 99,
@@ -16200,7 +16200,7 @@
           "market_value": 49.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 44.9,
         "recent_form": 63.8,
@@ -16229,7 +16229,7 @@
       "position": "QB",
       "nfl_team": "LAC",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "4",
+      "tier": "7",
       "value": 49.1,
       "market_value": 49.1,
       "source_rank": 100,
@@ -16239,7 +16239,7 @@
           "market_value": 49.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 23.5,
         "recent_form": 23.5,
@@ -16268,7 +16268,7 @@
       "position": "TE",
       "nfl_team": "GB",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "4",
+      "tier": "7",
       "value": 49.1,
       "market_value": 49.1,
       "source_rank": 101,
@@ -16278,7 +16278,7 @@
           "market_value": 49.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 36,
         "recent_form": 60,
@@ -16307,7 +16307,7 @@
       "position": "RB",
       "nfl_team": "NE",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "4",
+      "tier": "7",
       "value": 48.8,
       "market_value": 48.8,
       "source_rank": 102,
@@ -16317,7 +16317,7 @@
           "market_value": 48.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 46.9,
         "recent_form": 53.1,
@@ -16346,7 +16346,7 @@
       "position": "RB",
       "nfl_team": "DEN",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "4",
+      "tier": "7",
       "value": 47.4,
       "market_value": 47.4,
       "source_rank": 103,
@@ -16356,7 +16356,7 @@
           "market_value": 47.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 40.8,
         "recent_form": 67.3,
@@ -16385,7 +16385,7 @@
       "position": "WR",
       "nfl_team": "JAX",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "4",
+      "tier": "7",
       "value": 47.2,
       "market_value": 47.2,
       "source_rank": 104,
@@ -16395,7 +16395,7 @@
           "market_value": 47.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 50.7,
         "recent_form": 65.2,
@@ -16424,7 +16424,7 @@
       "position": "TE",
       "nfl_team": "BAL",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "4",
+      "tier": "7",
       "value": 46.8,
       "market_value": 46.8,
       "source_rank": 105,
@@ -16434,7 +16434,7 @@
           "market_value": 46.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 48,
         "recent_form": 56,
@@ -16463,7 +16463,7 @@
       "position": "WR",
       "nfl_team": "CHI",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "4",
+      "tier": "8",
       "value": 45.7,
       "market_value": 45.7,
       "source_rank": 106,
@@ -16473,7 +16473,7 @@
           "market_value": 45.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 53.6,
         "recent_form": 56.5,
@@ -16502,7 +16502,7 @@
       "position": "WR",
       "nfl_team": "BUF",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "4",
+      "tier": "8",
       "value": 44.6,
       "market_value": 44.6,
       "source_rank": 107,
@@ -16512,7 +16512,7 @@
           "market_value": 44.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 39.1,
         "recent_form": 40.6,
@@ -16541,7 +16541,7 @@
       "position": "WR",
       "nfl_team": "TB",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "4",
+      "tier": "8",
       "value": 44.2,
       "market_value": 44.2,
       "source_rank": 108,
@@ -16551,7 +16551,7 @@
           "market_value": 44.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 36.2,
         "recent_form": 31.9,
@@ -16580,7 +16580,7 @@
       "position": "QB",
       "nfl_team": "WSH",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "4",
+      "tier": "8",
       "value": 44,
       "market_value": 44,
       "source_rank": 109,
@@ -16590,7 +16590,7 @@
           "market_value": 44
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 38.2,
         "recent_form": 35.3,
@@ -16619,7 +16619,7 @@
       "position": "WR",
       "nfl_team": "IND",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "4",
+      "tier": "8",
       "value": 43.8,
       "market_value": 43.8,
       "source_rank": 110,
@@ -16629,7 +16629,7 @@
           "market_value": 43.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 40.6,
         "recent_form": 47.8,
@@ -16658,7 +16658,7 @@
       "position": "QB",
       "nfl_team": "ATL",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "4",
+      "tier": "8",
       "value": 43.5,
       "market_value": 43.5,
       "source_rank": 111,
@@ -16668,7 +16668,7 @@
           "market_value": 43.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 35.3,
         "recent_form": 32.4,
@@ -16697,7 +16697,7 @@
       "position": "WR",
       "nfl_team": "PHI",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "4",
+      "tier": "8",
       "value": 43.1,
       "market_value": 43.1,
       "source_rank": 112,
@@ -16707,7 +16707,7 @@
           "market_value": 43.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 20.3,
         "recent_form": 20.3,
@@ -16736,7 +16736,7 @@
       "position": "TE",
       "nfl_team": "CAR",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "4",
+      "tier": "8",
       "value": 43,
       "market_value": 43,
       "source_rank": 113,
@@ -16746,7 +16746,7 @@
           "market_value": 43
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 32,
         "recent_form": 40,
@@ -16775,7 +16775,7 @@
       "position": "TE",
       "nfl_team": "NYJ",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "4",
+      "tier": "8",
       "value": 42.8,
       "market_value": 42.8,
       "source_rank": 114,
@@ -16785,7 +16785,7 @@
           "market_value": 42.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 44,
         "recent_form": 64,
@@ -16814,7 +16814,7 @@
       "position": "QB",
       "nfl_team": "MIA",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "4",
+      "tier": "8",
       "value": 42.8,
       "market_value": 42.8,
       "source_rank": 115,
@@ -16824,7 +16824,7 @@
           "market_value": 42.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 20.6,
         "recent_form": 14.7,
@@ -16853,7 +16853,7 @@
       "position": "WR",
       "nfl_team": "WSH",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "4",
+      "tier": "8",
       "value": 42.2,
       "market_value": 42.2,
       "source_rank": 116,
@@ -16863,7 +16863,7 @@
           "market_value": 42.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 27.5,
         "recent_form": 50.7,
@@ -16892,7 +16892,7 @@
       "position": "QB",
       "nfl_team": "TEN",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "4",
+      "tier": "8",
       "value": 41.8,
       "market_value": 41.8,
       "source_rank": 117,
@@ -16902,7 +16902,7 @@
           "market_value": 41.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 41.2,
         "recent_form": 29.4,
@@ -16931,7 +16931,7 @@
       "position": "WR",
       "nfl_team": "MIN",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "4",
+      "tier": "8",
       "value": 40.7,
       "market_value": 40.7,
       "source_rank": 118,
@@ -16941,7 +16941,7 @@
           "market_value": 40.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 33.3,
         "recent_form": 72.5,
@@ -16970,7 +16970,7 @@
       "position": "TE",
       "nfl_team": "HOU",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "4",
+      "tier": "8",
       "value": 40.6,
       "market_value": 40.6,
       "source_rank": 119,
@@ -16980,7 +16980,7 @@
           "market_value": 40.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 52,
         "recent_form": 24,
@@ -17009,7 +17009,7 @@
       "position": "RB",
       "nfl_team": "WSH",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "4",
+      "tier": "8",
       "value": 40.5,
       "market_value": 40.5,
       "source_rank": 120,
@@ -17019,7 +17019,7 @@
           "market_value": 40.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 34.7,
         "recent_form": 34.7,
@@ -17048,7 +17048,7 @@
       "position": "WR",
       "nfl_team": "LAC",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "4",
+      "tier": "9",
       "value": 40.3,
       "market_value": 40.3,
       "source_rank": 121,
@@ -17058,7 +17058,7 @@
           "market_value": 40.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 37.7,
         "recent_form": 21.7,
@@ -17087,7 +17087,7 @@
       "position": "WR",
       "nfl_team": "CHI",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "4",
+      "tier": "9",
       "value": 40,
       "market_value": 40,
       "source_rank": 122,
@@ -17097,7 +17097,7 @@
           "market_value": 40
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 42,
         "recent_form": 55.1,
@@ -17126,7 +17126,7 @@
       "position": "TE",
       "nfl_team": "CIN",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "5",
+      "tier": "9",
       "value": 39.1,
       "market_value": 39.1,
       "source_rank": 123,
@@ -17136,7 +17136,7 @@
           "market_value": 39.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 28,
         "recent_form": 32,
@@ -17165,7 +17165,7 @@
       "position": "RB",
       "nfl_team": "PHI",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "5",
+      "tier": "9",
       "value": 38.9,
       "market_value": 38.9,
       "source_rank": 124,
@@ -17175,7 +17175,7 @@
           "market_value": 38.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 28.6,
         "recent_form": 28.6,
@@ -17204,7 +17204,7 @@
       "position": "QB",
       "nfl_team": "SEA",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "5",
+      "tier": "9",
       "value": 38.4,
       "market_value": 38.4,
       "source_rank": 125,
@@ -17214,7 +17214,7 @@
           "market_value": 38.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 17.6,
         "recent_form": 88.2,
@@ -17243,7 +17243,7 @@
       "position": "WR",
       "nfl_team": "BUF",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "9",
       "value": 38.1,
       "market_value": 38.1,
       "source_rank": 126,
@@ -17253,7 +17253,7 @@
           "market_value": 38.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 30.4,
         "recent_form": 34.8,
@@ -17282,7 +17282,7 @@
       "position": "RB",
       "nfl_team": "HOU",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "5",
+      "tier": "9",
       "value": 37.8,
       "market_value": 37.8,
       "source_rank": 127,
@@ -17292,7 +17292,7 @@
           "market_value": 37.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 36.7,
         "recent_form": 44.9,
@@ -17321,7 +17321,7 @@
       "position": "QB",
       "nfl_team": "NE",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "5",
+      "tier": "9",
       "value": 37.2,
       "market_value": 37.2,
       "source_rank": 128,
@@ -17331,7 +17331,7 @@
           "market_value": 37.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 29.4,
         "recent_form": 41.2,
@@ -17360,7 +17360,7 @@
       "position": "RB",
       "nfl_team": "NO",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "5",
+      "tier": "9",
       "value": 35.8,
       "market_value": 35.8,
       "source_rank": 129,
@@ -17370,7 +17370,7 @@
           "market_value": 35.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 38.8,
         "recent_form": 26.5,
@@ -17399,7 +17399,7 @@
       "position": "WR",
       "nfl_team": "IND",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "5",
+      "tier": "9",
       "value": 35.7,
       "market_value": 35.7,
       "source_rank": 130,
@@ -17409,7 +17409,7 @@
           "market_value": 35.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 26.1,
         "recent_form": 49.3,
@@ -17438,7 +17438,7 @@
       "position": "RB",
       "nfl_team": "NYJ",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "5",
+      "tier": "9",
       "value": 35.6,
       "market_value": 35.6,
       "source_rank": 131,
@@ -17448,7 +17448,7 @@
           "market_value": 35.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 30.6,
         "recent_form": 36.7,
@@ -17477,7 +17477,7 @@
       "position": "RB",
       "nfl_team": "DEN",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "9",
       "value": 35.6,
       "market_value": 35.6,
       "source_rank": 132,
@@ -17487,7 +17487,7 @@
           "market_value": 35.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 20.4,
         "recent_form": 38.8,
@@ -17516,7 +17516,7 @@
       "position": "WR",
       "nfl_team": "KC",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "5",
+      "tier": "9",
       "value": 35.1,
       "market_value": 35.1,
       "source_rank": 133,
@@ -17526,7 +17526,7 @@
           "market_value": 35.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 34.8,
         "recent_form": 36.2,
@@ -17555,7 +17555,7 @@
       "position": "WR",
       "nfl_team": "TB",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "9",
       "value": 33.8,
       "market_value": 33.8,
       "source_rank": 134,
@@ -17565,7 +17565,7 @@
           "market_value": 33.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 31.9,
         "recent_form": 33.3,
@@ -17594,7 +17594,7 @@
       "position": "QB",
       "nfl_team": "TB",
       "franchise_id": "WFC_ESPN_23",
-      "tier": "5",
+      "tier": "9",
       "value": 33.6,
       "market_value": 33.6,
       "source_rank": 135,
@@ -17604,7 +17604,7 @@
           "market_value": 33.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 11.8,
         "recent_form": 11.8,
@@ -17633,7 +17633,7 @@
       "position": "QB",
       "nfl_team": "NYG",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "10",
       "value": 32.9,
       "market_value": 32.9,
       "source_rank": 136,
@@ -17643,7 +17643,7 @@
           "market_value": 32.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 32.4,
         "recent_form": 26.5,
@@ -17672,7 +17672,7 @@
       "position": "RB",
       "nfl_team": "WSH",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "5",
+      "tier": "10",
       "value": 29.8,
       "market_value": 29.8,
       "source_rank": 137,
@@ -17682,7 +17682,7 @@
           "market_value": 29.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 32.7,
         "recent_form": 30.6,
@@ -17711,7 +17711,7 @@
       "position": "QB",
       "nfl_team": "CHI",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "5",
+      "tier": "10",
       "value": 29.6,
       "market_value": 29.6,
       "source_rank": 138,
@@ -17721,7 +17721,7 @@
           "market_value": 29.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 26.5,
         "recent_form": 8.8,
@@ -17750,7 +17750,7 @@
       "position": "TE",
       "nfl_team": "CHI",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "5",
+      "tier": "10",
       "value": 29.3,
       "market_value": 29.3,
       "source_rank": 139,
@@ -17760,7 +17760,7 @@
           "market_value": 29.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 16,
         "recent_form": 52,
@@ -17789,7 +17789,7 @@
       "position": "WR",
       "nfl_team": "CLE",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "5",
+      "tier": "10",
       "value": 27.5,
       "market_value": 27.5,
       "source_rank": 140,
@@ -17799,7 +17799,7 @@
           "market_value": 27.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 29,
         "recent_form": 30.4,
@@ -17828,7 +17828,7 @@
       "position": "WR",
       "nfl_team": "JAX",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "10",
       "value": 26.7,
       "market_value": 26.7,
       "source_rank": 141,
@@ -17838,7 +17838,7 @@
           "market_value": 26.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 24.6,
         "recent_form": 24.6,
@@ -17867,7 +17867,7 @@
       "position": "WR",
       "nfl_team": "SEA",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "10",
       "value": 25.9,
       "market_value": 25.9,
       "source_rank": 142,
@@ -17877,7 +17877,7 @@
           "market_value": 25.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 23.2,
         "recent_form": 42,
@@ -17906,7 +17906,7 @@
       "position": "WR",
       "nfl_team": "ARI",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "5",
+      "tier": "10",
       "value": 25.7,
       "market_value": 25.7,
       "source_rank": 143,
@@ -17916,7 +17916,7 @@
           "market_value": 25.7
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 18.8,
         "recent_form": 39.1,
@@ -17945,7 +17945,7 @@
       "position": "RB",
       "nfl_team": "TB",
       "franchise_id": "WFC_ESPN_21",
-      "tier": "5",
+      "tier": "10",
       "value": 25.2,
       "market_value": 25.2,
       "source_rank": 144,
@@ -17955,7 +17955,7 @@
           "market_value": 25.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 22.4,
         "recent_form": 40.8,
@@ -17984,7 +17984,7 @@
       "position": "WR",
       "nfl_team": "HOU",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "5",
+      "tier": "10",
       "value": 24.6,
       "market_value": 24.6,
       "source_rank": 145,
@@ -17994,7 +17994,7 @@
           "market_value": 24.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 21.7,
         "recent_form": 23.2,
@@ -18023,7 +18023,7 @@
       "position": "RB",
       "nfl_team": "LAR",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "5",
+      "tier": "10",
       "value": 24.1,
       "market_value": 24.1,
       "source_rank": 146,
@@ -18033,7 +18033,7 @@
           "market_value": 24.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 26.5,
         "recent_form": 20.4,
@@ -18062,7 +18062,7 @@
       "position": "RB",
       "nfl_team": "NE",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "10",
       "value": 23.2,
       "market_value": 23.2,
       "source_rank": 147,
@@ -18072,7 +18072,7 @@
           "market_value": 23.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 24.5,
         "recent_form": 22.4,
@@ -18101,7 +18101,7 @@
       "position": "TE",
       "nfl_team": "PHI",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "5",
+      "tier": "10",
       "value": 22.6,
       "market_value": 22.6,
       "source_rank": 148,
@@ -18111,7 +18111,7 @@
           "market_value": 22.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 24,
         "recent_form": 4,
@@ -18140,7 +18140,7 @@
       "position": "TE",
       "nfl_team": "ATL",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "5",
+      "tier": "10",
       "value": 22.5,
       "market_value": 22.5,
       "source_rank": 149,
@@ -18150,7 +18150,7 @@
           "market_value": 22.5
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 12,
         "recent_form": 28,
@@ -18179,7 +18179,7 @@
       "position": "QB",
       "nfl_team": "IND",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "10",
       "value": 20.9,
       "market_value": 20.9,
       "source_rank": 150,
@@ -18189,7 +18189,7 @@
           "market_value": 20.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 14.7,
         "recent_form": 17.6,
@@ -18218,7 +18218,7 @@
       "position": "RB",
       "nfl_team": "KC",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "5",
+      "tier": "11",
       "value": 20.6,
       "market_value": 20.6,
       "source_rank": 151,
@@ -18228,7 +18228,7 @@
           "market_value": 20.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 12.2,
         "recent_form": 16.3,
@@ -18257,7 +18257,7 @@
       "position": "QB",
       "nfl_team": "MIN",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "5",
+      "tier": "11",
       "value": 20.1,
       "market_value": 20.1,
       "source_rank": 152,
@@ -18267,7 +18267,7 @@
           "market_value": 20.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 2.9,
         "recent_form": 20.6,
@@ -18296,7 +18296,7 @@
       "position": "TE",
       "nfl_team": "LAC",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "5",
+      "tier": "11",
       "value": 20,
       "market_value": 20,
       "source_rank": 153,
@@ -18306,7 +18306,7 @@
           "market_value": 20
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 20,
         "recent_form": 20,
@@ -18335,7 +18335,7 @@
       "position": "WR",
       "nfl_team": "PIT",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "5",
+      "tier": "11",
       "value": 19.1,
       "market_value": 19.1,
       "source_rank": 154,
@@ -18345,7 +18345,7 @@
           "market_value": 19.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 14.5,
         "recent_form": 17.4,
@@ -18374,7 +18374,7 @@
       "position": "WR",
       "nfl_team": "PHI",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "5",
+      "tier": "11",
       "value": 18.6,
       "market_value": 18.6,
       "source_rank": 155,
@@ -18384,7 +18384,7 @@
           "market_value": 18.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 15.9,
         "recent_form": 26.1,
@@ -18413,7 +18413,7 @@
       "position": "WR",
       "nfl_team": "DEN",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "5",
+      "tier": "11",
       "value": 18.2,
       "market_value": 18.2,
       "source_rank": 156,
@@ -18423,7 +18423,7 @@
           "market_value": 18.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 17.4,
         "recent_form": 18.8,
@@ -18452,7 +18452,7 @@
       "position": "RB",
       "nfl_team": "PIT",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "5",
+      "tier": "11",
       "value": 17.8,
       "market_value": 17.8,
       "source_rank": 157,
@@ -18462,7 +18462,7 @@
           "market_value": 17.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 16.3,
         "recent_form": 4.1,
@@ -18491,7 +18491,7 @@
       "position": "QB",
       "nfl_team": "WSH",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "11",
       "value": 17.6,
       "market_value": 17.6,
       "source_rank": 158,
@@ -18501,7 +18501,7 @@
           "market_value": 17.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 8.8,
         "recent_form": 2.9,
@@ -18530,7 +18530,7 @@
       "position": "RB",
       "nfl_team": "MIN",
       "franchise_id": "WFC_ESPN_22",
-      "tier": "5",
+      "tier": "11",
       "value": 16.9,
       "market_value": 16.9,
       "source_rank": 159,
@@ -18540,7 +18540,7 @@
           "market_value": 16.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 18.4,
         "recent_form": 8.2,
@@ -18569,7 +18569,7 @@
       "position": "WR",
       "nfl_team": "NE",
       "franchise_id": "WFC_ESPN_20",
-      "tier": "5",
+      "tier": "11",
       "value": 16.3,
       "market_value": 16.3,
       "source_rank": 160,
@@ -18579,7 +18579,7 @@
           "market_value": 16.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 11.6,
         "recent_form": 11.6,
@@ -18608,7 +18608,7 @@
       "position": "QB",
       "nfl_team": "NYG",
       "franchise_id": "WFC_ESPN_24",
-      "tier": "5",
+      "tier": "11",
       "value": 16.3,
       "market_value": 16.3,
       "source_rank": 161,
@@ -18618,7 +18618,7 @@
           "market_value": 16.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 5.9,
         "recent_form": 5.9,
@@ -18647,7 +18647,7 @@
       "position": "RB",
       "nfl_team": "NO",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "11",
       "value": 16.2,
       "market_value": 16.2,
       "source_rank": 162,
@@ -18657,7 +18657,7 @@
           "market_value": 16.2
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 14.3,
         "recent_form": 18.4,
@@ -18686,7 +18686,7 @@
       "position": "WR",
       "nfl_team": "MIA",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "5",
+      "tier": "11",
       "value": 15.6,
       "market_value": 15.6,
       "source_rank": 163,
@@ -18696,7 +18696,7 @@
           "market_value": 15.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 10.1,
         "recent_form": 7.2,
@@ -18725,7 +18725,7 @@
       "position": "WR",
       "nfl_team": "IND",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "5",
+      "tier": "11",
       "value": 13.6,
       "market_value": 13.6,
       "source_rank": 164,
@@ -18735,7 +18735,7 @@
           "market_value": 13.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 13,
         "recent_form": 8.7,
@@ -18764,7 +18764,7 @@
       "position": "RB",
       "nfl_team": "MIA",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "5",
+      "tier": "11",
       "value": 12.9,
       "market_value": 12.9,
       "source_rank": 165,
@@ -18774,7 +18774,7 @@
           "market_value": 12.9
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 10.2,
         "recent_form": 14.3,
@@ -18803,7 +18803,7 @@
       "position": "RB",
       "nfl_team": "DET",
       "franchise_id": "WFC_ESPN_2",
-      "tier": "5",
+      "tier": "12",
       "value": 11.3,
       "market_value": 11.3,
       "source_rank": 166,
@@ -18813,7 +18813,7 @@
           "market_value": 11.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 8.2,
         "recent_form": 12.2,
@@ -18842,7 +18842,7 @@
       "position": "WR",
       "nfl_team": "MIN",
       "franchise_id": "WFC_ESPN_26",
-      "tier": "5",
+      "tier": "12",
       "value": 10.8,
       "market_value": 10.8,
       "source_rank": 167,
@@ -18852,7 +18852,7 @@
           "market_value": 10.8
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 7.2,
         "recent_form": 13,
@@ -18881,7 +18881,7 @@
       "position": "WR",
       "nfl_team": "MIA",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "5",
+      "tier": "12",
       "value": 10.4,
       "market_value": 10.4,
       "source_rank": 168,
@@ -18891,7 +18891,7 @@
           "market_value": 10.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 8.7,
         "recent_form": 5.8,
@@ -18920,7 +18920,7 @@
       "position": "TE",
       "nfl_team": "DEN",
       "franchise_id": "WFC_ESPN_19",
-      "tier": "5",
+      "tier": "12",
       "value": 10.4,
       "market_value": 10.4,
       "source_rank": 169,
@@ -18930,7 +18930,7 @@
           "market_value": 10.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 8,
         "recent_form": 8,
@@ -18959,7 +18959,7 @@
       "position": "WR",
       "nfl_team": "SF",
       "franchise_id": "WFC_ESPN_14",
-      "tier": "5",
+      "tier": "12",
       "value": 10.1,
       "market_value": 10.1,
       "source_rank": 170,
@@ -18969,7 +18969,7 @@
           "market_value": 10.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 4.3,
         "recent_form": 4.3,
@@ -18998,7 +18998,7 @@
       "position": "RB",
       "nfl_team": "FA",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "5",
+      "tier": "12",
       "value": 9.6,
       "market_value": 9.6,
       "source_rank": 171,
@@ -19008,7 +19008,7 @@
           "market_value": 9.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 6.1,
         "recent_form": 10.2,
@@ -19037,7 +19037,7 @@
       "position": "WR",
       "nfl_team": "NYJ",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "5",
+      "tier": "12",
       "value": 9.4,
       "market_value": 9.4,
       "source_rank": 172,
@@ -19047,7 +19047,7 @@
           "market_value": 9.4
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 5.8,
         "recent_form": 10.1,
@@ -19076,7 +19076,7 @@
       "position": "TE",
       "nfl_team": "LAR",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "5",
+      "tier": "12",
       "value": 8.6,
       "market_value": 8.6,
       "source_rank": 173,
@@ -19086,7 +19086,7 @@
           "market_value": 8.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 4,
         "recent_form": 12,
@@ -19115,7 +19115,7 @@
       "position": "RB",
       "nfl_team": "GB",
       "franchise_id": "WFC_ESPN_25",
-      "tier": "5",
+      "tier": "12",
       "value": 7.6,
       "market_value": 7.6,
       "source_rank": 174,
@@ -19125,7 +19125,7 @@
           "market_value": 7.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 4.1,
         "recent_form": 6.1,
@@ -19154,7 +19154,7 @@
       "position": "WR",
       "nfl_team": "NO",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "5",
+      "tier": "12",
       "value": 6.3,
       "market_value": 6.3,
       "source_rank": 175,
@@ -19164,7 +19164,7 @@
           "market_value": 6.3
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 2.9,
         "recent_form": 2.9,
@@ -19193,7 +19193,7 @@
       "position": "RB",
       "nfl_team": "SEA",
       "franchise_id": "WFC_ESPN_1",
-      "tier": "5",
+      "tier": "12",
       "value": 5.6,
       "market_value": 5.6,
       "source_rank": 176,
@@ -19203,7 +19203,7 @@
           "market_value": 5.6
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 2,
         "recent_form": 2,
@@ -19232,7 +19232,7 @@
       "position": "WR",
       "nfl_team": "HOU",
       "franchise_id": "WFC_ESPN_6",
-      "tier": "5",
+      "tier": "12",
       "value": 5.1,
       "market_value": 5.1,
       "source_rank": 177,
@@ -19242,7 +19242,7 @@
           "market_value": 5.1
         }
       ],
-      "captured_at": "2026-10-08T03:13:24.048Z",
+      "captured_at": "2026-10-08T03:35:09.364Z",
       "drivers": {
         "production": 1.4,
         "recent_form": 1.4,
@@ -19268,7 +19268,7 @@
   ],
   "market_model": {
     "model_id": "wfc-market-v1",
-    "as_of": "2026-10-08T03:13:24.048Z",
+    "as_of": "2026-10-08T03:35:09.364Z",
     "history_date": "2026-10-08",
     "input_status": {
       "schedule_signal_date": null,
