@@ -1,44 +1,56 @@
 {
   "season": 2026,
   "source": "ESPN / WFC Data Engine",
-  "source_updated": "2026-09-22T14:04:37.694Z",
-  "source_sha256": "25abf9f669cfe6ecc5a3a429f9b72bd3eaa8778f1e76d0834bae5a51ccebe6a0",
+  "source_updated": "2026-10-06T13:04:08.390Z",
+  "source_sha256": "95f60eb03726cfb360fce632bebb1d53a6f6593ec804d166029835101eac5512",
   "ranking_basis": "All rostered players, including bench and IR",
   "weeks": [
     {
       "week": 1,
       "matchups": [
         {
+          "team_id": "WFC_ESPN_24",
+          "opponent_id": "WFC_ESPN_14",
           "team": "Papa Roast",
           "opponent": "Limp Brizkit",
           "points": 179.66,
           "opponent_points": 134.34
         },
         {
+          "team_id": "WFC_ESPN_19",
+          "opponent_id": "WFC_ESPN_23",
           "team": "DaTeet",
           "opponent": "Team G",
           "points": 129.56,
           "opponent_points": 128.5
         },
         {
+          "team_id": "WFC_ESPN_22",
+          "opponent_id": "WFC_ESPN_1",
           "team": "Not Bad For A Human",
           "opponent": "End Zone Xenomorph",
           "points": 118.72,
           "opponent_points": 202.06
         },
         {
+          "team_id": "WFC_ESPN_25",
+          "opponent_id": "WFC_ESPN_26",
           "team": "Korn on the cobb",
           "opponent": "Alphonse Bundy",
           "points": 141.98,
           "opponent_points": 86.3
         },
         {
+          "team_id": "WFC_ESPN_21",
+          "opponent_id": "WFC_ESPN_20",
           "team": "CleatsNMartinis",
           "opponent": "Team OleGrayMen",
           "points": 134.4,
           "opponent_points": 99.78
         },
         {
+          "team_id": "WFC_ESPN_2",
+          "opponent_id": "WFC_ESPN_6",
           "team": "No Effort",
           "opponent": "Rushin' Collusion",
           "points": 116.02,
@@ -75,6 +87,878 @@
           "position": "WR",
           "team": "Team OleGrayMen",
           "points": 33.8
+        },
+        {
+          "player": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "End Zone Xenomorph",
+          "points": 33.6
+        },
+        {
+          "player": "Ashton Jeanty",
+          "position": "RB",
+          "team": "Papa Roast",
+          "points": 32.7
+        },
+        {
+          "player": "Christian Watson",
+          "position": "WR",
+          "team": "Korn on the cobb",
+          "points": 32.7
+        },
+        {
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "team": "Papa Roast",
+          "points": 32.4
+        },
+        {
+          "player": "Bryce Young",
+          "position": "QB",
+          "team": "DaTeet",
+          "points": 31.44
+        }
+      ],
+      "starters": [
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Jaxson Dart",
+          "position": "QB",
+          "slot": "QB",
+          "points": 26.6
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Ashton Jeanty",
+          "position": "RB",
+          "slot": "RB",
+          "points": 32.7
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "slot": "RB",
+          "points": 32.4
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Puka Nacua",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.4
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Davante Adams",
+          "position": "WR",
+          "slot": "WR",
+          "points": 5.6
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Trey McBride",
+          "position": "TE",
+          "slot": "TE",
+          "points": 24.5
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Jeremiyah Love",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 13
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "C.J. Stroud",
+          "position": "QB",
+          "slot": "OP",
+          "points": 16.46
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Ravens D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Chris Boswell",
+          "position": "K",
+          "slot": "K",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Bo Nix",
+          "position": "QB",
+          "slot": "QB",
+          "points": 5.44
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "James Cook III",
+          "position": "RB",
+          "slot": "RB",
+          "points": 9.9
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Kyren Williams",
+          "position": "RB",
+          "slot": "RB",
+          "points": 15.5
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Amon-Ra St. Brown",
+          "position": "WR",
+          "slot": "WR",
+          "points": 28.7
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Garrett Wilson",
+          "position": "WR",
+          "slot": "WR",
+          "points": 13.9
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Juwan Johnson",
+          "position": "TE",
+          "slot": "TE",
+          "points": 14.4
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Breece Hall",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 19.8
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Malik Willis",
+          "position": "QB",
+          "slot": "OP",
+          "points": 16.7
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Texans D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": -4
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Tyler Loop",
+          "position": "K",
+          "slot": "K",
+          "points": 14
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "slot": "QB",
+          "points": 24.96
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "De'Von Achane",
+          "position": "RB",
+          "slot": "RB",
+          "points": 10.6
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "David Montgomery",
+          "position": "RB",
+          "slot": "RB",
+          "points": 28.9
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Tee Higgins",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8.9
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Emeka Egbuka",
+          "position": "WR",
+          "slot": "WR",
+          "points": 11.3
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Kyle Pitts Sr.",
+          "position": "TE",
+          "slot": "TE",
+          "points": 0
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Bhayshul Tuten",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 9.8
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Brock Purdy",
+          "position": "QB",
+          "slot": "OP",
+          "points": 21.1
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Bears D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 2
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Cam Little",
+          "position": "K",
+          "slot": "K",
+          "points": 12
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Justin Herbert",
+          "position": "QB",
+          "slot": "QB",
+          "points": 13.26
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "slot": "RB",
+          "points": 25.1
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Bucky Irving",
+          "position": "RB",
+          "slot": "RB",
+          "points": 20.3
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Nico Collins",
+          "position": "WR",
+          "slot": "WR",
+          "points": 21.2
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "DeVonta Smith",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8.3
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Jake Ferguson",
+          "position": "TE",
+          "slot": "TE",
+          "points": 2.6
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Cam Skattebo",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 14.1
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Baker Mayfield",
+          "position": "QB",
+          "slot": "OP",
+          "points": 11.64
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Lions D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Harrison Butker",
+          "position": "K",
+          "slot": "K",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Drake Maye",
+          "position": "QB",
+          "slot": "QB",
+          "points": 9.82
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "slot": "RB",
+          "points": 13.8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Travis Etienne Jr.",
+          "position": "RB",
+          "slot": "RB",
+          "points": 14.8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "George Pickens",
+          "position": "WR",
+          "slot": "WR",
+          "points": 5.8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Zay Flowers",
+          "position": "WR",
+          "slot": "WR",
+          "points": 26
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Tyler Warren",
+          "position": "TE",
+          "slot": "TE",
+          "points": 10.3
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Michael Pittman Jr.",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 8.8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Dak Prescott",
+          "position": "QB",
+          "slot": "OP",
+          "points": 14.4
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Jaguars D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 14
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Harrison Mevis",
+          "position": "K",
+          "slot": "K",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "slot": "QB",
+          "points": 24.72
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jahmyr Gibbs",
+          "position": "RB",
+          "slot": "RB",
+          "points": 33.6
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Derrick Henry",
+          "position": "RB",
+          "slot": "RB",
+          "points": 35.3
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Ladd McConkey",
+          "position": "WR",
+          "slot": "WR",
+          "points": 19.2
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Parker Washington",
+          "position": "WR",
+          "slot": "WR",
+          "points": 19.3
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Isaiah Likely",
+          "position": "TE",
+          "slot": "TE",
+          "points": 27.8
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Tre Tucker",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 4.7
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jared Goff",
+          "position": "QB",
+          "slot": "OP",
+          "points": 16.44
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Seahawks D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 14
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Will Reichard",
+          "position": "K",
+          "slot": "K",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Trevor Lawrence",
+          "position": "QB",
+          "slot": "QB",
+          "points": 26.1
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Omarion Hampton",
+          "position": "RB",
+          "slot": "RB",
+          "points": 8.3
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "RJ Harvey",
+          "position": "RB",
+          "slot": "RB",
+          "points": 8.1
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "slot": "WR",
+          "points": 26.2
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jameson Williams",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8.5
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Hunter Henry",
+          "position": "TE",
+          "slot": "TE",
+          "points": 5.6
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Christian Watson",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 32.7
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jordan Love",
+          "position": "QB",
+          "slot": "OP",
+          "points": 19.48
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Chargers D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 0
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jason Myers",
+          "position": "K",
+          "slot": "K",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Joe Burrow",
+          "position": "QB",
+          "slot": "QB",
+          "points": 14.16
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "slot": "RB",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Jadarian Price",
+          "position": "RB",
+          "slot": "RB",
+          "points": 7.8
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Malik Nabers",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.9
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Matthew Golden",
+          "position": "WR",
+          "slot": "WR",
+          "points": 15.5
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Michael Mayer",
+          "position": "TE",
+          "slot": "TE",
+          "points": 9.2
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Jaylen Waddle",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 1.2
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Aaron Rodgers",
+          "position": "QB",
+          "slot": "OP",
+          "points": 12.54
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Broncos D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 2
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Brandon Aubrey",
+          "position": "K",
+          "slot": "K",
+          "points": 2
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Deshaun Watson",
+          "position": "QB",
+          "slot": "QB",
+          "points": 14
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Kenneth Walker III",
+          "position": "RB",
+          "slot": "RB",
+          "points": 34.1
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Javonte Williams",
+          "position": "RB",
+          "slot": "RB",
+          "points": 24.2
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "slot": "WR",
+          "points": 3.2
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Drake London",
+          "position": "WR",
+          "slot": "WR",
+          "points": 5.5
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Sam LaPorta",
+          "position": "TE",
+          "slot": "TE",
+          "points": 9.8
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Tony Pollard",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 4.4
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Chris Olave",
+          "position": "WR",
+          "slot": "OP",
+          "points": 28.2
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Eagles D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Jake Elliott",
+          "position": "K",
+          "slot": "K",
+          "points": 6
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Josh Allen",
+          "position": "QB",
+          "slot": "QB",
+          "points": 35.66
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Chase Brown",
+          "position": "RB",
+          "slot": "RB",
+          "points": 18.8
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Rico Dowdle",
+          "position": "RB",
+          "slot": "RB",
+          "points": 4.1
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "A.J. Brown",
+          "position": "WR",
+          "slot": "WR",
+          "points": 5.6
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Tetairoa McMillan",
+          "position": "WR",
+          "slot": "WR",
+          "points": 10.5
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Harold Fannin Jr.",
+          "position": "TE",
+          "slot": "TE",
+          "points": 4.1
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Terry McLaurin",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 3.4
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Kyler Murray",
+          "position": "QB",
+          "slot": "OP",
+          "points": -0.38
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Titans D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": -1
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Evan McPherson",
+          "position": "K",
+          "slot": "K",
+          "points": 19
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Jayden Daniels",
+          "position": "QB",
+          "slot": "QB",
+          "points": 17.66
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Jaylen Warren",
+          "position": "RB",
+          "slot": "RB",
+          "points": 10.3
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "J.K. Dobbins",
+          "position": "RB",
+          "slot": "RB",
+          "points": 3.6
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "slot": "WR",
+          "points": 15.4
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Rashee Rice",
+          "position": "WR",
+          "slot": "WR",
+          "points": 9.9
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Tucker Kraft",
+          "position": "TE",
+          "slot": "TE",
+          "points": 9.5
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Brian Thomas Jr.",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Patrick Mahomes",
+          "position": "QB",
+          "slot": "OP",
+          "points": 21.66
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Steelers D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 19
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Cameron Dicker",
+          "position": "K",
+          "slot": "K",
+          "points": 2
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Matthew Stafford",
+          "position": "QB",
+          "slot": "QB",
+          "points": 4.1
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "slot": "RB",
+          "points": 31.3
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Quinshon Judkins",
+          "position": "RB",
+          "slot": "RB",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Justin Jefferson",
+          "position": "WR",
+          "slot": "WR",
+          "points": 31.2
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "DK Metcalf",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Colston Loveland",
+          "position": "TE",
+          "slot": "TE",
+          "points": 0
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Marvin Harrison Jr.",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 4.3
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Caleb Williams",
+          "position": "QB",
+          "slot": "OP",
+          "points": 37.26
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Rams D/ST",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Ka'imi Fairbairn",
+          "position": "K",
+          "slot": "K",
+          "points": 9
         }
       ]
     },
@@ -82,36 +966,48 @@
       "week": 2,
       "matchups": [
         {
+          "team_id": "WFC_ESPN_14",
+          "opponent_id": "WFC_ESPN_25",
           "team": "Limp Brizkit",
           "opponent": "Korn on the cobb",
           "points": 151.9,
           "opponent_points": 108.26
         },
         {
+          "team_id": "WFC_ESPN_2",
+          "opponent_id": "WFC_ESPN_19",
           "team": "No Effort",
           "opponent": "DaTeet",
           "points": 123.92,
           "opponent_points": 104.98
         },
         {
+          "team_id": "WFC_ESPN_1",
+          "opponent_id": "WFC_ESPN_21",
           "team": "End Zone Xenomorph",
           "opponent": "CleatsNMartinis",
           "points": 142.44,
           "opponent_points": 132.82
         },
         {
+          "team_id": "WFC_ESPN_23",
+          "opponent_id": "WFC_ESPN_6",
           "team": "Team G",
           "opponent": "Rushin' Collusion",
           "points": 153.76,
           "opponent_points": 97.5
         },
         {
+          "team_id": "WFC_ESPN_24",
+          "opponent_id": "WFC_ESPN_26",
           "team": "Papa Roast",
           "opponent": "Alphonse Bundy",
           "points": 128.62,
           "opponent_points": 111.88
         },
         {
+          "team_id": "WFC_ESPN_20",
+          "opponent_id": "WFC_ESPN_22",
           "team": "Team OleGrayMen",
           "opponent": "Not Bad For A Human",
           "points": 144.84,
@@ -148,8 +1044,3278 @@
           "position": "WR",
           "team": "Limp Brizkit",
           "points": 35.2
+        },
+        {
+          "player": "Jared Goff",
+          "position": "QB",
+          "team": "End Zone Xenomorph",
+          "points": 29.78
+        },
+        {
+          "player": "Dak Prescott",
+          "position": "QB",
+          "team": "Not Bad For A Human",
+          "points": 29.76
+        },
+        {
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "team": "Team G",
+          "points": 29.2
+        },
+        {
+          "player": "Patrick Mahomes",
+          "position": "QB",
+          "team": "No Effort",
+          "points": 28.98
+        },
+        {
+          "player": "Brock Purdy",
+          "position": "QB",
+          "team": "DaTeet",
+          "points": 28.48
+        }
+      ],
+      "starters": [
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "slot": "QB",
+          "points": 16.16
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jahmyr Gibbs",
+          "position": "RB",
+          "slot": "RB",
+          "points": 23.3
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Derrick Henry",
+          "position": "RB",
+          "slot": "RB",
+          "points": 17.7
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Ladd McConkey",
+          "position": "WR",
+          "slot": "WR",
+          "points": 6.5
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Parker Washington",
+          "position": "WR",
+          "slot": "WR",
+          "points": 16.8
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Isaiah Likely",
+          "position": "TE",
+          "slot": "TE",
+          "points": 8.3
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Caleb Douglas",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 3.9
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jared Goff",
+          "position": "QB",
+          "slot": "OP",
+          "points": 29.78
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Seahawks",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 10
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Will Reichard",
+          "position": "K",
+          "slot": "K",
+          "points": 10
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Jayden Daniels",
+          "position": "QB",
+          "slot": "QB",
+          "points": 14.74
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Jaylen Warren",
+          "position": "RB",
+          "slot": "RB",
+          "points": 9.7
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "J.K. Dobbins",
+          "position": "RB",
+          "slot": "RB",
+          "points": 3.6
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "slot": "WR",
+          "points": 35.3
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Rashee Rice",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.3
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Tucker Kraft",
+          "position": "TE",
+          "slot": "TE",
+          "points": 3.5
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Khalil Shakir",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 6.8
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Patrick Mahomes",
+          "position": "QB",
+          "slot": "OP",
+          "points": 28.98
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Bears",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Cameron Dicker",
+          "position": "K",
+          "slot": "K",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Caleb Williams",
+          "position": "QB",
+          "slot": "QB",
+          "points": 7.72
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "slot": "RB",
+          "points": 11.1
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Quinshon Judkins",
+          "position": "RB",
+          "slot": "RB",
+          "points": 9.8
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Justin Jefferson",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8.5
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "DK Metcalf",
+          "position": "WR",
+          "slot": "WR",
+          "points": 6.7
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Colston Loveland",
+          "position": "TE",
+          "slot": "TE",
+          "points": 1.3
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Mike Evans",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 8.4
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Matthew Stafford",
+          "position": "QB",
+          "slot": "OP",
+          "points": 26.98
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Rams",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 11
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Ka'imi Fairbairn",
+          "position": "K",
+          "slot": "K",
+          "points": 6
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Bo Nix",
+          "position": "QB",
+          "slot": "QB",
+          "points": 14.12
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "James Cook III",
+          "position": "RB",
+          "slot": "RB",
+          "points": 20.9
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Breece Hall",
+          "position": "RB",
+          "slot": "RB",
+          "points": 14.2
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Amon-Ra St. Brown",
+          "position": "WR",
+          "slot": "WR",
+          "points": 35.2
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Garrett Wilson",
+          "position": "WR",
+          "slot": "WR",
+          "points": 16.7
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Juwan Johnson",
+          "position": "TE",
+          "slot": "TE",
+          "points": 10.6
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Kyren Williams",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 15.7
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Malik Willis",
+          "position": "QB",
+          "slot": "OP",
+          "points": 12.48
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Texans",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Tyler Loop",
+          "position": "K",
+          "slot": "K",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "slot": "QB",
+          "points": 14.8
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "De'Von Achane",
+          "position": "RB",
+          "slot": "RB",
+          "points": 12.3
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "David Montgomery",
+          "position": "RB",
+          "slot": "RB",
+          "points": 4.4
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Tee Higgins",
+          "position": "WR",
+          "slot": "WR",
+          "points": 14.5
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Emeka Egbuka",
+          "position": "WR",
+          "slot": "WR",
+          "points": 10.3
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Kyle Pitts Sr.",
+          "position": "TE",
+          "slot": "TE",
+          "points": 2.5
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Kayshon Boutte",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 6.7
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Brock Purdy",
+          "position": "QB",
+          "slot": "OP",
+          "points": 28.48
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Buccaneers",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 4
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Cam Little",
+          "position": "K",
+          "slot": "K",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Josh Allen",
+          "position": "QB",
+          "slot": "QB",
+          "points": 40.82
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Chase Brown",
+          "position": "RB",
+          "slot": "RB",
+          "points": 11.2
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Aaron Jones Sr.",
+          "position": "RB",
+          "slot": "RB",
+          "points": 10.5
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Tetairoa McMillan",
+          "position": "WR",
+          "slot": "WR",
+          "points": 15.1
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Jalen Coker",
+          "position": "WR",
+          "slot": "WR",
+          "points": 14.6
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Dallas Goedert",
+          "position": "TE",
+          "slot": "TE",
+          "points": 1.4
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Terry McLaurin",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Kirk Cousins",
+          "position": "QB",
+          "slot": "OP",
+          "points": 20.22
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Patriots",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 20
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Cairo Santos",
+          "position": "K",
+          "slot": "K",
+          "points": 4
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Carson Wentz",
+          "position": "QB",
+          "slot": "QB",
+          "points": 6.32
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Kenneth Walker III",
+          "position": "RB",
+          "slot": "RB",
+          "points": 23.8
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Javonte Williams",
+          "position": "RB",
+          "slot": "RB",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "slot": "WR",
+          "points": 26.5
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Drake London",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8.9
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Sam LaPorta",
+          "position": "TE",
+          "slot": "TE",
+          "points": 17.2
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Tony Pollard",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 7.5
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Chris Olave",
+          "position": "WR",
+          "slot": "OP",
+          "points": 22.6
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Eagles",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 4
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Jake Elliott",
+          "position": "K",
+          "slot": "K",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Dak Prescott",
+          "position": "QB",
+          "slot": "QB",
+          "points": 29.76
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "slot": "RB",
+          "points": 22.6
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Chuba Hubbard",
+          "position": "RB",
+          "slot": "RB",
+          "points": 14.4
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "George Pickens",
+          "position": "WR",
+          "slot": "WR",
+          "points": 10
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Rashod Bateman",
+          "position": "WR",
+          "slot": "WR",
+          "points": 21.8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Tyler Warren",
+          "position": "TE",
+          "slot": "TE",
+          "points": 14.4
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "DJ Moore",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": -0.1
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Drake Maye",
+          "position": "QB",
+          "slot": "OP",
+          "points": 8.02
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Falcons",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Harrison Mevis",
+          "position": "K",
+          "slot": "K",
+          "points": 3
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Justin Herbert",
+          "position": "QB",
+          "slot": "QB",
+          "points": 7.88
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "slot": "RB",
+          "points": 29.2
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Bucky Irving",
+          "position": "RB",
+          "slot": "RB",
+          "points": 13
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "DeVonta Smith",
+          "position": "WR",
+          "slot": "WR",
+          "points": 27.7
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Kalif Raymond",
+          "position": "WR",
+          "slot": "WR",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Jake Ferguson",
+          "position": "TE",
+          "slot": "TE",
+          "points": 20.3
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Cam Skattebo",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 9.5
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Baker Mayfield",
+          "position": "QB",
+          "slot": "OP",
+          "points": 12.18
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "49ers",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Harrison Butker",
+          "position": "K",
+          "slot": "K",
+          "points": 16
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Jaxson Dart",
+          "position": "QB",
+          "slot": "QB",
+          "points": 0.8
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Ashton Jeanty",
+          "position": "RB",
+          "slot": "RB",
+          "points": 10.3
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "slot": "RB",
+          "points": 12.9
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Davante Adams",
+          "position": "WR",
+          "slot": "WR",
+          "points": 39.5
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Xavier Worthy",
+          "position": "WR",
+          "slot": "WR",
+          "points": 13.5
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Trey McBride",
+          "position": "TE",
+          "slot": "TE",
+          "points": 18.1
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Jeremiyah Love",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 7.5
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "C.J. Stroud",
+          "position": "QB",
+          "slot": "OP",
+          "points": 17.02
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Ravens",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Chris Boswell",
+          "position": "K",
+          "slot": "K",
+          "points": 4
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Trevor Lawrence",
+          "position": "QB",
+          "slot": "QB",
+          "points": 6.16
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Omarion Hampton",
+          "position": "RB",
+          "slot": "RB",
+          "points": 17.5
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Devin Singletary",
+          "position": "RB",
+          "slot": "RB",
+          "points": 0.9
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "slot": "WR",
+          "points": 42.5
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jameson Williams",
+          "position": "WR",
+          "slot": "WR",
+          "points": 5.3
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Mike Gesicki",
+          "position": "TE",
+          "slot": "TE",
+          "points": 0
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Christian Watson",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 14.1
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jordan Love",
+          "position": "QB",
+          "slot": "OP",
+          "points": 13.8
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Chiefs",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jason Myers",
+          "position": "K",
+          "slot": "K",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Joe Burrow",
+          "position": "QB",
+          "slot": "QB",
+          "points": 16.18
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "slot": "RB",
+          "points": 3
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Jadarian Price",
+          "position": "RB",
+          "slot": "RB",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Jaylen Waddle",
+          "position": "WR",
+          "slot": "WR",
+          "points": 21.8
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Matthew Golden",
+          "position": "WR",
+          "slot": "WR",
+          "points": 9.8
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Dalton Kincaid",
+          "position": "TE",
+          "slot": "TE",
+          "points": 22.5
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Malik Nabers",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 1.1
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Jacoby Brissett",
+          "position": "QB",
+          "slot": "OP",
+          "points": 6.5
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Broncos",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Brandon Aubrey",
+          "position": "K",
+          "slot": "K",
+          "points": 17
         }
       ]
+    },
+    {
+      "week": 3,
+      "matchups": [
+        {
+          "team_id": "WFC_ESPN_20",
+          "opponent_id": "WFC_ESPN_1",
+          "team": "Team OleGrayMen",
+          "opponent": "End Zone Xenomorph",
+          "points": 93.58,
+          "opponent_points": 150.48
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "opponent_id": "WFC_ESPN_19",
+          "team": "Rushin' Collusion",
+          "opponent": "DaTeet",
+          "points": 168.9,
+          "opponent_points": 129.52
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "opponent_id": "WFC_ESPN_21",
+          "team": "Not Bad For A Human",
+          "opponent": "CleatsNMartinis",
+          "points": 147.34,
+          "opponent_points": 154.16
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "opponent_id": "WFC_ESPN_2",
+          "team": "Team G",
+          "opponent": "No Effort",
+          "points": 86.02,
+          "opponent_points": 108.54
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "opponent_id": "WFC_ESPN_24",
+          "team": "Korn on the cobb",
+          "opponent": "Papa Roast",
+          "points": 162.6,
+          "opponent_points": 115.42
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "opponent_id": "WFC_ESPN_26",
+          "team": "Limp Brizkit",
+          "opponent": "Alphonse Bundy",
+          "points": 162.28,
+          "opponent_points": 118.18
+        }
+      ],
+      "top_players": [
+        {
+          "player": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "End Zone Xenomorph",
+          "points": 41.4
+        },
+        {
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "Korn on the cobb",
+          "points": 35.36
+        },
+        {
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "team": "Rushin' Collusion",
+          "points": 35.3
+        },
+        {
+          "player": "Brock Purdy",
+          "position": "QB",
+          "team": "DaTeet",
+          "points": 31.28
+        },
+        {
+          "player": "Drake London",
+          "position": "WR",
+          "team": "CleatsNMartinis",
+          "points": 28.4
+        },
+        {
+          "player": "Sam Darnold",
+          "position": "QB",
+          "team": "Korn on the cobb",
+          "points": 27.66
+        },
+        {
+          "player": "Brock Bowers",
+          "position": "TE",
+          "team": "Alphonse Bundy",
+          "points": 27.6
+        },
+        {
+          "player": "Garrett Wilson",
+          "position": "WR",
+          "team": "Rushin' Collusion",
+          "points": 26.7
+        },
+        {
+          "player": "George Kittle",
+          "position": "TE",
+          "team": "Rushin' Collusion",
+          "points": 26.2
+        },
+        {
+          "player": "Geno Smith",
+          "position": "QB",
+          "team": "Limp Brizkit",
+          "points": 26.04
+        }
+      ],
+      "starters": [
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "slot": "QB",
+          "points": 12.62
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jahmyr Gibbs",
+          "position": "RB",
+          "slot": "RB",
+          "points": 41.4
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Derrick Henry",
+          "position": "RB",
+          "slot": "RB",
+          "points": 21.9
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Ladd McConkey",
+          "position": "WR",
+          "slot": "WR",
+          "points": 10.6
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Parker Washington",
+          "position": "WR",
+          "slot": "WR",
+          "points": 13
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Isaiah Likely",
+          "position": "TE",
+          "slot": "TE",
+          "points": 3.3
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Tre Tucker",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 8.3
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jared Goff",
+          "position": "QB",
+          "slot": "OP",
+          "points": 19.36
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Will Reichard",
+          "position": "K",
+          "slot": "K",
+          "points": 16
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Seahawks",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 4
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Patrick Mahomes",
+          "position": "QB",
+          "slot": "QB",
+          "points": 15.94
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Jaylen Warren",
+          "position": "RB",
+          "slot": "RB",
+          "points": 20.6
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "J.K. Dobbins",
+          "position": "RB",
+          "slot": "RB",
+          "points": 6.3
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "slot": "WR",
+          "points": 20.2
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Rashee Rice",
+          "position": "WR",
+          "slot": "WR",
+          "points": 15.8
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Tucker Kraft",
+          "position": "TE",
+          "slot": "TE",
+          "points": 6.6
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Khalil Shakir",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 1.6
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Chris Godwin Jr.",
+          "position": "WR",
+          "slot": "OP",
+          "points": 5.5
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Cameron Dicker",
+          "position": "K",
+          "slot": "K",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Chiefs",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Matthew Stafford",
+          "position": "QB",
+          "slot": "QB",
+          "points": 20.9
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "slot": "RB",
+          "points": 35.3
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Quinshon Judkins",
+          "position": "RB",
+          "slot": "RB",
+          "points": 9.9
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Mike Evans",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.4
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "DK Metcalf",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.1
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "George Kittle",
+          "position": "TE",
+          "slot": "TE",
+          "points": 26.2
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Deebo Samuel Sr.",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 15.4
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Garrett Wilson",
+          "position": "WR",
+          "slot": "OP",
+          "points": 26.7
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Ka'imi Fairbairn",
+          "position": "K",
+          "slot": "K",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Rams",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Geno Smith",
+          "position": "QB",
+          "slot": "QB",
+          "points": 26.04
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "James Cook III",
+          "position": "RB",
+          "slot": "RB",
+          "points": 19.4
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Breece Hall",
+          "position": "RB",
+          "slot": "RB",
+          "points": 8.5
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Amon-Ra St. Brown",
+          "position": "WR",
+          "slot": "WR",
+          "points": 11.9
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Justin Jefferson",
+          "position": "WR",
+          "slot": "WR",
+          "points": 5.2
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Juwan Johnson",
+          "position": "TE",
+          "slot": "TE",
+          "points": 23.3
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Kyren Williams",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 21.8
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Bo Nix",
+          "position": "QB",
+          "slot": "OP",
+          "points": 24.14
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Tyler Loop",
+          "position": "K",
+          "slot": "K",
+          "points": 12
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Texans",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 10
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "slot": "QB",
+          "points": 20.44
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "De'Von Achane",
+          "position": "RB",
+          "slot": "RB",
+          "points": 1.7
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "David Montgomery",
+          "position": "RB",
+          "slot": "RB",
+          "points": 6.8
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Tee Higgins",
+          "position": "WR",
+          "slot": "WR",
+          "points": 21
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Emeka Egbuka",
+          "position": "WR",
+          "slot": "WR",
+          "points": 11.2
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Darren Waller",
+          "position": "TE",
+          "slot": "TE",
+          "points": 10.1
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Bhayshul Tuten",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 17
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Brock Purdy",
+          "position": "QB",
+          "slot": "OP",
+          "points": 31.28
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Cam Little",
+          "position": "K",
+          "slot": "K",
+          "points": 4
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Panthers",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 6
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Josh Allen",
+          "position": "QB",
+          "slot": "QB",
+          "points": 17.46
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Chase Brown",
+          "position": "RB",
+          "slot": "RB",
+          "points": 8.9
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Aaron Jones Sr.",
+          "position": "RB",
+          "slot": "RB",
+          "points": 14.2
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Tetairoa McMillan",
+          "position": "WR",
+          "slot": "WR",
+          "points": 3.7
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Jalen Coker",
+          "position": "WR",
+          "slot": "WR",
+          "points": 3.8
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Mark Andrews",
+          "position": "TE",
+          "slot": "TE",
+          "points": 5.4
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Terry McLaurin",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 19.7
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Kyler Murray",
+          "position": "QB",
+          "slot": "OP",
+          "points": 10.42
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Eddy Pineiro",
+          "position": "K",
+          "slot": "K",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Saints",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 2
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Deshaun Watson",
+          "position": "QB",
+          "slot": "QB",
+          "points": 20.26
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Kenneth Walker III",
+          "position": "RB",
+          "slot": "RB",
+          "points": 21.3
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Tony Pollard",
+          "position": "RB",
+          "slot": "RB",
+          "points": 13.6
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "slot": "WR",
+          "points": 24.8
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Drake London",
+          "position": "WR",
+          "slot": "WR",
+          "points": 28.4
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Sam LaPorta",
+          "position": "TE",
+          "slot": "TE",
+          "points": 7.4
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Wan'Dale Robinson",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 18.7
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Chris Olave",
+          "position": "WR",
+          "slot": "OP",
+          "points": 19.7
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Jake Elliott",
+          "position": "K",
+          "slot": "K",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Eagles",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": -1
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Dak Prescott",
+          "position": "QB",
+          "slot": "QB",
+          "points": 18.94
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "slot": "RB",
+          "points": 21.6
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Chuba Hubbard",
+          "position": "RB",
+          "slot": "RB",
+          "points": 15
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "George Pickens",
+          "position": "WR",
+          "slot": "WR",
+          "points": 15.2
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "DJ Moore",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.7
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Tyler Warren",
+          "position": "TE",
+          "slot": "TE",
+          "points": 14.7
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Zay Flowers",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 15.4
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Tyler Shough",
+          "position": "QB",
+          "slot": "OP",
+          "points": 23.8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Trey Smack",
+          "position": "K",
+          "slot": "K",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Giants",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Justin Herbert",
+          "position": "QB",
+          "slot": "QB",
+          "points": 12.74
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "slot": "RB",
+          "points": 9.2
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Bucky Irving",
+          "position": "RB",
+          "slot": "RB",
+          "points": 7.8
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "DeVonta Smith",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.5
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Dontayvion Wicks",
+          "position": "WR",
+          "slot": "WR",
+          "points": 5.2
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Jake Ferguson",
+          "position": "TE",
+          "slot": "TE",
+          "points": 9.3
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Cam Skattebo",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 13
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Baker Mayfield",
+          "position": "QB",
+          "slot": "OP",
+          "points": 11.28
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Harrison Butker",
+          "position": "K",
+          "slot": "K",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "49ers",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 0
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "C.J. Stroud",
+          "position": "QB",
+          "slot": "QB",
+          "points": 11.68
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Ashton Jeanty",
+          "position": "RB",
+          "slot": "RB",
+          "points": 12.3
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "slot": "RB",
+          "points": 10.8
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Davante Adams",
+          "position": "WR",
+          "slot": "WR",
+          "points": 20.7
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Denzel Boston",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8.1
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Trey McBride",
+          "position": "TE",
+          "slot": "TE",
+          "points": 16.5
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Travis Kelce",
+          "position": "TE",
+          "slot": "FLEX",
+          "points": 13.9
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Cam Ward",
+          "position": "QB",
+          "slot": "OP",
+          "points": 9.44
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Evan McPherson",
+          "position": "K",
+          "slot": "K",
+          "points": 11
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Ravens",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jordan Love",
+          "position": "QB",
+          "slot": "QB",
+          "points": 18.48
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Omarion Hampton",
+          "position": "RB",
+          "slot": "RB",
+          "points": 5.6
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "RJ Harvey",
+          "position": "RB",
+          "slot": "RB",
+          "points": 10.7
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "slot": "WR",
+          "points": 35.36
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Christian Watson",
+          "position": "WR",
+          "slot": "WR",
+          "points": 22.6
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Hunter Henry",
+          "position": "TE",
+          "slot": "TE",
+          "points": 1.5
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Josh Downs",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 12.7
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Sam Darnold",
+          "position": "QB",
+          "slot": "OP",
+          "points": 27.66
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jason Myers",
+          "position": "K",
+          "slot": "K",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Vikings",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 19
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Joe Burrow",
+          "position": "QB",
+          "slot": "QB",
+          "points": 22.58
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "slot": "RB",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Jadarian Price",
+          "position": "RB",
+          "slot": "RB",
+          "points": 1.2
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Malik Nabers",
+          "position": "WR",
+          "slot": "WR",
+          "points": 7.6
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Matthew Golden",
+          "position": "WR",
+          "slot": "WR",
+          "points": 21
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Brock Bowers",
+          "position": "TE",
+          "slot": "TE",
+          "points": 27.6
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Jaylen Waddle",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 6.4
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Dalton Kincaid",
+          "position": "TE",
+          "slot": "OP",
+          "points": 3.8
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Brandon Aubrey",
+          "position": "K",
+          "slot": "K",
+          "points": 10
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Broncos",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "matchups": [
+        {
+          "team_id": "WFC_ESPN_6",
+          "opponent_id": "WFC_ESPN_14",
+          "team": "Rushin' Collusion",
+          "opponent": "Limp Brizkit",
+          "points": 151.78,
+          "opponent_points": 132.12
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "opponent_id": "WFC_ESPN_1",
+          "team": "DaTeet",
+          "opponent": "End Zone Xenomorph",
+          "points": 131.5,
+          "opponent_points": 131.7
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "opponent_id": "WFC_ESPN_25",
+          "team": "Team G",
+          "opponent": "Korn on the cobb",
+          "points": 126.32,
+          "opponent_points": 105.3
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "opponent_id": "WFC_ESPN_26",
+          "team": "Team OleGrayMen",
+          "opponent": "Alphonse Bundy",
+          "points": 139.8,
+          "opponent_points": 119.36
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "opponent_id": "WFC_ESPN_24",
+          "team": "CleatsNMartinis",
+          "opponent": "Papa Roast",
+          "points": 157.76,
+          "opponent_points": 116.08
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "opponent_id": "WFC_ESPN_22",
+          "team": "No Effort",
+          "opponent": "Not Bad For A Human",
+          "points": 131.92,
+          "opponent_points": 138.04
+        }
+      ],
+      "top_players": [
+        {
+          "player": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "Team OleGrayMen",
+          "points": 45.2
+        },
+        {
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "team": "No Effort",
+          "points": 41.3
+        },
+        {
+          "player": "Kyren Williams",
+          "position": "RB",
+          "team": "Limp Brizkit",
+          "points": 36.7
+        },
+        {
+          "player": "Javonte Williams",
+          "position": "RB",
+          "team": "CleatsNMartinis",
+          "points": 31.3
+        },
+        {
+          "player": "Kenneth Walker III",
+          "position": "RB",
+          "team": "CleatsNMartinis",
+          "points": 30.9
+        },
+        {
+          "player": "Nico Collins",
+          "position": "WR",
+          "team": "Team G",
+          "points": 30.8
+        },
+        {
+          "player": "Kyle Monangai",
+          "position": "RB",
+          "team": "Team G",
+          "points": 28
+        },
+        {
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "team": "Rushin' Collusion",
+          "points": 27.7
+        },
+        {
+          "player": "Puka Nacua",
+          "position": "WR",
+          "team": "Papa Roast",
+          "points": 27.7
+        },
+        {
+          "player": "Emanuel Wilson",
+          "position": "RB",
+          "team": "Alphonse Bundy",
+          "points": 27
+        }
+      ],
+      "starters": [
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Matthew Stafford",
+          "position": "QB",
+          "slot": "QB",
+          "points": 9.68
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "slot": "RB",
+          "points": 27.7
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Quinshon Judkins",
+          "position": "RB",
+          "slot": "RB",
+          "points": 21.6
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Mike Evans",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.6
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "DK Metcalf",
+          "position": "WR",
+          "slot": "WR",
+          "points": 16.5
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "George Kittle",
+          "position": "TE",
+          "slot": "TE",
+          "points": 17
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Deebo Samuel Sr.",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 18
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Garrett Wilson",
+          "position": "WR",
+          "slot": "SFLEX",
+          "points": 5.7
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Rams",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_6",
+          "player": "Ka'imi Fairbairn",
+          "position": "K",
+          "slot": "K",
+          "points": 16
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Geno Smith",
+          "position": "QB",
+          "slot": "QB",
+          "points": 8.76
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "James Cook III",
+          "position": "RB",
+          "slot": "RB",
+          "points": 16.3
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Kyren Williams",
+          "position": "RB",
+          "slot": "RB",
+          "points": 36.7
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Amon-Ra St. Brown",
+          "position": "WR",
+          "slot": "WR",
+          "points": 15.5
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Luther Burden III",
+          "position": "WR",
+          "slot": "WR",
+          "points": 11.4
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Juwan Johnson",
+          "position": "TE",
+          "slot": "TE",
+          "points": 11.9
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Bo Nix",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 13.56
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Texans",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 3
+        },
+        {
+          "team_id": "WFC_ESPN_14",
+          "player": "Tyler Loop",
+          "position": "K",
+          "slot": "K",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "slot": "QB",
+          "points": 18.88
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "David Montgomery",
+          "position": "RB",
+          "slot": "RB",
+          "points": 4.3
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Ollie Gordon II",
+          "position": "RB",
+          "slot": "RB",
+          "points": 18
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Tee Higgins",
+          "position": "WR",
+          "slot": "WR",
+          "points": 26.7
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Emeka Egbuka",
+          "position": "WR",
+          "slot": "WR",
+          "points": 3.3
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Darren Waller",
+          "position": "TE",
+          "slot": "TE",
+          "points": 6.6
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Bhayshul Tuten",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 11.1
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Brock Purdy",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 19.62
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Bears",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_19",
+          "player": "Cam Little",
+          "position": "K",
+          "slot": "K",
+          "points": 14
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "slot": "QB",
+          "points": 13.52
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jahmyr Gibbs",
+          "position": "RB",
+          "slot": "RB",
+          "points": 17.7
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Derrick Henry",
+          "position": "RB",
+          "slot": "RB",
+          "points": 15.9
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Parker Washington",
+          "position": "WR",
+          "slot": "WR",
+          "points": 2
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Tre Tucker",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8.4
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Isaiah Likely",
+          "position": "TE",
+          "slot": "TE",
+          "points": 13.6
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jordan Addison",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 9.1
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Jared Goff",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 20.48
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Seahawks",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 12
+        },
+        {
+          "team_id": "WFC_ESPN_1",
+          "player": "Will Reichard",
+          "position": "K",
+          "slot": "K",
+          "points": 19
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Michael Penix Jr.",
+          "position": "QB",
+          "slot": "QB",
+          "points": 12.72
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "slot": "RB",
+          "points": 22.7
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Bucky Irving",
+          "position": "RB",
+          "slot": "RB",
+          "points": 6.1
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Nico Collins",
+          "position": "WR",
+          "slot": "WR",
+          "points": 30.8
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Michael Wilson",
+          "position": "WR",
+          "slot": "WR",
+          "points": 16.5
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Jake Ferguson",
+          "position": "TE",
+          "slot": "TE",
+          "points": 4.1
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Cam Skattebo",
+          "position": "RB",
+          "slot": "FLEX",
+          "points": 7.6
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Dontayvion Wicks",
+          "position": "WR",
+          "slot": "SFLEX",
+          "points": 4.8
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "49ers",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_23",
+          "player": "Spencer Shrader",
+          "position": "K",
+          "slot": "K",
+          "points": 16
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Trevor Lawrence",
+          "position": "QB",
+          "slot": "QB",
+          "points": 13.08
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Omarion Hampton",
+          "position": "RB",
+          "slot": "RB",
+          "points": 13.3
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Braelon Allen",
+          "position": "RB",
+          "slot": "RB",
+          "points": 8.7
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12.6
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Christian Watson",
+          "position": "WR",
+          "slot": "WR",
+          "points": 7.7
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Mike Gesicki",
+          "position": "TE",
+          "slot": "TE",
+          "points": 13
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Josh Downs",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 4.6
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Sam Darnold",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 13.32
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Vikings",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 10
+        },
+        {
+          "team_id": "WFC_ESPN_25",
+          "player": "Ryan Fitzgerald",
+          "position": "K",
+          "slot": "K",
+          "points": 9
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Josh Allen",
+          "position": "QB",
+          "slot": "QB",
+          "points": 18.52
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Chase Brown",
+          "position": "RB",
+          "slot": "RB",
+          "points": 19.1
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Aaron Jones Sr.",
+          "position": "RB",
+          "slot": "RB",
+          "points": 16.8
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Tetairoa McMillan",
+          "position": "WR",
+          "slot": "WR",
+          "points": 45.2
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Malik Washington",
+          "position": "WR",
+          "slot": "WR",
+          "points": 12
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Harold Fannin Jr.",
+          "position": "TE",
+          "slot": "TE",
+          "points": 11.7
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Terry McLaurin",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 0
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Kyler Murray",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 11.48
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Jets",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 0
+        },
+        {
+          "team_id": "WFC_ESPN_20",
+          "player": "Eddy Pineiro",
+          "position": "K",
+          "slot": "K",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Joe Burrow",
+          "position": "QB",
+          "slot": "QB",
+          "points": 23.72
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "slot": "RB",
+          "points": 2
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Woody Marks",
+          "position": "RB",
+          "slot": "RB",
+          "points": 8.2
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Stefon Diggs",
+          "position": "WR",
+          "slot": "WR",
+          "points": 8.5
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Matthew Golden",
+          "position": "WR",
+          "slot": "WR",
+          "points": 11.7
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Brock Bowers",
+          "position": "TE",
+          "slot": "TE",
+          "points": 20.6
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Malik Nabers",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 23.2
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Jacoby Brissett",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 10.44
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Broncos",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_26",
+          "player": "Brandon Aubrey",
+          "position": "K",
+          "slot": "K",
+          "points": 10
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Deshaun Watson",
+          "position": "QB",
+          "slot": "QB",
+          "points": 12.92
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Kenneth Walker III",
+          "position": "RB",
+          "slot": "RB",
+          "points": 30.9
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Javonte Williams",
+          "position": "RB",
+          "slot": "RB",
+          "points": 31.3
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "slot": "WR",
+          "points": 5.7
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Chris Olave",
+          "position": "WR",
+          "slot": "WR",
+          "points": 19.6
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Sam LaPorta",
+          "position": "TE",
+          "slot": "TE",
+          "points": 22.4
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Drake London",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 14.6
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Marcus Mariota",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 5.34
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Steelers",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_21",
+          "player": "Jake Elliott",
+          "position": "K",
+          "slot": "K",
+          "points": 10
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "C.J. Stroud",
+          "position": "QB",
+          "slot": "QB",
+          "points": 23.08
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Ashton Jeanty",
+          "position": "RB",
+          "slot": "RB",
+          "points": 18.6
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "slot": "RB",
+          "points": 7.4
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Puka Nacua",
+          "position": "WR",
+          "slot": "WR",
+          "points": 27.7
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Davante Adams",
+          "position": "WR",
+          "slot": "WR",
+          "points": 7.2
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Trey McBride",
+          "position": "TE",
+          "slot": "TE",
+          "points": 10.1
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Travis Kelce",
+          "position": "TE",
+          "slot": "FLEX",
+          "points": 3.5
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Jeremiyah Love",
+          "position": "RB",
+          "slot": "SFLEX",
+          "points": 6.5
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Ravens",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 7
+        },
+        {
+          "team_id": "WFC_ESPN_24",
+          "player": "Evan McPherson",
+          "position": "K",
+          "slot": "K",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Patrick Mahomes",
+          "position": "QB",
+          "slot": "QB",
+          "points": 17
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "J.K. Dobbins",
+          "position": "RB",
+          "slot": "RB",
+          "points": 7.2
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Alvin Kamara",
+          "position": "RB",
+          "slot": "RB",
+          "points": 22.8
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "slot": "WR",
+          "points": 41.3
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Rashee Rice",
+          "position": "WR",
+          "slot": "WR",
+          "points": 0
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Tucker Kraft",
+          "position": "TE",
+          "slot": "TE",
+          "points": 16.5
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Khalil Shakir",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 13.2
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Daniel Jones",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 7.92
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Bills",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 1
+        },
+        {
+          "team_id": "WFC_ESPN_2",
+          "player": "Daniel Carlson",
+          "position": "K",
+          "slot": "K",
+          "points": 5
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Dak Prescott",
+          "position": "QB",
+          "slot": "QB",
+          "points": 18.1
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "slot": "RB",
+          "points": 16
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Chuba Hubbard",
+          "position": "RB",
+          "slot": "RB",
+          "points": 25.9
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "George Pickens",
+          "position": "WR",
+          "slot": "WR",
+          "points": 9.5
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "DJ Moore",
+          "position": "WR",
+          "slot": "WR",
+          "points": 2.7
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Tyler Warren",
+          "position": "TE",
+          "slot": "TE",
+          "points": 9.1
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Zay Flowers",
+          "position": "WR",
+          "slot": "FLEX",
+          "points": 25.8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Tyler Shough",
+          "position": "QB",
+          "slot": "SFLEX",
+          "points": 15.94
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Browns",
+          "position": "DST",
+          "slot": "D/ST",
+          "points": 8
+        },
+        {
+          "team_id": "WFC_ESPN_22",
+          "player": "Trey Smack",
+          "position": "K",
+          "slot": "K",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "WFC_ESPN_1",
+      "name": "End Zone Xenomorph",
+      "logo": "logo-wfc_espn_1.png"
+    },
+    {
+      "id": "WFC_ESPN_2",
+      "name": "No Effort",
+      "logo": "logo-wfc_espn_2.jpg"
+    },
+    {
+      "id": "WFC_ESPN_6",
+      "name": "Rushin' Collusion",
+      "logo": "logo-wfc_espn_6.jpg"
+    },
+    {
+      "id": "WFC_ESPN_14",
+      "name": "Limp Brizkit",
+      "logo": "logo-wfc_espn_14.png"
+    },
+    {
+      "id": "WFC_ESPN_19",
+      "name": "DaTeet",
+      "logo": "logo-wfc_espn_19.jpg"
+    },
+    {
+      "id": "WFC_ESPN_20",
+      "name": "Team OleGrayMen",
+      "logo": "logo-wfc_espn_20.jpg"
+    },
+    {
+      "id": "WFC_ESPN_21",
+      "name": "CleatsNMartinis",
+      "logo": null
+    },
+    {
+      "id": "WFC_ESPN_22",
+      "name": "Not Bad For A Human",
+      "logo": "logo-wfc_espn_22.jpg"
+    },
+    {
+      "id": "WFC_ESPN_23",
+      "name": "Team G",
+      "logo": "logo-wfc_espn_23.jpg"
+    },
+    {
+      "id": "WFC_ESPN_24",
+      "name": "Papa Roast",
+      "logo": "logo-wfc_espn_24.jpg"
+    },
+    {
+      "id": "WFC_ESPN_25",
+      "name": "Korn on the cobb",
+      "logo": "logo-wfc_espn_25.png"
+    },
+    {
+      "id": "WFC_ESPN_26",
+      "name": "Alphonse Bundy",
+      "logo": "logo-wfc_espn_26.jpg"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_23"
+    },
+    {
+      "week": 1,
+      "team_id": "WFC_ESPN_22",
+      "opponent_id": "WFC_ESPN_1"
+    },
+    {
+      "week": 1,
+      "team_id": "WFC_ESPN_25",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 1,
+      "team_id": "WFC_ESPN_21",
+      "opponent_id": "WFC_ESPN_20"
+    },
+    {
+      "week": 1,
+      "team_id": "WFC_ESPN_24",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 1,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_6"
+    },
+    {
+      "week": 2,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_19"
+    },
+    {
+      "week": 2,
+      "team_id": "WFC_ESPN_1",
+      "opponent_id": "WFC_ESPN_21"
+    },
+    {
+      "week": 2,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_6"
+    },
+    {
+      "week": 2,
+      "team_id": "WFC_ESPN_26",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 2,
+      "team_id": "WFC_ESPN_20",
+      "opponent_id": "WFC_ESPN_22"
+    },
+    {
+      "week": 2,
+      "team_id": "WFC_ESPN_14",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 3,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_19"
+    },
+    {
+      "week": 3,
+      "team_id": "WFC_ESPN_22",
+      "opponent_id": "WFC_ESPN_21"
+    },
+    {
+      "week": 3,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_2"
+    },
+    {
+      "week": 3,
+      "team_id": "WFC_ESPN_25",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 3,
+      "team_id": "WFC_ESPN_20",
+      "opponent_id": "WFC_ESPN_1"
+    },
+    {
+      "week": 3,
+      "team_id": "WFC_ESPN_14",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 4,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_1"
+    },
+    {
+      "week": 4,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 4,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 4,
+      "team_id": "WFC_ESPN_20",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 4,
+      "team_id": "WFC_ESPN_21",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 4,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_22"
+    },
+    {
+      "week": 5,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_22"
+    },
+    {
+      "week": 5,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 5,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_20"
+    },
+    {
+      "week": 5,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 5,
+      "team_id": "WFC_ESPN_1",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 5,
+      "team_id": "WFC_ESPN_21",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 6,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_21"
+    },
+    {
+      "week": 6,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 6,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 6,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_1"
+    },
+    {
+      "week": 6,
+      "team_id": "WFC_ESPN_22",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 6,
+      "team_id": "WFC_ESPN_20",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 7,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_20"
+    },
+    {
+      "week": 7,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_21"
+    },
+    {
+      "week": 7,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 7,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 7,
+      "team_id": "WFC_ESPN_1",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 7,
+      "team_id": "WFC_ESPN_22",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 8,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 8,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_20"
+    },
+    {
+      "week": 8,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_1"
+    },
+    {
+      "week": 8,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 8,
+      "team_id": "WFC_ESPN_22",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 8,
+      "team_id": "WFC_ESPN_21",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 9,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 9,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_22"
+    },
+    {
+      "week": 9,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 9,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_21"
+    },
+    {
+      "week": 9,
+      "team_id": "WFC_ESPN_1",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 9,
+      "team_id": "WFC_ESPN_20",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 10,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 10,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 10,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_21"
+    },
+    {
+      "week": 10,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_20"
+    },
+    {
+      "week": 10,
+      "team_id": "WFC_ESPN_1",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 10,
+      "team_id": "WFC_ESPN_22",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 11,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 11,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_1"
+    },
+    {
+      "week": 11,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 11,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_22"
+    },
+    {
+      "week": 11,
+      "team_id": "WFC_ESPN_21",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 11,
+      "team_id": "WFC_ESPN_20",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 12,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_6"
+    },
+    {
+      "week": 12,
+      "team_id": "WFC_ESPN_2",
+      "opponent_id": "WFC_ESPN_23"
+    },
+    {
+      "week": 12,
+      "team_id": "WFC_ESPN_1",
+      "opponent_id": "WFC_ESPN_20"
+    },
+    {
+      "week": 12,
+      "team_id": "WFC_ESPN_21",
+      "opponent_id": "WFC_ESPN_22"
+    },
+    {
+      "week": 12,
+      "team_id": "WFC_ESPN_26",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 12,
+      "team_id": "WFC_ESPN_24",
+      "opponent_id": "WFC_ESPN_25"
+    },
+    {
+      "week": 13,
+      "team_id": "WFC_ESPN_19",
+      "opponent_id": "WFC_ESPN_2"
+    },
+    {
+      "week": 13,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_23"
+    },
+    {
+      "week": 13,
+      "team_id": "WFC_ESPN_21",
+      "opponent_id": "WFC_ESPN_1"
+    },
+    {
+      "week": 13,
+      "team_id": "WFC_ESPN_22",
+      "opponent_id": "WFC_ESPN_20"
+    },
+    {
+      "week": 13,
+      "team_id": "WFC_ESPN_25",
+      "opponent_id": "WFC_ESPN_14"
+    },
+    {
+      "week": 13,
+      "team_id": "WFC_ESPN_24",
+      "opponent_id": "WFC_ESPN_26"
+    },
+    {
+      "week": 14,
+      "team_id": "WFC_ESPN_23",
+      "opponent_id": "WFC_ESPN_19"
+    },
+    {
+      "week": 14,
+      "team_id": "WFC_ESPN_6",
+      "opponent_id": "WFC_ESPN_2"
+    },
+    {
+      "week": 14,
+      "team_id": "WFC_ESPN_1",
+      "opponent_id": "WFC_ESPN_22"
+    },
+    {
+      "week": 14,
+      "team_id": "WFC_ESPN_20",
+      "opponent_id": "WFC_ESPN_21"
+    },
+    {
+      "week": 14,
+      "team_id": "WFC_ESPN_14",
+      "opponent_id": "WFC_ESPN_24"
+    },
+    {
+      "week": 14,
+      "team_id": "WFC_ESPN_26",
+      "opponent_id": "WFC_ESPN_25"
     }
   ]
 }
