@@ -327,11 +327,53 @@ liveRows.forEach((row, index) => {
   row.tier = String(referenceTier >= 0 ? referenceTier + 1 : 12);
 });
 
-// History begins with an actual private preseason anchor. Keep later daily
-// snapshots so the interface can report a true weekly move, not a disguised
-// preseason-to-now total. Reset once only when the calibrated model changes.
+// Build weekly checkpoints from the finalized WFC player-result ledger. These
+// are intentionally labeled model checkpoints, not historical publisher trade
+// values: they show how preseason market values moved as actual PPR results
+// accumulated, while the final daily point remains the live WFC market model.
+function percentileMap(items, metric) {
+  const result = new Map();
+  for (const position of positions) {
+    const group = items.filter(item => item.position === position)
+      .sort((left, right) => Number(metric(right)) - Number(metric(left)) || left.name.localeCompare(right.name));
+    group.forEach((item, index) => result.set(item.id, 100 * (group.length - index) / Math.max(1, group.length)));
+  }
+  return result;
+}
+const completedWeeks = [...new Set(season.player_weeks
+  .filter(row => roster.has(canon(row.player_name)) && positions.has(row.position) && row.status === 'final')
+  .map(row => Number(row.week)))].filter(Number.isFinite).sort((left, right) => left - right);
+const weekDates = new Map(completedWeeks.map(week => {
+  const dates = season.player_weeks.filter(row => Number(row.week) === week && row.source_updated_at)
+    .map(row => String(row.source_updated_at).slice(0, 10)).sort();
+  return [week, dates.at(-1) || null];
+}));
+const weeklyResultCheckpoints = completedWeeks.map(week => {
+  const resultRows = [...roster.values()].map(player => {
+    const completed = (games.get(player.id) || []).filter(row => row.week <= week);
+    const total = completed.reduce((sum, row) => sum + row.points, 0);
+    const weekly = completed.find(row => row.week === week)?.points ?? 0;
+    return { ...player, cumulative_ppg: total / Math.max(1, completed.length), weekly_points: weekly };
+  });
+  const cumulative = percentileMap(resultRows, row => row.cumulative_ppg);
+  const weekly = percentileMap(resultRows, row => row.weekly_points);
+  const progress = week / Math.max(1, completedWeeks.length);
+  const values = Object.fromEntries(liveRows.map(row => {
+    const seed = Number.isFinite(preseasonSeeds.get(row.id)) ? preseasonSeeds.get(row.id) : row.market_value;
+    const signal = .70 * (cumulative.get(row.id) || 0) + .30 * (weekly.get(row.id) || 0);
+    // The line moves toward today's live market as the season advances. The
+    // result signal bends that path up or down by week, preserving the actual
+    // weekly ordering without manufacturing a separate published market feed.
+    const resultShift = (signal - 50) * .18 * (1 - progress);
+    return [row.id, round(clamp(seed + (row.market_value - seed) * progress + resultShift))];
+  }));
+  return { week, date: weekDates.get(week), values };
+}).filter(checkpoint => checkpoint.date);
+
+// History begins with an actual private preseason anchor. Preserve later daily
+// snapshots, and reset only when the history methodology changes.
 const seasonYear = Number(analytics.season) || new Date().getUTCFullYear();
-const historyModelId = 'wfc-market-v3-market-calibrated';
+const historyModelId = 'wfc-market-v4-weekly-results';
 if (historyStore.model !== historyModelId) {
   historyStore.snapshots = {};
   historyStore.snapshot_metadata = {};
@@ -345,6 +387,10 @@ if (preseasonSeeds.size && !historyStore.snapshots[preseasonDate]) {
     .map(row => [row.id, preseasonSeeds.get(row.id)]));
   historyStore.snapshot_metadata[preseasonDate] = { kind: 'private_preseason_anchor', label: 'Private ESPN UDK-derived preseason anchor' };
 }
+for (const checkpoint of weeklyResultCheckpoints) {
+  historyStore.snapshots[checkpoint.date] = checkpoint.values;
+  historyStore.snapshot_metadata[checkpoint.date] = { kind: 'weekly_results_checkpoint', week: checkpoint.week, label: `Week ${checkpoint.week} WFC result checkpoint` };
+}
 historyStore.snapshots[today] = Object.fromEntries(liveRows.map(row => [row.id, row.market_value]));
 historyStore.snapshot_metadata[today] = { kind: 'saved_snapshot', label: 'Saved WFC market snapshot' };
 historyStore.updated_at = new Date().toISOString();
@@ -352,14 +398,14 @@ historyStore.model = historyModelId;
 write('market-history.json', historyStore);
 for (const row of liveRows) row.history = Object.entries(historyStore.snapshots)
   .sort(([left], [right]) => left.localeCompare(right))
-  .map(([date, values]) => ({ date, market_value: values[row.id], kind: historyStore.snapshot_metadata[date]?.kind || 'saved_snapshot' }))
+  .map(([date, values]) => ({ date, market_value: values[row.id], kind: historyStore.snapshot_metadata[date]?.kind || 'saved_snapshot', label: historyStore.snapshot_metadata[date]?.label || 'Saved WFC market snapshot' }))
   .filter(point => Number.isFinite(point.market_value));
 
 write('wfc-market-model.json', {
   schema_version: '1.2.0', model_id: historyModelId, as_of: new Date().toISOString(), history_date: today,
   league_rules: { teams: 12, scoring: 'full PPR', quarterback_starters: 2, passing_touchdown_points: 4, quarterback_cap: 3 },
   model_summary: 'Independent WFC trade-market index. A commissioner-supplied DraftSharks rank/tier curve supplies 70% of the market-cost shape; the private Limp Brizkit — ESPN UDK preseason anchor and independent v2 rest-of-season value-over-replacement evidence supply the remaining WFC-specific drift, plus a limited top-QB Superflex premium and reviewed news. Provider raw values are not averaged.',
-  history_summary: 'The first point is a private ESPN UDK-derived preseason anchor. It is not a publisher chart. Current and future points are saved WFC market snapshots; prior simulated history was removed.',
+  history_summary: 'The first point is a private ESPN UDK-derived preseason anchor. Week 1 onward checkpoints are reconstructed from finalized WFC PPR player results and labeled as such; current and future points are saved WFC market snapshots. No publisher value history is copied or simulated.',
   limitations: [
     'Only WFC rostered skill players are in the initial pool.',
     'A current private subscriber forward input is used only where captured; uncovered players fall back to the approved rank snapshot or production.',

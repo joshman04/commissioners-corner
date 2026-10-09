@@ -18,7 +18,7 @@ assert(data.providers.some(provider => provider.id === 'wfc-market-model' && pro
 assert(data.providers.some(provider => provider.id === 'footclan-private-inputs' && provider.status === 'partial_current_capture' && provider.comparison_mode === 'input_only'));
 assert(data.providers.some(provider => provider.id === 'nflverse-weekly' && provider.status === 'active' && provider.comparison_mode === 'input_only'));
 assert(data.providers.some(provider => provider.id === 'espn'));
-assert.equal(model.model_id, 'wfc-market-v3-market-calibrated');
+assert.equal(model.model_id, 'wfc-market-v4-weekly-results');
 assert.equal(model.players.length, data.market_board.length);
 assert.equal(model.shadow_v2.model_id, 'wfc-market-v2-core');
 assert.equal(model.shadow_v2.status, 'live_component');
@@ -42,6 +42,9 @@ assert(history.snapshots[model.history_date]);
 assert.equal(Object.keys(history.snapshots[model.history_date]).length, model.players.length);
 assert(history.snapshot_metadata['2026-08-29']);
 assert.equal(history.snapshot_metadata['2026-08-29'].kind, 'private_preseason_anchor');
+assert(history.snapshot_metadata['2026-10-06']);
+assert.equal(history.snapshot_metadata['2026-10-06'].kind, 'weekly_results_checkpoint');
+assert(data.market_board.every(player => player.history.some(point => point.kind === 'weekly_results_checkpoint')));
 assert.equal(data.manual_board.length, 7);
 const amon = data.manual_board.find(player => player.player === 'Amon-Ra St. Brown');
 assert.equal(amon.tier, '1');
