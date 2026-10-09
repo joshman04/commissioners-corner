@@ -18,7 +18,7 @@ assert(data.providers.some(provider => provider.id === 'wfc-market-model' && pro
 assert(data.providers.some(provider => provider.id === 'footclan-private-inputs' && provider.status === 'partial_current_capture' && provider.comparison_mode === 'input_only'));
 assert(data.providers.some(provider => provider.id === 'nflverse-weekly' && provider.status === 'active' && provider.comparison_mode === 'input_only'));
 assert(data.providers.some(provider => provider.id === 'espn'));
-assert.equal(model.model_id, 'wfc-market-v2-preseason-anchor');
+assert.equal(model.model_id, 'wfc-market-v3-market-calibrated');
 assert.equal(model.players.length, data.market_board.length);
 assert.equal(model.shadow_v2.model_id, 'wfc-market-v2-core');
 assert.equal(model.shadow_v2.status, 'live_component');

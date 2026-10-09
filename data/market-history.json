@@ -176,7 +176,7 @@
       "kalifraymond": 13.7,
       "orondegadsden": 21.8
     },
-    "2026-10-08": {
+    "2026-10-09": {
       "joshallen": 100,
       "jahmyrgibbs": 84.8,
       "bijanrobinson": 82.8,
@@ -356,14 +356,14 @@
       "marcusmariota": 0
     }
   },
-  "updated_at": "2026-10-08T19:37:39.602Z",
-  "model": "wfc-market-v2-preseason-anchor",
+  "updated_at": "2026-10-09T03:39:40.046Z",
+  "model": "wfc-market-v3-market-calibrated",
   "snapshot_metadata": {
     "2026-08-29": {
       "kind": "private_preseason_anchor",
       "label": "Private ESPN UDK-derived preseason anchor"
     },
-    "2026-10-08": {
+    "2026-10-09": {
       "kind": "saved_snapshot",
       "label": "Saved WFC market snapshot"
     }

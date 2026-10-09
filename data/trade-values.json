@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "product": "WFC Trade Alley",
-  "generated_at": "2026-10-08T19:37:39.711Z",
+  "generated_at": "2026-10-09T03:39:40.161Z",
   "data_scope": "league decision support; external trade values are separate from WFC canon",
   "league_rules": {
     "teams": 12,
@@ -54,7 +54,7 @@
       "status": "active",
       "scoring_format": "WFC · full PPR · 1 QB + 1 Superflex · 4 pt pass TD",
       "source_url": null,
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "access": "WFC-owned explainable model",
       "raw_scale": "WFC market value (0–100)",
       "normalization": "Rank/value → percentile within the WFC model pool",
@@ -4945,12 +4945,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 100,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 1,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5003,12 +5003,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 84.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 2,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5061,12 +5061,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 82.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 3,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5119,12 +5119,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 80.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 4,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5177,12 +5177,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 77.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 5,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5235,12 +5235,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 73.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 6,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5293,12 +5293,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 73.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 7,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5351,12 +5351,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 70.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 8,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5409,12 +5409,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 70,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 9,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5467,12 +5467,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 66.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 10,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5525,12 +5525,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 65,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 11,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5583,12 +5583,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 63.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 12,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5641,12 +5641,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 62.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 13,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5699,12 +5699,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 60.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 14,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5757,12 +5757,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 59.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 15,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5815,12 +5815,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 58.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 16,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5873,12 +5873,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 57.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 17,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5931,12 +5931,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 57.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 18,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -5989,12 +5989,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 57.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 19,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6047,12 +6047,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 56,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 20,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6105,12 +6105,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 54.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 21,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6163,12 +6163,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 54.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 22,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6221,12 +6221,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 54,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 23,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6279,12 +6279,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 53.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 24,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6337,12 +6337,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 52.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 25,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6395,12 +6395,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 52,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 26,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6453,12 +6453,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 51.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 27,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6511,12 +6511,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 51.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 28,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6569,12 +6569,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 50.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 29,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6627,12 +6627,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 49.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 30,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6685,12 +6685,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 49.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 31,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6743,12 +6743,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 49.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 32,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6801,12 +6801,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 48.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 33,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6859,12 +6859,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 48.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 34,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6917,12 +6917,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 48.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 35,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -6975,12 +6975,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 48.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 36,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7033,12 +7033,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 45,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 37,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7091,12 +7091,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 45,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 38,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7149,12 +7149,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 44.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 39,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7207,12 +7207,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 42.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 40,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7265,12 +7265,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 42.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 41,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7323,12 +7323,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 42,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7381,12 +7381,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 43,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7439,12 +7439,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 44,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7497,12 +7497,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 45,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7555,12 +7555,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 46,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7613,12 +7613,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 40.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 47,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7671,12 +7671,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 39.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 48,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7729,12 +7729,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 39,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 49,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7787,12 +7787,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 38.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 50,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7845,12 +7845,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 38.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 51,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7903,12 +7903,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 38.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 52,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -7961,12 +7961,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 37.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 53,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8019,12 +8019,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 37.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 54,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8077,12 +8077,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 55,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8135,12 +8135,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 56,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8193,12 +8193,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 57,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8251,12 +8251,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 58,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8309,12 +8309,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 59,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8367,12 +8367,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 35.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 60,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8425,12 +8425,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 35.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 61,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8483,12 +8483,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 34.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 62,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8541,12 +8541,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 34.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 63,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8599,12 +8599,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 34,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 64,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8657,12 +8657,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 33,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 65,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8715,12 +8715,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 32.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 66,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8773,12 +8773,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 32.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 67,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8831,12 +8831,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 32.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 68,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8889,12 +8889,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 32.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 69,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -8947,12 +8947,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 31.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 70,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9005,12 +9005,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 31.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 71,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9063,12 +9063,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 31.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 72,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9121,12 +9121,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 31,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 73,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9179,12 +9179,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 30.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 74,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9237,12 +9237,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 30,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 75,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9295,12 +9295,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 76,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9353,12 +9353,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 77,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9411,12 +9411,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 78,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9469,12 +9469,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 79,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9527,12 +9527,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 80,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9585,12 +9585,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 28.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 81,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9643,12 +9643,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 28.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 82,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9701,12 +9701,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 28.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 83,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9759,12 +9759,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 28.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 84,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9817,12 +9817,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 27,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 85,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9875,12 +9875,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 86,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9933,12 +9933,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 87,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -9991,12 +9991,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 88,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10049,12 +10049,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 89,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10107,12 +10107,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 90,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10165,12 +10165,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 91,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10223,12 +10223,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 92,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10281,12 +10281,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 93,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10339,12 +10339,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 94,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10397,12 +10397,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 95,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10455,12 +10455,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 96,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10513,12 +10513,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 97,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10571,12 +10571,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 98,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10629,12 +10629,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 99,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10687,12 +10687,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 24.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 100,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10745,12 +10745,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 24.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 101,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10803,12 +10803,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 24.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 102,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10861,12 +10861,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 24,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 103,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10919,12 +10919,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 104,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -10977,12 +10977,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 105,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11035,12 +11035,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 106,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11093,12 +11093,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 107,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11151,12 +11151,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 108,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11209,12 +11209,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 22.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 109,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11267,12 +11267,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 22.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 110,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11325,12 +11325,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 22,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 111,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11383,12 +11383,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 112,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11441,12 +11441,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 113,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11499,12 +11499,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 114,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11557,12 +11557,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 115,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11615,12 +11615,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 116,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11673,12 +11673,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 117,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11731,12 +11731,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 118,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11789,12 +11789,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 119,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11847,12 +11847,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 20.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 120,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11905,12 +11905,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 20.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 121,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -11963,12 +11963,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 20,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 122,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12021,12 +12021,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 19.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 123,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12079,12 +12079,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 19,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 124,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12137,12 +12137,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 125,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12195,12 +12195,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 126,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12253,12 +12253,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 127,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12311,12 +12311,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 128,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12369,12 +12369,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 129,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12427,12 +12427,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 130,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12485,12 +12485,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 131,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12543,12 +12543,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 132,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12601,12 +12601,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 17.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 133,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12659,12 +12659,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 17.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 134,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12717,12 +12717,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 17.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 135,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12775,12 +12775,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 16.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 136,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12833,12 +12833,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 16.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 137,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12891,12 +12891,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 16.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 138,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -12949,12 +12949,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 16.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 139,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13007,12 +13007,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 15.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 140,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13065,12 +13065,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 15.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 141,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13123,12 +13123,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 15.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 142,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13181,12 +13181,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 14.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 143,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13239,12 +13239,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 14.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 144,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13297,12 +13297,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 14.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 145,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13355,12 +13355,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 14.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 146,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13413,12 +13413,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 147,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13471,12 +13471,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 148,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13529,12 +13529,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 149,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13587,12 +13587,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 150,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13645,12 +13645,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 151,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13703,12 +13703,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 152,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13761,12 +13761,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 153,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13819,12 +13819,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 12.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 154,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13877,12 +13877,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 12.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 155,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13935,12 +13935,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 12.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 156,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -13993,12 +13993,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 11.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 157,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14051,12 +14051,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 11.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 158,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14109,12 +14109,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 10.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 159,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14162,12 +14162,12 @@
       "market_value": 10.4,
       "history": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 10.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 160,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14220,12 +14220,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 161,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14278,12 +14278,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 162,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14336,12 +14336,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 163,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14394,12 +14394,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 164,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14452,12 +14452,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 165,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14510,12 +14510,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 8.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 166,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14568,12 +14568,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 8.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 167,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14626,12 +14626,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 7.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 168,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14684,12 +14684,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 7.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 169,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14742,12 +14742,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 6.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 170,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14800,12 +14800,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 171,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14858,12 +14858,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 5.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 172,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14916,12 +14916,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 4.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 173,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -14974,12 +14974,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 4.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 174,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -15027,12 +15027,12 @@
       "market_value": 0,
       "history": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 0,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 175,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -15080,12 +15080,12 @@
       "market_value": 0,
       "history": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 0,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 176,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -15133,12 +15133,12 @@
       "market_value": 0,
       "history": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 0,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "ordinal": 177,
       "drivers": {
         "model_version": "v2-preseason-anchor",
@@ -15605,6 +15605,7 @@
       "tier": "1",
       "value": 100,
       "market_value": 100,
+      "market_rank": 1,
       "source_rank": 1,
       "history": [],
       "captured_at": "2026-10-07T16:00:00.000Z"
@@ -15618,6 +15619,7 @@
       "tier": "1",
       "value": 81,
       "market_value": 81,
+      "market_rank": 2,
       "source_rank": 2,
       "history": [],
       "captured_at": "2026-10-07T16:00:00.000Z"
@@ -15631,6 +15633,7 @@
       "tier": "1",
       "value": 79,
       "market_value": 79,
+      "market_rank": 3,
       "source_rank": 3,
       "history": [],
       "captured_at": "2026-10-07T16:00:00.000Z"
@@ -15644,6 +15647,7 @@
       "tier": "1",
       "value": 75,
       "market_value": 75,
+      "market_rank": 4,
       "source_rank": 4,
       "history": [],
       "captured_at": "2026-10-07T16:00:00.000Z"
@@ -15657,6 +15661,7 @@
       "tier": "1",
       "value": 70,
       "market_value": 79.3,
+      "market_rank": 5,
       "source_rank": 5,
       "history": [
         {
@@ -15703,6 +15708,7 @@
       "tier": "2",
       "value": 70,
       "market_value": 70,
+      "market_rank": 6,
       "source_rank": 6,
       "history": [],
       "captured_at": "2026-10-07T16:00:00.000Z"
@@ -15716,6 +15722,7 @@
       "tier": "2",
       "value": 66,
       "market_value": 66,
+      "market_rank": 7,
       "source_rank": 7,
       "history": [],
       "captured_at": "2026-10-07T16:00:00.000Z"
@@ -15731,6 +15738,7 @@
       "tier": "1",
       "value": 100,
       "market_value": 100,
+      "market_rank": 1,
       "source_rank": 1,
       "history": [
         {
@@ -15739,12 +15747,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 100,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -15788,6 +15796,7 @@
       "tier": "1",
       "value": 84.8,
       "market_value": 84.8,
+      "market_rank": 2,
       "source_rank": 2,
       "history": [
         {
@@ -15796,12 +15805,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 84.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -15845,6 +15854,7 @@
       "tier": "1",
       "value": 82.8,
       "market_value": 82.8,
+      "market_rank": 3,
       "source_rank": 3,
       "history": [
         {
@@ -15853,12 +15863,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 82.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -15902,6 +15912,7 @@
       "tier": "1",
       "value": 80.2,
       "market_value": 80.2,
+      "market_rank": 4,
       "source_rank": 4,
       "history": [
         {
@@ -15910,12 +15921,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 80.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -15959,6 +15970,7 @@
       "tier": "1",
       "value": 77.8,
       "market_value": 77.8,
+      "market_rank": 5,
       "source_rank": 5,
       "history": [
         {
@@ -15967,12 +15979,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 77.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16016,6 +16028,7 @@
       "tier": "1",
       "value": 73.9,
       "market_value": 73.9,
+      "market_rank": 6,
       "source_rank": 6,
       "history": [
         {
@@ -16024,12 +16037,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 73.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16073,6 +16086,7 @@
       "tier": "2",
       "value": 73.2,
       "market_value": 73.2,
+      "market_rank": 7,
       "source_rank": 7,
       "history": [
         {
@@ -16081,12 +16095,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 73.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16130,6 +16144,7 @@
       "tier": "2",
       "value": 70.3,
       "market_value": 70.3,
+      "market_rank": 8,
       "source_rank": 8,
       "history": [
         {
@@ -16138,12 +16153,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 70.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16187,6 +16202,7 @@
       "tier": "2",
       "value": 70,
       "market_value": 70,
+      "market_rank": 9,
       "source_rank": 9,
       "history": [
         {
@@ -16195,12 +16211,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 70,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16244,6 +16260,7 @@
       "tier": "2",
       "value": 66.3,
       "market_value": 66.3,
+      "market_rank": 10,
       "source_rank": 10,
       "history": [
         {
@@ -16252,12 +16269,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 66.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16301,6 +16318,7 @@
       "tier": "2",
       "value": 65,
       "market_value": 65,
+      "market_rank": 11,
       "source_rank": 11,
       "history": [
         {
@@ -16309,12 +16327,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 65,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16358,6 +16376,7 @@
       "tier": "2",
       "value": 63.1,
       "market_value": 63.1,
+      "market_rank": 12,
       "source_rank": 12,
       "history": [
         {
@@ -16366,12 +16385,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 63.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16415,6 +16434,7 @@
       "tier": "3",
       "value": 62.1,
       "market_value": 62.1,
+      "market_rank": 13,
       "source_rank": 13,
       "history": [
         {
@@ -16423,12 +16443,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 62.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16472,6 +16492,7 @@
       "tier": "3",
       "value": 60.2,
       "market_value": 60.2,
+      "market_rank": 14,
       "source_rank": 14,
       "history": [
         {
@@ -16480,12 +16501,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 60.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16529,6 +16550,7 @@
       "tier": "3",
       "value": 59.5,
       "market_value": 59.5,
+      "market_rank": 15,
       "source_rank": 15,
       "history": [
         {
@@ -16537,12 +16559,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 59.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16586,6 +16608,7 @@
       "tier": "3",
       "value": 58.6,
       "market_value": 58.6,
+      "market_rank": 16,
       "source_rank": 16,
       "history": [
         {
@@ -16594,12 +16617,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 58.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16643,6 +16666,7 @@
       "tier": "3",
       "value": 57.8,
       "market_value": 57.8,
+      "market_rank": 17,
       "source_rank": 17,
       "history": [
         {
@@ -16651,12 +16675,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 57.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16700,6 +16724,7 @@
       "tier": "3",
       "value": 57.7,
       "market_value": 57.7,
+      "market_rank": 18,
       "source_rank": 18,
       "history": [
         {
@@ -16708,12 +16733,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 57.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16757,6 +16782,7 @@
       "tier": "3",
       "value": 57.2,
       "market_value": 57.2,
+      "market_rank": 19,
       "source_rank": 19,
       "history": [
         {
@@ -16765,12 +16791,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 57.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16814,6 +16840,7 @@
       "tier": "4",
       "value": 56,
       "market_value": 56,
+      "market_rank": 20,
       "source_rank": 20,
       "history": [
         {
@@ -16822,12 +16849,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 56,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16871,6 +16898,7 @@
       "tier": "4",
       "value": 54.5,
       "market_value": 54.5,
+      "market_rank": 21,
       "source_rank": 21,
       "history": [
         {
@@ -16879,12 +16907,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 54.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16928,6 +16956,7 @@
       "tier": "4",
       "value": 54.1,
       "market_value": 54.1,
+      "market_rank": 22,
       "source_rank": 22,
       "history": [
         {
@@ -16936,12 +16965,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 54.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -16985,6 +17014,7 @@
       "tier": "4",
       "value": 54,
       "market_value": 54,
+      "market_rank": 23,
       "source_rank": 23,
       "history": [
         {
@@ -16993,12 +17023,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 54,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17042,6 +17072,7 @@
       "tier": "4",
       "value": 53.7,
       "market_value": 53.7,
+      "market_rank": 24,
       "source_rank": 24,
       "history": [
         {
@@ -17050,12 +17081,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 53.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17099,6 +17130,7 @@
       "tier": "4",
       "value": 52.8,
       "market_value": 52.8,
+      "market_rank": 25,
       "source_rank": 25,
       "history": [
         {
@@ -17107,12 +17139,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 52.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17156,6 +17188,7 @@
       "tier": "4",
       "value": 52,
       "market_value": 52,
+      "market_rank": 26,
       "source_rank": 26,
       "history": [
         {
@@ -17164,12 +17197,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 52,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17213,6 +17246,7 @@
       "tier": "4",
       "value": 51.5,
       "market_value": 51.5,
+      "market_rank": 27,
       "source_rank": 27,
       "history": [
         {
@@ -17221,12 +17255,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 51.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17270,6 +17304,7 @@
       "tier": "4",
       "value": 51.3,
       "market_value": 51.3,
+      "market_rank": 28,
       "source_rank": 28,
       "history": [
         {
@@ -17278,12 +17313,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 51.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17327,6 +17362,7 @@
       "tier": "4",
       "value": 50.7,
       "market_value": 50.7,
+      "market_rank": 29,
       "source_rank": 29,
       "history": [
         {
@@ -17335,12 +17371,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 50.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17384,6 +17420,7 @@
       "tier": "4",
       "value": 49.9,
       "market_value": 49.9,
+      "market_rank": 30,
       "source_rank": 30,
       "history": [
         {
@@ -17392,12 +17429,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 49.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17441,6 +17478,7 @@
       "tier": "4",
       "value": 49.9,
       "market_value": 49.9,
+      "market_rank": 31,
       "source_rank": 31,
       "history": [
         {
@@ -17449,12 +17487,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 49.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17498,6 +17536,7 @@
       "tier": "4",
       "value": 49.6,
       "market_value": 49.6,
+      "market_rank": 32,
       "source_rank": 32,
       "history": [
         {
@@ -17506,12 +17545,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 49.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17555,6 +17594,7 @@
       "tier": "4",
       "value": 48.8,
       "market_value": 48.8,
+      "market_rank": 33,
       "source_rank": 33,
       "history": [
         {
@@ -17563,12 +17603,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 48.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17612,6 +17652,7 @@
       "tier": "4",
       "value": 48.7,
       "market_value": 48.7,
+      "market_rank": 34,
       "source_rank": 34,
       "history": [
         {
@@ -17620,12 +17661,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 48.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17669,6 +17710,7 @@
       "tier": "4",
       "value": 48.2,
       "market_value": 48.2,
+      "market_rank": 35,
       "source_rank": 35,
       "history": [
         {
@@ -17677,12 +17719,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 48.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17726,6 +17768,7 @@
       "tier": "5",
       "value": 48.1,
       "market_value": 48.1,
+      "market_rank": 36,
       "source_rank": 36,
       "history": [
         {
@@ -17734,12 +17777,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 48.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17783,6 +17826,7 @@
       "tier": "5",
       "value": 45,
       "market_value": 45,
+      "market_rank": 37,
       "source_rank": 37,
       "history": [
         {
@@ -17791,12 +17835,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 45,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17840,6 +17884,7 @@
       "tier": "5",
       "value": 45,
       "market_value": 45,
+      "market_rank": 38,
       "source_rank": 38,
       "history": [
         {
@@ -17848,12 +17893,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 45,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17897,6 +17942,7 @@
       "tier": "5",
       "value": 44.7,
       "market_value": 44.7,
+      "market_rank": 39,
       "source_rank": 39,
       "history": [
         {
@@ -17905,12 +17951,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 44.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -17954,6 +18000,7 @@
       "tier": "5",
       "value": 42.7,
       "market_value": 42.7,
+      "market_rank": 40,
       "source_rank": 40,
       "history": [
         {
@@ -17962,12 +18009,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 42.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18011,6 +18058,7 @@
       "tier": "5",
       "value": 42.2,
       "market_value": 42.2,
+      "market_rank": 41,
       "source_rank": 41,
       "history": [
         {
@@ -18019,12 +18067,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 42.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18068,6 +18116,7 @@
       "tier": "5",
       "value": 41.9,
       "market_value": 41.9,
+      "market_rank": 42,
       "source_rank": 42,
       "history": [
         {
@@ -18076,12 +18125,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18125,6 +18174,7 @@
       "tier": "5",
       "value": 41.9,
       "market_value": 41.9,
+      "market_rank": 43,
       "source_rank": 43,
       "history": [
         {
@@ -18133,12 +18183,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18182,6 +18232,7 @@
       "tier": "5",
       "value": 41.2,
       "market_value": 41.2,
+      "market_rank": 44,
       "source_rank": 44,
       "history": [
         {
@@ -18190,12 +18241,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18239,6 +18290,7 @@
       "tier": "5",
       "value": 41.2,
       "market_value": 41.2,
+      "market_rank": 45,
       "source_rank": 45,
       "history": [
         {
@@ -18247,12 +18299,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18296,6 +18348,7 @@
       "tier": "5",
       "value": 41,
       "market_value": 41,
+      "market_rank": 46,
       "source_rank": 46,
       "history": [
         {
@@ -18304,12 +18357,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 41,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18353,6 +18406,7 @@
       "tier": "5",
       "value": 40.7,
       "market_value": 40.7,
+      "market_rank": 47,
       "source_rank": 47,
       "history": [
         {
@@ -18361,12 +18415,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 40.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18410,6 +18464,7 @@
       "tier": "5",
       "value": 39.4,
       "market_value": 39.4,
+      "market_rank": 48,
       "source_rank": 48,
       "history": [
         {
@@ -18418,12 +18473,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 39.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18467,6 +18522,7 @@
       "tier": "5",
       "value": 39,
       "market_value": 39,
+      "market_rank": 49,
       "source_rank": 49,
       "history": [
         {
@@ -18475,12 +18531,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 39,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18524,6 +18580,7 @@
       "tier": "5",
       "value": 38.8,
       "market_value": 38.8,
+      "market_rank": 50,
       "source_rank": 50,
       "history": [
         {
@@ -18532,12 +18589,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 38.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18581,6 +18638,7 @@
       "tier": "5",
       "value": 38.5,
       "market_value": 38.5,
+      "market_rank": 51,
       "source_rank": 51,
       "history": [
         {
@@ -18589,12 +18647,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 38.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18638,6 +18696,7 @@
       "tier": "5",
       "value": 38.4,
       "market_value": 38.4,
+      "market_rank": 52,
       "source_rank": 52,
       "history": [
         {
@@ -18646,12 +18705,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 38.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18695,6 +18754,7 @@
       "tier": "6",
       "value": 37.6,
       "market_value": 37.6,
+      "market_rank": 53,
       "source_rank": 53,
       "history": [
         {
@@ -18703,12 +18763,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 37.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18752,6 +18812,7 @@
       "tier": "6",
       "value": 37.5,
       "market_value": 37.5,
+      "market_rank": 54,
       "source_rank": 54,
       "history": [
         {
@@ -18760,12 +18821,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 37.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18809,6 +18870,7 @@
       "tier": "6",
       "value": 36.9,
       "market_value": 36.9,
+      "market_rank": 55,
       "source_rank": 55,
       "history": [
         {
@@ -18817,12 +18879,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18866,6 +18928,7 @@
       "tier": "6",
       "value": 36.9,
       "market_value": 36.9,
+      "market_rank": 56,
       "source_rank": 56,
       "history": [
         {
@@ -18874,12 +18937,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18923,6 +18986,7 @@
       "tier": "6",
       "value": 36.6,
       "market_value": 36.6,
+      "market_rank": 57,
       "source_rank": 57,
       "history": [
         {
@@ -18931,12 +18995,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -18980,6 +19044,7 @@
       "tier": "6",
       "value": 36.4,
       "market_value": 36.4,
+      "market_rank": 58,
       "source_rank": 58,
       "history": [
         {
@@ -18988,12 +19053,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19037,6 +19102,7 @@
       "tier": "6",
       "value": 36.2,
       "market_value": 36.2,
+      "market_rank": 59,
       "source_rank": 59,
       "history": [
         {
@@ -19045,12 +19111,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 36.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19094,6 +19160,7 @@
       "tier": "6",
       "value": 35.9,
       "market_value": 35.9,
+      "market_rank": 60,
       "source_rank": 60,
       "history": [
         {
@@ -19102,12 +19169,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 35.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19151,6 +19218,7 @@
       "tier": "6",
       "value": 35.6,
       "market_value": 35.6,
+      "market_rank": 61,
       "source_rank": 61,
       "history": [
         {
@@ -19159,12 +19227,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 35.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19208,6 +19276,7 @@
       "tier": "6",
       "value": 34.3,
       "market_value": 34.3,
+      "market_rank": 62,
       "source_rank": 62,
       "history": [
         {
@@ -19216,12 +19285,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 34.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19265,6 +19334,7 @@
       "tier": "6",
       "value": 34.1,
       "market_value": 34.1,
+      "market_rank": 63,
       "source_rank": 63,
       "history": [
         {
@@ -19273,12 +19343,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 34.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19322,6 +19392,7 @@
       "tier": "6",
       "value": 34,
       "market_value": 34,
+      "market_rank": 64,
       "source_rank": 64,
       "history": [
         {
@@ -19330,12 +19401,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 34,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19379,6 +19450,7 @@
       "tier": "6",
       "value": 33,
       "market_value": 33,
+      "market_rank": 65,
       "source_rank": 65,
       "history": [
         {
@@ -19387,12 +19459,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 33,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19436,6 +19508,7 @@
       "tier": "6",
       "value": 32.9,
       "market_value": 32.9,
+      "market_rank": 66,
       "source_rank": 66,
       "history": [
         {
@@ -19444,12 +19517,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 32.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19493,6 +19566,7 @@
       "tier": "6",
       "value": 32.7,
       "market_value": 32.7,
+      "market_rank": 67,
       "source_rank": 67,
       "history": [
         {
@@ -19501,12 +19575,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 32.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19550,6 +19624,7 @@
       "tier": "6",
       "value": 32.2,
       "market_value": 32.2,
+      "market_rank": 68,
       "source_rank": 68,
       "history": [
         {
@@ -19558,12 +19633,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 32.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19607,6 +19682,7 @@
       "tier": "6",
       "value": 32.2,
       "market_value": 32.2,
+      "market_rank": 69,
       "source_rank": 69,
       "history": [
         {
@@ -19615,12 +19691,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 32.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19664,6 +19740,7 @@
       "tier": "6",
       "value": 31.5,
       "market_value": 31.5,
+      "market_rank": 70,
       "source_rank": 70,
       "history": [
         {
@@ -19672,12 +19749,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 31.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19721,6 +19798,7 @@
       "tier": "7",
       "value": 31.1,
       "market_value": 31.1,
+      "market_rank": 71,
       "source_rank": 71,
       "history": [
         {
@@ -19729,12 +19807,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 31.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19778,6 +19856,7 @@
       "tier": "7",
       "value": 31.1,
       "market_value": 31.1,
+      "market_rank": 72,
       "source_rank": 72,
       "history": [
         {
@@ -19786,12 +19865,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 31.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19835,6 +19914,7 @@
       "tier": "7",
       "value": 31,
       "market_value": 31,
+      "market_rank": 73,
       "source_rank": 73,
       "history": [
         {
@@ -19843,12 +19923,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 31,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19892,6 +19972,7 @@
       "tier": "7",
       "value": 30.1,
       "market_value": 30.1,
+      "market_rank": 74,
       "source_rank": 74,
       "history": [
         {
@@ -19900,12 +19981,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 30.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -19949,6 +20030,7 @@
       "tier": "7",
       "value": 30,
       "market_value": 30,
+      "market_rank": 75,
       "source_rank": 75,
       "history": [
         {
@@ -19957,12 +20039,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 30,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20006,6 +20088,7 @@
       "tier": "7",
       "value": 29.7,
       "market_value": 29.7,
+      "market_rank": 76,
       "source_rank": 76,
       "history": [
         {
@@ -20014,12 +20097,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20063,6 +20146,7 @@
       "tier": "7",
       "value": 29.7,
       "market_value": 29.7,
+      "market_rank": 77,
       "source_rank": 77,
       "history": [
         {
@@ -20071,12 +20155,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20120,6 +20204,7 @@
       "tier": "7",
       "value": 29.5,
       "market_value": 29.5,
+      "market_rank": 78,
       "source_rank": 78,
       "history": [
         {
@@ -20128,12 +20213,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20177,6 +20262,7 @@
       "tier": "7",
       "value": 29.3,
       "market_value": 29.3,
+      "market_rank": 79,
       "source_rank": 79,
       "history": [
         {
@@ -20185,12 +20271,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20234,6 +20320,7 @@
       "tier": "7",
       "value": 29.3,
       "market_value": 29.3,
+      "market_rank": 80,
       "source_rank": 80,
       "history": [
         {
@@ -20242,12 +20329,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 29.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20291,6 +20378,7 @@
       "tier": "7",
       "value": 28.9,
       "market_value": 28.9,
+      "market_rank": 81,
       "source_rank": 81,
       "history": [
         {
@@ -20299,12 +20387,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 28.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20348,6 +20436,7 @@
       "tier": "7",
       "value": 28.3,
       "market_value": 28.3,
+      "market_rank": 82,
       "source_rank": 82,
       "history": [
         {
@@ -20356,12 +20445,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 28.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20405,6 +20494,7 @@
       "tier": "7",
       "value": 28.2,
       "market_value": 28.2,
+      "market_rank": 83,
       "source_rank": 83,
       "history": [
         {
@@ -20413,12 +20503,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 28.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20462,6 +20552,7 @@
       "tier": "7",
       "value": 28.1,
       "market_value": 28.1,
+      "market_rank": 84,
       "source_rank": 84,
       "history": [
         {
@@ -20470,12 +20561,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 28.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20519,6 +20610,7 @@
       "tier": "7",
       "value": 27,
       "market_value": 27,
+      "market_rank": 85,
       "source_rank": 85,
       "history": [
         {
@@ -20527,12 +20619,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 27,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20576,6 +20668,7 @@
       "tier": "7",
       "value": 26.8,
       "market_value": 26.8,
+      "market_rank": 86,
       "source_rank": 86,
       "history": [
         {
@@ -20584,12 +20677,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20633,6 +20726,7 @@
       "tier": "7",
       "value": 26.6,
       "market_value": 26.6,
+      "market_rank": 87,
       "source_rank": 87,
       "history": [
         {
@@ -20641,12 +20735,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20690,6 +20784,7 @@
       "tier": "7",
       "value": 26.4,
       "market_value": 26.4,
+      "market_rank": 88,
       "source_rank": 88,
       "history": [
         {
@@ -20698,12 +20793,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20747,6 +20842,7 @@
       "tier": "7",
       "value": 26.3,
       "market_value": 26.3,
+      "market_rank": 89,
       "source_rank": 89,
       "history": [
         {
@@ -20755,12 +20851,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20804,6 +20900,7 @@
       "tier": "7",
       "value": 26.3,
       "market_value": 26.3,
+      "market_rank": 90,
       "source_rank": 90,
       "history": [
         {
@@ -20812,12 +20909,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20861,6 +20958,7 @@
       "tier": "7",
       "value": 26.3,
       "market_value": 26.3,
+      "market_rank": 91,
       "source_rank": 91,
       "history": [
         {
@@ -20869,12 +20967,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20918,6 +21016,7 @@
       "tier": "7",
       "value": 26.2,
       "market_value": 26.2,
+      "market_rank": 92,
       "source_rank": 92,
       "history": [
         {
@@ -20926,12 +21025,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 26.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -20975,6 +21074,7 @@
       "tier": "7",
       "value": 25.9,
       "market_value": 25.9,
+      "market_rank": 93,
       "source_rank": 93,
       "history": [
         {
@@ -20983,12 +21083,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21032,6 +21132,7 @@
       "tier": "7",
       "value": 25.8,
       "market_value": 25.8,
+      "market_rank": 94,
       "source_rank": 94,
       "history": [
         {
@@ -21040,12 +21141,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21089,6 +21190,7 @@
       "tier": "7",
       "value": 25.6,
       "market_value": 25.6,
+      "market_rank": 95,
       "source_rank": 95,
       "history": [
         {
@@ -21097,12 +21199,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21146,6 +21248,7 @@
       "tier": "7",
       "value": 25.2,
       "market_value": 25.2,
+      "market_rank": 96,
       "source_rank": 96,
       "history": [
         {
@@ -21154,12 +21257,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21203,6 +21306,7 @@
       "tier": "7",
       "value": 25.2,
       "market_value": 25.2,
+      "market_rank": 97,
       "source_rank": 97,
       "history": [
         {
@@ -21211,12 +21315,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21260,6 +21364,7 @@
       "tier": "7",
       "value": 25.2,
       "market_value": 25.2,
+      "market_rank": 98,
       "source_rank": 98,
       "history": [
         {
@@ -21268,12 +21373,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21317,6 +21422,7 @@
       "tier": "7",
       "value": 25.2,
       "market_value": 25.2,
+      "market_rank": 99,
       "source_rank": 99,
       "history": [
         {
@@ -21325,12 +21431,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 25.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21374,6 +21480,7 @@
       "tier": "7",
       "value": 24.7,
       "market_value": 24.7,
+      "market_rank": 100,
       "source_rank": 100,
       "history": [
         {
@@ -21382,12 +21489,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 24.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21431,6 +21538,7 @@
       "tier": "7",
       "value": 24.3,
       "market_value": 24.3,
+      "market_rank": 101,
       "source_rank": 101,
       "history": [
         {
@@ -21439,12 +21547,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 24.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21488,6 +21596,7 @@
       "tier": "7",
       "value": 24.2,
       "market_value": 24.2,
+      "market_rank": 102,
       "source_rank": 102,
       "history": [
         {
@@ -21496,12 +21605,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 24.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21545,6 +21654,7 @@
       "tier": "7",
       "value": 24,
       "market_value": 24,
+      "market_rank": 103,
       "source_rank": 103,
       "history": [
         {
@@ -21553,12 +21663,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 24,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21602,6 +21712,7 @@
       "tier": "7",
       "value": 23.8,
       "market_value": 23.8,
+      "market_rank": 104,
       "source_rank": 104,
       "history": [
         {
@@ -21610,12 +21721,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21659,6 +21770,7 @@
       "tier": "7",
       "value": 23.3,
       "market_value": 23.3,
+      "market_rank": 105,
       "source_rank": 105,
       "history": [
         {
@@ -21667,12 +21779,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21716,6 +21828,7 @@
       "tier": "8",
       "value": 23.3,
       "market_value": 23.3,
+      "market_rank": 106,
       "source_rank": 106,
       "history": [
         {
@@ -21724,12 +21837,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21773,6 +21886,7 @@
       "tier": "8",
       "value": 23.1,
       "market_value": 23.1,
+      "market_rank": 107,
       "source_rank": 107,
       "history": [
         {
@@ -21781,12 +21895,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21830,6 +21944,7 @@
       "tier": "8",
       "value": 23,
       "market_value": 23,
+      "market_rank": 108,
       "source_rank": 108,
       "history": [
         {
@@ -21838,12 +21953,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 23,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21887,6 +22002,7 @@
       "tier": "8",
       "value": 22.9,
       "market_value": 22.9,
+      "market_rank": 109,
       "source_rank": 109,
       "history": [
         {
@@ -21895,12 +22011,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 22.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -21944,6 +22060,7 @@
       "tier": "8",
       "value": 22.5,
       "market_value": 22.5,
+      "market_rank": 110,
       "source_rank": 110,
       "history": [
         {
@@ -21952,12 +22069,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 22.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22001,6 +22118,7 @@
       "tier": "8",
       "value": 22,
       "market_value": 22,
+      "market_rank": 111,
       "source_rank": 111,
       "history": [
         {
@@ -22009,12 +22127,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 22,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22058,6 +22176,7 @@
       "tier": "8",
       "value": 21.9,
       "market_value": 21.9,
+      "market_rank": 112,
       "source_rank": 112,
       "history": [
         {
@@ -22066,12 +22185,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22115,6 +22234,7 @@
       "tier": "8",
       "value": 21.9,
       "market_value": 21.9,
+      "market_rank": 113,
       "source_rank": 113,
       "history": [
         {
@@ -22123,12 +22243,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22172,6 +22292,7 @@
       "tier": "8",
       "value": 21.7,
       "market_value": 21.7,
+      "market_rank": 114,
       "source_rank": 114,
       "history": [
         {
@@ -22180,12 +22301,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22229,6 +22350,7 @@
       "tier": "8",
       "value": 21.5,
       "market_value": 21.5,
+      "market_rank": 115,
       "source_rank": 115,
       "history": [
         {
@@ -22237,12 +22359,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22286,6 +22408,7 @@
       "tier": "8",
       "value": 21.5,
       "market_value": 21.5,
+      "market_rank": 116,
       "source_rank": 116,
       "history": [
         {
@@ -22294,12 +22417,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22343,6 +22466,7 @@
       "tier": "8",
       "value": 21.4,
       "market_value": 21.4,
+      "market_rank": 117,
       "source_rank": 117,
       "history": [
         {
@@ -22351,12 +22475,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22400,6 +22524,7 @@
       "tier": "8",
       "value": 21.1,
       "market_value": 21.1,
+      "market_rank": 118,
       "source_rank": 118,
       "history": [
         {
@@ -22408,12 +22533,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22457,6 +22582,7 @@
       "tier": "8",
       "value": 21,
       "market_value": 21,
+      "market_rank": 119,
       "source_rank": 119,
       "history": [
         {
@@ -22465,12 +22591,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 21,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22514,6 +22640,7 @@
       "tier": "8",
       "value": 20.2,
       "market_value": 20.2,
+      "market_rank": 120,
       "source_rank": 120,
       "history": [
         {
@@ -22522,12 +22649,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 20.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22571,6 +22698,7 @@
       "tier": "8",
       "value": 20.2,
       "market_value": 20.2,
+      "market_rank": 121,
       "source_rank": 121,
       "history": [
         {
@@ -22579,12 +22707,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 20.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22628,6 +22756,7 @@
       "tier": "8",
       "value": 20,
       "market_value": 20,
+      "market_rank": 122,
       "source_rank": 122,
       "history": [
         {
@@ -22636,12 +22765,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 20,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22685,6 +22814,7 @@
       "tier": "8",
       "value": 19.9,
       "market_value": 19.9,
+      "market_rank": 123,
       "source_rank": 123,
       "history": [
         {
@@ -22693,12 +22823,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 19.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22742,6 +22872,7 @@
       "tier": "8",
       "value": 19,
       "market_value": 19,
+      "market_rank": 124,
       "source_rank": 124,
       "history": [
         {
@@ -22750,12 +22881,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 19,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22799,6 +22930,7 @@
       "tier": "9",
       "value": 18.9,
       "market_value": 18.9,
+      "market_rank": 125,
       "source_rank": 125,
       "history": [
         {
@@ -22807,12 +22939,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22856,6 +22988,7 @@
       "tier": "9",
       "value": 18.8,
       "market_value": 18.8,
+      "market_rank": 126,
       "source_rank": 126,
       "history": [
         {
@@ -22864,12 +22997,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22913,6 +23046,7 @@
       "tier": "9",
       "value": 18.8,
       "market_value": 18.8,
+      "market_rank": 127,
       "source_rank": 127,
       "history": [
         {
@@ -22921,12 +23055,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -22970,6 +23104,7 @@
       "tier": "9",
       "value": 18.7,
       "market_value": 18.7,
+      "market_rank": 128,
       "source_rank": 128,
       "history": [
         {
@@ -22978,12 +23113,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23027,6 +23162,7 @@
       "tier": "9",
       "value": 18.4,
       "market_value": 18.4,
+      "market_rank": 129,
       "source_rank": 129,
       "history": [
         {
@@ -23035,12 +23171,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23084,6 +23220,7 @@
       "tier": "9",
       "value": 18.2,
       "market_value": 18.2,
+      "market_rank": 130,
       "source_rank": 130,
       "history": [
         {
@@ -23092,12 +23229,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23141,6 +23278,7 @@
       "tier": "9",
       "value": 18,
       "market_value": 18,
+      "market_rank": 131,
       "source_rank": 131,
       "history": [
         {
@@ -23149,12 +23287,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23198,6 +23336,7 @@
       "tier": "9",
       "value": 18,
       "market_value": 18,
+      "market_rank": 132,
       "source_rank": 132,
       "history": [
         {
@@ -23206,12 +23345,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 18,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23255,6 +23394,7 @@
       "tier": "9",
       "value": 17.7,
       "market_value": 17.7,
+      "market_rank": 133,
       "source_rank": 133,
       "history": [
         {
@@ -23263,12 +23403,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 17.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23312,6 +23452,7 @@
       "tier": "9",
       "value": 17.5,
       "market_value": 17.5,
+      "market_rank": 134,
       "source_rank": 134,
       "history": [
         {
@@ -23320,12 +23461,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 17.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23369,6 +23510,7 @@
       "tier": "9",
       "value": 17.2,
       "market_value": 17.2,
+      "market_rank": 135,
       "source_rank": 135,
       "history": [
         {
@@ -23377,12 +23519,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 17.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23426,6 +23568,7 @@
       "tier": "9",
       "value": 16.8,
       "market_value": 16.8,
+      "market_rank": 136,
       "source_rank": 136,
       "history": [
         {
@@ -23434,12 +23577,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 16.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23483,6 +23626,7 @@
       "tier": "9",
       "value": 16.4,
       "market_value": 16.4,
+      "market_rank": 137,
       "source_rank": 137,
       "history": [
         {
@@ -23491,12 +23635,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 16.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23540,6 +23684,7 @@
       "tier": "9",
       "value": 16.1,
       "market_value": 16.1,
+      "market_rank": 138,
       "source_rank": 138,
       "history": [
         {
@@ -23548,12 +23693,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 16.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23597,6 +23742,7 @@
       "tier": "9",
       "value": 16.1,
       "market_value": 16.1,
+      "market_rank": 139,
       "source_rank": 139,
       "history": [
         {
@@ -23605,12 +23751,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 16.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23654,6 +23800,7 @@
       "tier": "9",
       "value": 15.4,
       "market_value": 15.4,
+      "market_rank": 140,
       "source_rank": 140,
       "history": [
         {
@@ -23662,12 +23809,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 15.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23711,6 +23858,7 @@
       "tier": "9",
       "value": 15.3,
       "market_value": 15.3,
+      "market_rank": 141,
       "source_rank": 141,
       "history": [
         {
@@ -23719,12 +23867,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 15.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23768,6 +23916,7 @@
       "tier": "9",
       "value": 15.2,
       "market_value": 15.2,
+      "market_rank": 142,
       "source_rank": 142,
       "history": [
         {
@@ -23776,12 +23925,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 15.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23825,6 +23974,7 @@
       "tier": "10",
       "value": 14.8,
       "market_value": 14.8,
+      "market_rank": 143,
       "source_rank": 143,
       "history": [
         {
@@ -23833,12 +23983,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 14.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23882,6 +24032,7 @@
       "tier": "10",
       "value": 14.5,
       "market_value": 14.5,
+      "market_rank": 144,
       "source_rank": 144,
       "history": [
         {
@@ -23890,12 +24041,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 14.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23939,6 +24090,7 @@
       "tier": "10",
       "value": 14.5,
       "market_value": 14.5,
+      "market_rank": 145,
       "source_rank": 145,
       "history": [
         {
@@ -23947,12 +24099,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 14.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -23996,6 +24148,7 @@
       "tier": "10",
       "value": 14.4,
       "market_value": 14.4,
+      "market_rank": 146,
       "source_rank": 146,
       "history": [
         {
@@ -24004,12 +24157,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 14.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24053,6 +24206,7 @@
       "tier": "10",
       "value": 13.9,
       "market_value": 13.9,
+      "market_rank": 147,
       "source_rank": 147,
       "history": [
         {
@@ -24061,12 +24215,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24110,6 +24264,7 @@
       "tier": "10",
       "value": 13.8,
       "market_value": 13.8,
+      "market_rank": 148,
       "source_rank": 148,
       "history": [
         {
@@ -24118,12 +24273,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24167,6 +24322,7 @@
       "tier": "10",
       "value": 13.8,
       "market_value": 13.8,
+      "market_rank": 149,
       "source_rank": 149,
       "history": [
         {
@@ -24175,12 +24331,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24224,6 +24380,7 @@
       "tier": "10",
       "value": 13.7,
       "market_value": 13.7,
+      "market_rank": 150,
       "source_rank": 150,
       "history": [
         {
@@ -24232,12 +24389,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24281,6 +24438,7 @@
       "tier": "10",
       "value": 13.7,
       "market_value": 13.7,
+      "market_rank": 151,
       "source_rank": 151,
       "history": [
         {
@@ -24289,12 +24447,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24338,6 +24496,7 @@
       "tier": "10",
       "value": 13.2,
       "market_value": 13.2,
+      "market_rank": 152,
       "source_rank": 152,
       "history": [
         {
@@ -24346,12 +24505,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24395,6 +24554,7 @@
       "tier": "10",
       "value": 13,
       "market_value": 13,
+      "market_rank": 153,
       "source_rank": 153,
       "history": [
         {
@@ -24403,12 +24563,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 13,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24452,6 +24612,7 @@
       "tier": "10",
       "value": 12.9,
       "market_value": 12.9,
+      "market_rank": 154,
       "source_rank": 154,
       "history": [
         {
@@ -24460,12 +24621,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 12.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24509,6 +24670,7 @@
       "tier": "10",
       "value": 12.7,
       "market_value": 12.7,
+      "market_rank": 155,
       "source_rank": 155,
       "history": [
         {
@@ -24517,12 +24679,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 12.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24566,6 +24728,7 @@
       "tier": "10",
       "value": 12.1,
       "market_value": 12.1,
+      "market_rank": 156,
       "source_rank": 156,
       "history": [
         {
@@ -24574,12 +24737,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 12.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24623,6 +24786,7 @@
       "tier": "11",
       "value": 11.6,
       "market_value": 11.6,
+      "market_rank": 157,
       "source_rank": 157,
       "history": [
         {
@@ -24631,12 +24795,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 11.6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24680,6 +24844,7 @@
       "tier": "11",
       "value": 11.3,
       "market_value": 11.3,
+      "market_rank": 158,
       "source_rank": 158,
       "history": [
         {
@@ -24688,12 +24853,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 11.3,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24737,6 +24902,7 @@
       "tier": "11",
       "value": 10.7,
       "market_value": 10.7,
+      "market_rank": 159,
       "source_rank": 159,
       "history": [
         {
@@ -24745,12 +24911,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 10.7,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24794,15 +24960,16 @@
       "tier": "11",
       "value": 10.4,
       "market_value": 10.4,
+      "market_rank": 160,
       "source_rank": 160,
       "history": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 10.4,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": false,
@@ -24846,6 +25013,7 @@
       "tier": "11",
       "value": 9.5,
       "market_value": 9.5,
+      "market_rank": 161,
       "source_rank": 161,
       "history": [
         {
@@ -24854,12 +25022,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24903,6 +25071,7 @@
       "tier": "11",
       "value": 9.5,
       "market_value": 9.5,
+      "market_rank": 162,
       "source_rank": 162,
       "history": [
         {
@@ -24911,12 +25080,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9.5,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -24960,6 +25129,7 @@
       "tier": "11",
       "value": 9.2,
       "market_value": 9.2,
+      "market_rank": 163,
       "source_rank": 163,
       "history": [
         {
@@ -24968,12 +25138,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25017,6 +25187,7 @@
       "tier": "11",
       "value": 9.1,
       "market_value": 9.1,
+      "market_rank": 164,
       "source_rank": 164,
       "history": [
         {
@@ -25025,12 +25196,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25074,6 +25245,7 @@
       "tier": "11",
       "value": 9,
       "market_value": 9,
+      "market_rank": 165,
       "source_rank": 165,
       "history": [
         {
@@ -25082,12 +25254,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25131,6 +25303,7 @@
       "tier": "11",
       "value": 8.8,
       "market_value": 8.8,
+      "market_rank": 166,
       "source_rank": 166,
       "history": [
         {
@@ -25139,12 +25312,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 8.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25188,6 +25361,7 @@
       "tier": "12",
       "value": 8.1,
       "market_value": 8.1,
+      "market_rank": 167,
       "source_rank": 167,
       "history": [
         {
@@ -25196,12 +25370,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 8.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25245,6 +25419,7 @@
       "tier": "12",
       "value": 7.2,
       "market_value": 7.2,
+      "market_rank": 168,
       "source_rank": 168,
       "history": [
         {
@@ -25253,12 +25428,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 7.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25302,6 +25477,7 @@
       "tier": "12",
       "value": 7.2,
       "market_value": 7.2,
+      "market_rank": 169,
       "source_rank": 169,
       "history": [
         {
@@ -25310,12 +25486,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 7.2,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25359,6 +25535,7 @@
       "tier": "12",
       "value": 6.9,
       "market_value": 6.9,
+      "market_rank": 170,
       "source_rank": 170,
       "history": [
         {
@@ -25367,12 +25544,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 6.9,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25416,6 +25593,7 @@
       "tier": "12",
       "value": 6,
       "market_value": 6,
+      "market_rank": 171,
       "source_rank": 171,
       "history": [
         {
@@ -25424,12 +25602,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 6,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25473,6 +25651,7 @@
       "tier": "12",
       "value": 5.8,
       "market_value": 5.8,
+      "market_rank": 172,
       "source_rank": 172,
       "history": [
         {
@@ -25481,12 +25660,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 5.8,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25530,6 +25709,7 @@
       "tier": "12",
       "value": 4.1,
       "market_value": 4.1,
+      "market_rank": 173,
       "source_rank": 173,
       "history": [
         {
@@ -25538,12 +25718,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 4.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25587,6 +25767,7 @@
       "tier": "12",
       "value": 4.1,
       "market_value": 4.1,
+      "market_rank": 174,
       "source_rank": 174,
       "history": [
         {
@@ -25595,12 +25776,12 @@
           "kind": "private_preseason_anchor"
         },
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 4.1,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": true,
@@ -25644,15 +25825,16 @@
       "tier": "12",
       "value": 0,
       "market_value": 0,
+      "market_rank": 175,
       "source_rank": 175,
       "history": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 0,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": false,
@@ -25696,15 +25878,16 @@
       "tier": "12",
       "value": 0,
       "market_value": 0,
+      "market_rank": 176,
       "source_rank": 176,
       "history": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 0,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": false,
@@ -25748,15 +25931,16 @@
       "tier": "12",
       "value": 0,
       "market_value": 0,
+      "market_rank": 177,
       "source_rank": 177,
       "history": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "market_value": 0,
           "kind": "saved_snapshot"
         }
       ],
-      "captured_at": "2026-10-08T19:37:39.603Z",
+      "captured_at": "2026-10-09T03:39:40.047Z",
       "drivers": {
         "model_version": "v2-preseason-anchor",
         "preseason_anchor_applied": false,
@@ -25793,9 +25977,9 @@
     }
   ],
   "market_model": {
-    "model_id": "wfc-market-v2-preseason-anchor",
-    "as_of": "2026-10-08T19:37:39.603Z",
-    "history_date": "2026-10-08",
+    "model_id": "wfc-market-v3-market-calibrated",
+    "as_of": "2026-10-09T03:39:40.047Z",
+    "history_date": "2026-10-09",
     "input_status": {
       "footclan_private_status": "partial_current_capture",
       "footclan_private_captured_at": "2026-10-08T17:00:00-04:00",

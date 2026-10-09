@@ -208,20 +208,20 @@ const manualBoard = externalRows.filter(row => row.provider_id === 'wfc-manual')
   return {
     player_id: row.player_id, player: row.player, position: row.position || player?.position || '—',
     nfl_team: player?.nfl_team || '—', franchise_id: player?.franchise_id || null,
-    tier: row.tier || 'Unassigned', value: row.raw_value, market_value: row.market_value,
+    tier: row.tier || 'Unassigned', value: row.raw_value, market_value: row.market_value, market_rank: row.source_rank,
     source_rank: row.source_rank, history: row.history, captured_at: row.captured_at
   };
-}).sort((left, right) => Number(left.tier) - Number(right.tier) || right.value - left.value || left.player.localeCompare(right.player));
+}).sort((left, right) => Number(left.tier) - Number(right.tier) || Number(left.market_rank ?? Infinity) - Number(right.market_rank ?? Infinity) || right.value - left.value || left.player.localeCompare(right.player));
 const marketBoard = marketRows.map(row => {
   const player = playerMap.get(row.player_id);
   return {
     player_id: row.player_id, player: row.player, position: row.position || player?.position || '—',
     nfl_team: player?.nfl_team || '—', franchise_id: player?.franchise_id || null,
-    tier: row.tier || 'Unassigned', value: row.raw_value, market_value: row.market_value,
+    tier: row.tier || 'Unassigned', value: row.raw_value, market_value: row.market_value, market_rank: row.source_rank,
     source_rank: row.source_rank, history: row.history, captured_at: row.captured_at,
     drivers: row.drivers, stats: row.stats, news: row.news, override: row.override
   };
-}).sort((left, right) => Number(left.tier) - Number(right.tier) || right.value - left.value || left.player.localeCompare(right.player));
+}).sort((left, right) => Number(left.tier) - Number(right.tier) || Number(left.market_rank ?? Infinity) - Number(right.market_rank ?? Infinity) || right.value - left.value || left.player.localeCompare(right.player));
 
 write('trade-values.json', {
   schema_version: '1.0.0', product: 'WFC Trade Alley', generated_at: new Date().toISOString(),

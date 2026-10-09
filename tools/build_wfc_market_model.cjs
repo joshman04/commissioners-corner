@@ -327,13 +327,19 @@ liveRows.forEach((row, index) => {
   row.tier = String(referenceTier >= 0 ? referenceTier + 1 : 12);
 });
 
-// History begins with an actual private preseason anchor. Remove the older
-// simulated curve rather than presenting fabricated daily movement as history.
+// History begins with an actual private preseason anchor. Keep later daily
+// snapshots so the interface can report a true weekly move, not a disguised
+// preseason-to-now total. Reset once only when the calibrated model changes.
 const seasonYear = Number(analytics.season) || new Date().getUTCFullYear();
-historyStore.snapshots = {};
-historyStore.snapshot_metadata = {};
+const historyModelId = 'wfc-market-v3-market-calibrated';
+if (historyStore.model !== historyModelId) {
+  historyStore.snapshots = {};
+  historyStore.snapshot_metadata = {};
+}
+historyStore.snapshots ||= {};
+historyStore.snapshot_metadata ||= {};
 const preseasonDate = `${seasonYear}-08-29`;
-if (preseasonSeeds.size) {
+if (preseasonSeeds.size && !historyStore.snapshots[preseasonDate]) {
   historyStore.snapshots[preseasonDate] = Object.fromEntries(liveRows
     .filter(row => Number.isFinite(preseasonSeeds.get(row.id)))
     .map(row => [row.id, preseasonSeeds.get(row.id)]));
@@ -342,7 +348,7 @@ if (preseasonSeeds.size) {
 historyStore.snapshots[today] = Object.fromEntries(liveRows.map(row => [row.id, row.market_value]));
 historyStore.snapshot_metadata[today] = { kind: 'saved_snapshot', label: 'Saved WFC market snapshot' };
 historyStore.updated_at = new Date().toISOString();
-historyStore.model = 'wfc-market-v2-preseason-anchor';
+historyStore.model = historyModelId;
 write('market-history.json', historyStore);
 for (const row of liveRows) row.history = Object.entries(historyStore.snapshots)
   .sort(([left], [right]) => left.localeCompare(right))
@@ -350,7 +356,7 @@ for (const row of liveRows) row.history = Object.entries(historyStore.snapshots)
   .filter(point => Number.isFinite(point.market_value));
 
 write('wfc-market-model.json', {
-  schema_version: '1.2.0', model_id: 'wfc-market-v2-preseason-anchor', as_of: new Date().toISOString(), history_date: today,
+  schema_version: '1.2.0', model_id: historyModelId, as_of: new Date().toISOString(), history_date: today,
   league_rules: { teams: 12, scoring: 'full PPR', quarterback_starters: 2, passing_touchdown_points: 4, quarterback_cap: 3 },
   model_summary: 'Independent WFC trade-market index. A commissioner-supplied DraftSharks rank/tier curve supplies 70% of the market-cost shape; the private Limp Brizkit — ESPN UDK preseason anchor and independent v2 rest-of-season value-over-replacement evidence supply the remaining WFC-specific drift, plus a limited top-QB Superflex premium and reviewed news. Provider raw values are not averaged.',
   history_summary: 'The first point is a private ESPN UDK-derived preseason anchor. It is not a publisher chart. Current and future points are saved WFC market snapshots; prior simulated history was removed.',
