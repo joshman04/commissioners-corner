@@ -20,7 +20,7 @@ function trend(item) {
   const weeklyCutoff = latestPoint?.date ? new Date(`${latestPoint.date}T12:00:00`).getTime() - 7 * 24 * 60 * 60 * 1000 : null;
   const previous = changeWindow === 'total'
     ? points[0]?.market_value
-    : points.slice(0, -1).reverse().find(point => new Date(`${point.date}T12:00:00`).getTime() <= weeklyCutoff)?.market_value;
+    : points.slice(0, -1).reverse().find(point => point.kind !== 'private_preseason_anchor' && new Date(`${point.date}T12:00:00`).getTime() <= weeklyCutoff)?.market_value;
   const available = Number.isFinite(Number(previous));
   const units = available ? Math.round(Number(latest) - Number(previous)) : 0;
   const period = changeWindow === 'total' ? 'since preseason' : 'this week';
