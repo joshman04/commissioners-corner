@@ -47,7 +47,7 @@ const providers = [
     source_url: null, captured_at: marketModel?.as_of || null,
     access: 'WFC-owned explainable model', raw_scale: 'WFC market value (0–100)',
     normalization: 'Rank/value → percentile within the WFC model pool',
-    notes: 'Private ESPN UDK preseason anchors are blended with WFC v2 rest-of-season value-over-replacement evidence, limited Superflex QB scarcity, and reviewed news. Raw subscriber or UDK rows are never published.'
+    notes: 'A commissioner-supplied DraftSharks rank/tier market shape is used as a calibration prior; private ESPN UDK preseason anchors are blended with WFC v2 rest-of-season value-over-replacement evidence, limited Superflex QB scarcity, and reviewed news. Raw subscriber or UDK rows are never published.'
   },
   {
     id: 'footclan-private-inputs', name: 'Fantasy Footballers FootClan — private inputs',

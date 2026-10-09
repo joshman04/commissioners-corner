@@ -76,7 +76,8 @@ function renderProviders() { $('#providers').replaceChildren(...data.providers.m
 function externalProviders() { return data.providers.filter(provider => provider.comparison_mode !== 'input_only' && !['wfc-manual', 'wfc-internal', 'wfc-market-model'].includes(provider.id)); }
 function driverText(item) {
   if (!item?.drivers) return 'This player has no detailed driver record in the current snapshot.';
-  const d = item.drivers, parts = [`production ${value(d.production)}`, `recent form ${value(d.recent_form)}`, `ROS outlook ${value(d.outlook)}`, `role ${value(d.starting_role)}`, `schedule ${value(d.schedule)}`];
+  const d = item.drivers, parts = [`production ${value(d.production)}`, `recent form ${value(d.recent_form)}`, `ROS outlook ${value(d.outlook)}`, `VOR ${value(d.vor_ppg)}`, `availability ${d.availability == null ? '—' : `${Math.round(Number(d.availability) * 100)}%`}`];
+  if (d.market_shape_calibration_applied) parts.push(`market shape ${Math.round(Number(d.market_shape_weight) * 100)}% DraftSharks-calibrated`);
   if (d.superflex_qb) parts.push(`Superflex QB premium +${value(d.superflex_qb)}`); if (d.news_impact) parts.push(`news ${d.news_impact > 0 ? '+' : ''}${value(d.news_impact)}`);
   return `WFC is built from ${parts.join(' · ')}.`;
 }

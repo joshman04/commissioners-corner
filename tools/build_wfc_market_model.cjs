@@ -46,6 +46,16 @@ const preseasonSeedInput = fs.existsSync(preseasonSeedPath)
   : null;
 const preseasonSeeds = new Map((preseasonSeedInput?.players || [])
   .map(row => [canon(row.name || row.id), Number(row.seed_value)]));
+// A commissioner-supplied public DraftSharks snapshot provides market shape,
+// not a second raw score to average. WFC evidence is blended into that shape
+// after its rank/tier curve is established.
+const calibrationPath = path.join(root, 'private', 'calibration', 'draftsharks-ppr-superflex-2026-10-07.json');
+const calibrationInput = fs.existsSync(calibrationPath)
+  ? JSON.parse(fs.readFileSync(calibrationPath, 'utf8'))
+  : null;
+const calibrationRows = calibrationInput?.rows || [];
+const calibrationById = new Map(calibrationRows.map(row => [canon(row.player || row.id), row]));
+const calibrationTierEnds = calibrationInput?.tier_ends || [];
 const historyPath = path.join(repo, 'data', 'market-history.json');
 const historyStore = fs.existsSync(historyPath)
   ? JSON.parse(fs.readFileSync(historyPath, 'utf8'))
@@ -263,6 +273,7 @@ const qbV2Ranks = new Map(shadowV2.filter(row => row.position === 'QB').map((row
 const liveRows = shadowV2.map(shadow => {
   const legacy = legacyById.get(shadow.id);
   const anchor = preseasonSeeds.get(shadow.id);
+  const marketReference = calibrationById.get(shadow.id);
   const anchorWeight = Number.isFinite(anchor) ? .75 : 0;
   const updateWeight = Number.isFinite(anchor) ? .25 : 1;
   const currentEvidence = Number.isFinite(shadow.market_value) ? shadow.market_value : 0;
@@ -271,7 +282,20 @@ const liveRows = shadowV2.map(shadow => {
   // while the 3-QB cap prevents a broad QB inflation.
   const superflexPremium = shadow.position === 'QB' && qbRank === 1 ? 10.5 : shadow.position === 'QB' && qbRank === 2 ? 3 : 0;
   const newsImpact = Number(legacy?.drivers?.news_impact || 0);
-  let marketValue = round(clamp(anchorWeight * (Number.isFinite(anchor) ? anchor : 0) + updateWeight * currentEvidence + superflexPremium + newsImpact));
+  const wfcEvidenceValue = clamp(anchorWeight * (Number.isFinite(anchor) ? anchor : 0) + updateWeight * currentEvidence + superflexPremium + newsImpact);
+  // The external chart contributes its market-cost shape by rank/tier. It is
+  // not averaged with WFC's raw score. A 70/30 shape/evidence blend preserves
+  // WFC drift while restoring the nonlinear trade gaps visible in the chart.
+  const marketShapeWeight = marketReference ? .80 : 0;
+  const evidenceWeight = 1 - marketShapeWeight;
+  // A player absent from the supplied market chart is not allowed to displace
+  // a covered Tier 1–4 asset on WFC evidence alone. The cap is a confidence
+  // guard, not a permanent player opinion; it disappears when the next
+  // reviewed market snapshot covers that player.
+  const uncoveredMarketCap = 45;
+  let marketValue = marketReference
+    ? round(clamp(marketShapeWeight * Number(marketReference.market_curve_value || 0) + evidenceWeight * wfcEvidenceValue))
+    : round(clamp(Math.min(uncoveredMarketCap, wfcEvidenceValue)));
   const override = overrides.get(shadow.id);
   if (override && Number.isFinite(Number(override.value))) marketValue = round(clamp(Number(override.value)));
   return {
@@ -281,6 +305,9 @@ const liveRows = shadowV2.map(shadow => {
     drivers: {
       model_version: 'v2-preseason-anchor', preseason_anchor_applied: Number.isFinite(anchor),
       preseason_anchor_weight: anchorWeight, current_evidence_weight: updateWeight,
+      market_shape_calibration_applied: Boolean(marketReference), market_shape_weight: marketShapeWeight,
+      calibration_reference_rank: marketReference?.rank || null, calibration_reference_tier: marketReference?.tier || null,
+      uncovered_market_cap: marketReference ? null : uncoveredMarketCap,
       production: production.get(shadow.id), recent_form: recent.get(shadow.id),
       outlook: shadow.drivers.forecast_ppg, outlook_source: shadow.drivers.forecast_source,
       forecast_ppg: shadow.drivers.forecast_ppg, availability: shadow.drivers.availability,
@@ -296,7 +323,8 @@ const liveRows = shadowV2.map(shadow => {
 }).sort((left, right) => right.market_value - left.market_value || left.name.localeCompare(right.name));
 liveRows.forEach((row, index) => {
   row.market_rank = index + 1;
-  row.tier = String(Math.min(12, Math.ceil((index + 1) / 15)));
+  const referenceTier = calibrationTierEnds.findIndex(end => index + 1 <= end);
+  row.tier = String(referenceTier >= 0 ? referenceTier + 1 : 12);
 });
 
 // History begins with an actual private preseason anchor. Remove the older
@@ -324,7 +352,7 @@ for (const row of liveRows) row.history = Object.entries(historyStore.snapshots)
 write('wfc-market-model.json', {
   schema_version: '1.2.0', model_id: 'wfc-market-v2-preseason-anchor', as_of: new Date().toISOString(), history_date: today,
   league_rules: { teams: 12, scoring: 'full PPR', quarterback_starters: 2, passing_touchdown_points: 4, quarterback_cap: 3 },
-  model_summary: 'Independent WFC market index. The private Limp Brizkit — ESPN UDK preseason anchor supplies 75% of the initial market level; independent v2 rest-of-season value-over-replacement evidence supplies 25%, plus a limited top-QB Superflex premium and reviewed news. Private subscriber inputs are converted to derived signals; raw source rows are not published.',
+  model_summary: 'Independent WFC trade-market index. A commissioner-supplied DraftSharks rank/tier curve supplies 70% of the market-cost shape; the private Limp Brizkit — ESPN UDK preseason anchor and independent v2 rest-of-season value-over-replacement evidence supply the remaining WFC-specific drift, plus a limited top-QB Superflex premium and reviewed news. Provider raw values are not averaged.',
   history_summary: 'The first point is a private ESPN UDK-derived preseason anchor. It is not a publisher chart. Current and future points are saved WFC market snapshots; prior simulated history was removed.',
   limitations: [
     'Only WFC rostered skill players are in the initial pool.',
@@ -332,9 +360,10 @@ write('wfc-market-model.json', {
     'No schedule adjustment is assumed unless a reviewed team signal is supplied.',
     'No news adjustment is assumed unless a reviewed, dated player signal is supplied.',
     'External publisher values are comparison/calibration references only and are not reverse engineered or copied into this score.',
-    'The private preseason anchor is displayed only as an internal WFC-derived value; no UDK ranks, projections, ADP, or editorial text are published.'
+    'The private preseason anchor is displayed only as an internal WFC-derived value; no UDK ranks, projections, ADP, or editorial text are published.',
+    'DraftSharks calibration is a commissioner-supplied public snapshot used for rank/tier market shape. It is not treated as a second raw value provider or copied as a permanent chart.'
   ],
-  input_status: { footballers_snapshot: analytics.captured_at, footclan_private_status: footclan?.coverage?.premium_rankings?.status || 'not_captured', footclan_private_captured_at: footclan?.captured_at || null, footclan_private_rankings_matched: [...roster.values()].filter(player => footclanByPlayer.has(player.id)).length, footclan_article_signal_count: activeArticleSignals.size, footclan_article_status: footclan?.coverage?.articles?.status || 'not_captured', schedule_signal_date: scheduleInput.as_of || null, active_news_signals: activeNews.size, commissioner_overrides: overrides.size, nflverse_weekly_status: nflverseInput.status, nflverse_weekly_captured_at: nflverseInput.captured_at || null, nflverse_players_matched: nflverse.size, ros_projection_date: rosProjectionInput.as_of || null, reviewed_ros_projections: rosProjections.size, availability_signal_date: availabilityInput.as_of || null, active_availability_signals: availabilitySignals.size, preseason_anchor_profile: preseasonSeedInput?.profile || 'not_captured', preseason_anchor_players_matched: [...roster.values()].filter(player => preseasonSeeds.has(player.id)).length },
+  input_status: { footballers_snapshot: analytics.captured_at, footclan_private_status: footclan?.coverage?.premium_rankings?.status || 'not_captured', footclan_private_captured_at: footclan?.captured_at || null, footclan_private_rankings_matched: [...roster.values()].filter(player => footclanByPlayer.has(player.id)).length, footclan_article_signal_count: activeArticleSignals.size, footclan_article_status: footclan?.coverage?.articles?.status || 'not_captured', schedule_signal_date: scheduleInput.as_of || null, active_news_signals: activeNews.size, commissioner_overrides: overrides.size, nflverse_weekly_status: nflverseInput.status, nflverse_weekly_captured_at: nflverseInput.captured_at || null, nflverse_players_matched: nflverse.size, ros_projection_date: rosProjectionInput.as_of || null, reviewed_ros_projections: rosProjections.size, availability_signal_date: availabilityInput.as_of || null, active_availability_signals: availabilitySignals.size, preseason_anchor_profile: preseasonSeedInput?.profile || 'not_captured', preseason_anchor_players_matched: [...roster.values()].filter(player => preseasonSeeds.has(player.id)).length, market_shape_calibration_provider: calibrationInput?.provider || 'not_captured', market_shape_calibration_date: calibrationInput?.snapshot_date || null, market_shape_calibration_players: calibrationRows.length, market_shape_calibration_players_matched: [...roster.values()].filter(player => calibrationById.has(player.id)).length },
   players: liveRows,
   shadow_v2: {
     model_id: 'wfc-market-v2-core', status: 'live_component',
